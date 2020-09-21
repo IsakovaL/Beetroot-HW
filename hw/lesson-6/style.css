@@ -25,7 +25,7 @@ border-radius: 50%;
 border: 1px solid #1275b9;
 }
 
-.icon_wrapper_1 {
+.icon_wrapper {
   background-color:#1275b9;
   width: 80px; 
   height: 80px;
@@ -35,7 +35,7 @@ border: 1px solid #1275b9;
   border-radius: 50%;
   border: 1px solid #1275b9;
   }
-  .icon_wrapper_2 {
+  .icon_wrapper {
     background-color:#1275b9;
     width: 80px; 
     height: 80px;
@@ -45,7 +45,7 @@ border: 1px solid #1275b9;
     border-radius: 50%;
     border: 1px solid #1275b9;
   }
-  .icon_wrapper_3 {
+  .icon_wrapper {
     background-color:#1275b9;
     width: 80px; 
     height: 80px;
@@ -78,19 +78,19 @@ font-weight: bold;
 margin: 35px 0px 40px 0px;
 }
 
-.icon_wrapper_1 i {  
+.icon_wrapper i {  
   color:white;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
 }
-.icon_wrapper_2 i {  
+.icon_wrapper i {  
   color:white;
   font-weight: bold;
   font-size: 35px;
  
 }
-.icon_wrapper_3 i {
+.icon_wrapper i {
   color:white;
   font-size: 35px;
   font-weight: bold;
