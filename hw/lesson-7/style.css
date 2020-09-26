@@ -48,13 +48,22 @@ li:nth-child(1n) {
 li:nth-child(2n) {
     background-color: #7a7593;
 }
+.custom-checkbox>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    
+  }
+ 
+  
+  .custom-checkbox>input:checked+span::before {
+    background-image: url("https://ru.freepik.com/free-icon/check-mark-sign-line_750297.htm");   
+  }
 
 input:checked ~ span.start {
     text-decoration: line-through;
 }
-input:checked {
-    background-image: url("https://ru.freepik.com/free-icon/check-mark-sign-line_750297.htm")
-}
+
 .bottom {
     text-align: center;
     background-color: #4a4f56;
