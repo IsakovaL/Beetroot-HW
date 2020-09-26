@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.blockDistance {
+   
+    padding-right: 30px;
+    
+}    
+.background {
+ background-color:#2a252b ;
+ width: 1177px;
+ height: 417px;
+ margin: 0 auto;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: -230px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    height: 20px;
+}            
+.borderLine {
+    border-bottom: 2px solid white;
+    width: 20%;
+    padding-bottom: 13px;
+    margin-left: 470px;
+  
+}
+.buttomIcons {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 480px;
+    line-height: 60px;
+    
+    
+}
+
+.logo {
+    text-align: center;
+    
+     
+}
+.icon_facebook i {  
+    color:white;
+  
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .icon_facebook {
+    color: white;
+    width: 25px; 
+    height: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+  
+    }
+    .icon_twitter i {  
+        color:white;
+        
+        font-size: 35px;
+        text-align: center;
+      }
+    
+      .icon_twitter {
+        color: white;
+        width: 25px; 
+        height: 25px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 auto;
+      
+        }
+        .icon_google i {  
+            color:white;
+           
+            font-size: 35px;
+            text-align: center;
+          }
+        
+          .icon_google {
+            color: white;
+            width: 25px; 
+            height: 25px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto;
+          
+            }
+            .icon_dribbble i {  
+                color:white;
+                
+                font-size: 35px;
+                text-align: center;
+              }
+            
+              .icon_dribbble {
+                color: white;
+                width: 25px; 
+                height: 25px;
+                line-height: 40px;
+                text-align: center;
+                margin: 0 auto;
+              
+                }
+
+   
+                .bottom {
+                    color: white;
+                    font-size: 15px;
+                    margin-top: 90px;
+                    text-align: center;
+                }
