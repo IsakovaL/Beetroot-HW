@@ -51,7 +51,9 @@ li:nth-child(2n) {
 
 input:checked ~ span.start {
     text-decoration: line-through;
-
+}
+input:checked {
+    background-image: url("https://ru.freepik.com/free-icon/check-mark-sign-line_750297.htm")
 }
 .bottom {
     text-align: center;
@@ -61,8 +63,6 @@ input:checked ~ span.start {
     height: 60px;
     padding: 28px;
     margin-top: 40px;
-
-  
 }
 section.main {
     width: 738px;
@@ -82,4 +82,5 @@ span.end {
 
 input {
     margin-right: 20px;
+ 
 }
