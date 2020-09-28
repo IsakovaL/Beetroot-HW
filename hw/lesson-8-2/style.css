@@ -1,0 +1,120 @@
+*{
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: rgb(51, 153, 204);
+    border: 23px solid rgb(43, 129, 172);
+    height: 650px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+li {
+    list-style-type: none;
+    border: 2px solid white;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    height: 25%;
+}
+li:hover {
+    opacity: 50%;
+  }
+body {
+    color: white;
+    margin: 0 auto;
+}
+.cities {
+    border: 4px solid white;
+    width: 70%;
+    position: fixed;
+    left: 15%; 
+    height: 70%;    
+}
+.lisbon {
+    background-color: rgb(51, 153, 204);
+    position: absolute;
+    width: 50%;
+    left: 0px;    
+}    
+.paris {
+    background-color: rgb(51, 204, 204);
+    position: absolute;
+    width: 25%;
+   left: 50%;   
+}
+  .belgrade {
+    background-color: #996699;
+    position: absolute;
+    width: 25%;
+    left: 75%;  
+  }
+  .moscow {
+    background-color: #c24747;
+    position: absolute;
+    width: 25%;
+    top: 25%;  
+  }
+  .tel-aviv {
+    background-color: #e2674a;
+    position: absolute;
+    width: 25%;
+    top: 25%;
+    left: 25%;
+  }
+  .cairo {
+    background-color: #ffcc66;
+    position: absolute;
+    width: 25%;
+    top: 25%;
+    left: 50%;
+  }
+  .new-york {
+    background-color: #99cc99;
+    position: absolute;
+    width: 25%;
+    top: 100px;
+    top: 25%;
+    left: 75%;
+  } 
+  .new-delhi {
+    background-color: #669999;
+    position: absolute;
+    width: 25%;
+    top: 50%;   
+  }
+  .san-francisco {
+    position: absolute;
+    width: 50%;
+    background-color: #cc6699;
+    top: 50%;
+    left: 25%;
+  } 
+  .tokyo {
+    background-color: #339966;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+  } 
+  .sydney {
+    width: 100%;
+    background-color: #666699;
+    position: absolute;
+    top: 75%;
+  }
+  i {
+      font-size: 50px;
+      font-style: normal;
+  }
+  h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-left: 14%;
+  }
+  footer p {
+      margin-bottom: 30px;
+      margin-top: 36%;
+      margin-left: 14%;     
+  }
+  
