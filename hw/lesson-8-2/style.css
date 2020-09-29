@@ -106,6 +106,7 @@ body {
   i {
       font-size: 30px;
       font-style: normal;
+      font-family: "weathericons";
   }
   h3 {
     font-size: 25px;
@@ -114,8 +115,12 @@ body {
   }
   footer  {
       margin-bottom: 30px;
-      margin-top: 36%;
+      margin-top: 15px;
       margin-left: 14%;    
       position: fixed; 
+  }
+  section {
+    width: 70%;
+    height: 80%;
   }
   
