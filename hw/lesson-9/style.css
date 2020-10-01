@@ -106,10 +106,3 @@ span.home {
     left: 217px;
     background-color: white;
 }
-.mouse {
-    background-image: url("pics/mouse.png");
-    font-size: 120px;
-   position: absolute;
-   color: white;
-   font-family: "Font Awesome";
-}
