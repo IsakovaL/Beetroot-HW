@@ -12,7 +12,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   
-  
 }
 img {
     opacity: 60%;
@@ -26,9 +25,6 @@ img {
    height: 110px;
    width: 160px;
    background-image: url("pics/logoles9.png");
-
-   
-   
 }
 .title {
     position: absolute;
@@ -57,19 +53,14 @@ img {
   height: 150px;
   top: -8px;
   left:-30px
-  
-
 }
-
 .menu li {
     margin: 0 20px 0 0;
     display: inline-block;
-    color: white;
-    
+    color: white;   
 }
 i {
-    font-size: 12px;
-    
+    font-size: 12px;  
 }
 span.en {
     border: 2px solid #bed62f;
@@ -77,12 +68,11 @@ span.en {
 span.home {
     border-top: 2px solid #bed62f;
 }
-
 .decoration {
     position: absolute;
     height: 18px;
     width: 18px;
-   background-color:  #bed62f;
+    background-color:  #bed62f;
     top: 300px;
     left: 100px;
 }
@@ -115,4 +105,11 @@ span.home {
     top: 213px;
     left: 217px;
     background-color: white;
+}
+.mouse {
+    background-image: url("pics/mouse.png");
+    font-size: 120px;
+   position: absolute;
+   color: white;
+   font-family: "Font Awesome";
 }
