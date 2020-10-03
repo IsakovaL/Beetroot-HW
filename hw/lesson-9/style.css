@@ -126,11 +126,11 @@ span.en {
     left: 217px;
     background-color: white;
 }
- i.fal fa-mouse {
+svg {
     position: absolute;
-    font-size: 18px;
-    top: 218px;
-    left: 500px;
+    font-size: 25px;
+    top: 720px;
+    left: 50%;
     color: white;
     font-family: "Font Awesome";
 }
