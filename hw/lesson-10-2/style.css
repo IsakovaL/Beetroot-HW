@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .wrapper {
     width: 1600px;
     height: 1400px;
@@ -20,7 +23,12 @@
     width: 100%;
     height: 540px;
     background-color: white;
-    
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+.second-block {
+    margin-left: -10px;
 }
 .container-md4 {
     padding-left: 25px;
@@ -44,7 +52,7 @@ img:not(.author) {
 .date1 {
     margin-left: 46px;
     margin-top: -130px ;
-    color: #8d8980;
+    color: #f0eee8;
     font-size: 22px;
 }
 .text1 {
@@ -60,13 +68,12 @@ img:not(.author) {
     width: 460px;
 }
 .text2 {
- 
-    padding-top: -40px;
-    
+    margin-left: 46px;
+    padding-top: 60px;
     text-transform: uppercase;
     color: black;
     font-size: 30px;
-    width: 310px;
+    width: 350px;
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -75,12 +82,18 @@ img:not(.author) {
     margin-top: -60px;
 }
 .date2 {
-  
-    top: 280px;
-    left: 20px;
+    font-size: 13px;
+    letter-spacing: 0px;
+line-height: 30px;
+color: #818181;
+font-weight: 500;
+font-family: "Hans Kendrick";
+    padding-top: 20px;
     color: #8d8980;
+    margin-left: 46px;
 }
 .author {
-  
-   
+ margin-left: 26px;
+ margin-top: -30px;
+} 
     
