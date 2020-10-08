@@ -1,0 +1,86 @@
+
+.wrapper {
+    width: 1600px;
+    height: 1400px;
+    background-color: #e2e7ec;
+    max-width: 100%;  
+    margin: 0 auto; 
+   
+}
+.blog {
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 80%;
+    display: flexbox;
+    
+}
+
+
+.small-block {
+    width: 100%;
+    height: 540px;
+    background-color: white;
+    
+}
+.container-md4 {
+    padding-left: 25px;
+    margin-right: -10px;
+}
+img:not(.author) {
+    width: 100%;
+}
+.second-row {
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.first-row {
+    padding-right: 15px;
+}
+.gradient {
+    height: 540px;
+    width: 740px;
+    margin-top: -540px;
+    background: linear-gradient(0deg, rgba(5,1,15,1) 15%, rgba(61,57,57,0) 100%, rgba(61,57,57,0) 100%);}
+.date1 {
+    margin-left: 46px;
+    margin-top: -130px ;
+    color: #8d8980;
+    font-size: 22px;
+}
+.text1 {
+   
+    margin-top: -10px;
+    margin-left: 46px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-family: "Hans Kendrick";
+    width: 460px;
+}
+.text2 {
+ 
+    padding-top: -40px;
+    
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    width: 310px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick";
+    margin-top: -60px;
+}
+.date2 {
+  
+    top: 280px;
+    left: 20px;
+    color: #8d8980;
+}
+.author {
+  
+   
+    
