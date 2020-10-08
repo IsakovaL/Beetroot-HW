@@ -50,7 +50,7 @@ img:not(.author) {
     margin-top: -540px;
     background: linear-gradient(0deg, rgba(5,1,15,1) 15%, rgba(61,57,57,0) 100%, rgba(61,57,57,0) 100%);}
 .date1 {
-    margin-left: 46px;
+    margin-left: 40px;
     margin-top: -130px ;
     color: #f0eee8;
     font-size: 22px;
@@ -58,7 +58,7 @@ img:not(.author) {
 .text1 {
    
     margin-top: -10px;
-    margin-left: 46px;
+    margin-left: 40px;
     text-transform: uppercase;
     color: white;
     font-size: 30px;
@@ -68,12 +68,12 @@ img:not(.author) {
     width: 460px;
 }
 .text2 {
-    margin-left: 46px;
+    margin-left: 40px;
     padding-top: 60px;
     text-transform: uppercase;
     color: black;
     font-size: 30px;
-    width: 350px;
+    width: 340px;
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -90,10 +90,10 @@ font-weight: 500;
 font-family: "Hans Kendrick";
     padding-top: 20px;
     color: #8d8980;
-    margin-left: 46px;
+    margin-left: 40px;
 }
 .author {
- margin-left: 26px;
+ margin-left: 20px;
  margin-top: -30px;
 } 
     
