@@ -1,0 +1,74 @@
+.wrapper {
+    width: 1400px;
+    height: 940px;
+    width: 80%;
+    margin: 130px auto;
+   
+    padding-top: 130px;
+    box-shadow: 0 0 50px #f4f4f4;
+    background-color: white; 
+}
+h1 {
+    width: 384px;
+    font-size: 42px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-top: -140px;
+}
+p {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: "Lato";
+}
+.text { 
+    padding: 135px 120px 135px 120px;  
+}
+.discover {
+    width: 265px;
+    height: 70px;
+    border: 2px solid #eaa258;
+    background-color: white;
+    margin-top: 45px;
+    width: 252px;
+    height: 36px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #eaa258;
+    font-weight: 700;
+    font-family: "Lato";
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+.first-p:first-letter,
+.dropcap {
+    font-size: 110px;
+    line-height: 34px;
+    color: #171717;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    float: left;
+    padding-top: 20px ;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+blockquote {
+    margin: 0;
+    padding: 30px 30px 30px 90px;
+    position: relative;
+}
+    blockquote:before {
+    content: "\201C";
+    font-size: 70px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+}
+    blockquote p {
+    margin: 0 0 16px;
+    font-size: 19px;
+}
