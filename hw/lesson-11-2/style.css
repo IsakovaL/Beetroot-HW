@@ -76,6 +76,7 @@ img {
    border: 1px solid black;
    margin-left: 45px;
    margin-right: -15px;
+   z-index: 4000;
 }
 .input-area {
     background-color: black;
