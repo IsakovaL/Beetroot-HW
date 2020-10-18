@@ -51,13 +51,15 @@ html, body {
     font-family: "Raleway";
     float: right;
 }
+.nav__item:hover {
+    border-top: 3px solid orange;    
+    padding: 5px;
+    margin: -3px;
+}
 .nav__item {
     padding-top: 9px;
     border-top: transparent solid 3px;
   }
-.nav__item:hover {
-    border-top: 3px solid orange;    
-}
 .content__text {
     width: 370px;
     height: 69px;
@@ -124,7 +126,7 @@ html, body {
 }
 .longt-text {
         width: 500px;
-    height: 202px;
+   
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
