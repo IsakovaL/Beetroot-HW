@@ -51,6 +51,10 @@ html, body {
     font-family: "Raleway";
     float: right;
 }
+.nav__item {
+    padding-top: 9px;
+    border-top: transparent solid 3px;
+  }
 .nav__item:hover {
     border-top: 3px solid orange;    
 }
