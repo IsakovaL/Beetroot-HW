@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: url(fonts/MuseoSansRounded-100.woff);
+}
+.background-1 {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;  
+}
+.background-2 {
+    width: 685px;
+    height: 390x;
+    margin: -490px auto 0 auto; 
+    position: relative !important;  
+}
+.background-2__bg2 {
+    box-shadow: 0 0 30px #2c2d2e;
+    border-radius: 10px;   
+}
+.shoes {
+  
+    position: absolute;
+    top: 130px;
+    left:36px;   
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 17px;
+}
+.side-content__h {
+    font-size: 24px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+}
+.side-content__description {
+    font-size: 14px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+}
+.side-content {
+position: absolute;
+top: 75px;
+left: 435px;
+width: 180px;
+
+}
+label:before {
+    content: '★';
+    color: grey;
+  }
+  input:checked + label:before {
+    content: '★'; 
+    color: yellow;
+  }
+  label {  
+    display: inline-flex;
+    flex-direction: row;   
+    font-size: 14px; 
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  
+.dd-menu__menu
+ {
+    margin-top: 15px;
+    color:#e1e1e1; 
+      border-radius: 0;
+      border: 1px solid grey;
+      background-color: transparent;
+  }
+ .dd-menu__menu:hover,
+ .dd-menu__menu:hover,.add-to-cart__btn {
+    color: #e1e1e1; 
+    border-radius: 0;
+    border: 1px solid grey;
+    background-color: transparent;
+  
+ }
+ .add-to-cart__btn {
+     margin-top: 25px;
+     background-color: #202835;
+     width: 185px;
+     font-size: 14px;
+     color: #e1e1e1; 
+    padding-bottom: 20px;
+    height: 40px;
+ }
+ .bubbles {
+     position: absolute;
+     top: 290px;
+     left: 170px;
+ }
