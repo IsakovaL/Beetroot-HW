@@ -97,3 +97,9 @@ label:before {
      top: 290px;
      left: 170px;
  }
+ 
+    .dropdown-menu {
+      
+        display:block;
+ }
+ .dropdown-item a:hover {background-color: #f1f1f1}
