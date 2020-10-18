@@ -65,23 +65,31 @@ label:before {
   input[type=checkbox] {
     display: none;
   }
-  
-  
-.dd-menu__menu
+
+
+.dd-menu
  {
-    margin-top: 15px;
-    color:#e1e1e1; 
-      border-radius: 0;
-      border: 1px solid grey;
+      margin-top: 15px;
+      color:#e1e1e1; 
       background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 143px;    
   }
- .dd-menu__menu:hover,
- .dd-menu__menu:hover,.add-to-cart__btn {
+ .add-to-cart__btn {
     color: #e1e1e1; 
     border-radius: 0;
-    border: 1px solid grey;
-    background-color: transparent;
-  
+ }
+ .dd-menu__qty-menu > select, 
+ .dd-menu__size-menu > select {
+     background-color: #111a28;
+     color: #e1e1e1;
+     width: 70px;
+     height: 30px;
+     margin-right: 3px;
+     padding-left: 13px;
+     padding-bottom: 2px;
  }
  .add-to-cart__btn {
      margin-top: 25px;
@@ -97,9 +105,5 @@ label:before {
      top: 290px;
      left: 170px;
  }
+
  
-    .dropdown-menu {
-      
-        display:block;
- }
- .dropdown-item a:hover {background-color: #f1f1f1}
