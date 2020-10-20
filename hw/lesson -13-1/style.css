@@ -83,7 +83,7 @@ textarea:focus {
     font-size: 15px;
     color: #ffffff;
     outline: none;
-    border-left: 5px solid #355b82;
+   
     
 }
 .content__info {
@@ -113,3 +113,22 @@ padding: 40px 0 40px;
    margin: 0 auto;
 }
 
+.line:hover:before {
+    content: "";
+    border-left: 5px solid #355b82;
+    position: absolute;
+    height: 50px;
+    margin-top: 15px;
+}
+.contact-form {
+
+    position: relative;
+    
+}
+.text-area:hover:before {
+    content: "";
+    border-left: 5px solid #355b82;
+    position: absolute;
+    height: 250px;
+    margin-top: 15px;
+}
