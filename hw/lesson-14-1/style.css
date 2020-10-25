@@ -31,7 +31,10 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
+
+
   .buttons {
     display: flex;
     flex-direction: column;
@@ -64,6 +67,7 @@ button {
     padding: 25px;
     position: relative;
     margin-top: 5px;
+    
 
 }
 div.icon::before {
@@ -72,6 +76,7 @@ div.icon::before {
     margin-top: -26px;
     position: absolute;
     height: 100px;
+   
 }
   
   
