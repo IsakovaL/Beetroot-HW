@@ -87,11 +87,9 @@ border: none;
 input[type="checkbox"] {
     font-size: 13px;
     cursor: pointer;
-  display: none;
+  
 }
-input[type="checkbox"]:focus { /*   ??????  как подменить на кастомный? */
-   
-}
+
 .form-footer a {
     font-size: 13px;
 color: #b9b9cc;
