@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+ 
+    width: 400px;
+    background-color: rgb(132, 48, 192);
+    height: 495px;
+    margin: 0 auto;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+input[type="text"], #username,
+ input[type="submit"],
+ .sign-in, #password, #repeat-password  {
+    width: 100%;
+    max-width: 260px;
+    height: 40px;
+    
+}
+.form-content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    padding-top: 50px;
+}
+
+.sign-in
+{
+  
+    padding-top: 40px;
+}
+.form-footer {
+    padding-top:75px;
+}
+.checkbox, #password  {
+    padding-top: 40px;
+}
+.checkbox {
+    margin-top: 55px;
+}
+#repeat-password {
+    padding-top: 80px;  
+}
+.join-us {
+    padding-top: 120px;
+    margin-bottom: -40px;
+}
+/* .form-content input:nth-child(1):checked ~ .tab_content .form-wrapper .top > div:first-child { */
+    /*  */
+.form-content input:first-child:checked ~ .tab-content form:nth-child(1) {
+    /* opacity: 1; */
+    display: none;
+}
+.form-content input:nth-child(3):checked ~ .tab-content form:nth-child(3) {
+    /* opacity: 1; */
+    display: none;
+}
+
+input[type="radio"] {    /* шо с ним дальше не знааааю(((*/
+   opacity: 0;
+}
+.background {
+    font-size: 16px;
+color: #fbf6e4;
+font-weight: 700;
+font-family: "Quicksand";
+}
+.error {
+    font-size: 10px;
+    color: red;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+input[type="submit"] {
+    font-size: 18px;
+color: #fbf6e4;
+font-weight: 700;
+font-family: "Quicksand";
+background-color: #23ae92;
+border: none;
+}
+
+input[type="checkbox"] {
+    font-size: 13px;
+    cursor: pointer; 
+}
+
+.form-footer a {
+    font-size: 13px;
+    color: #b9b9cc;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #b9b9cc;
+}
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
