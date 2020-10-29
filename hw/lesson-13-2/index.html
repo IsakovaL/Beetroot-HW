@@ -1,88 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <section>
         <div class="background">
-           
+
             <div class="form-content">
-                    <div class="tabs">
-                        <label for="">Sign In</label>
-                        <input type="radio" id="sign-in" name="tab" checked>
-                
-                        <label for="">Join Us</label>
-                        <input type="radio" id="join-us" name="tab">
-                    </div>
+                <input type="radio" id="sign-in" name="tab" checked>
+
+                <label for="sign-in">Sign In</label>
+
+                <label for="join-us">Join Us</label>
+                <input type="radio" id="join-us" name="tab" >
+
                 <div class="tab-content">
                     <form>
                         <div class="form-wrapper">
                             <div class="top">
-                        <div id="username">
-                               <label for="">Username</label>
-                                <input type="text" >
+                                <div id="username">
+                                    <label for="">Username</label>
+                                    <input type="text">
+                                    <p class="error">error</p>
+                                </div>
+
+                                <div id="password">
+                                    <label for="">Password</label>
+                                    <input type="text">
+                                    <p class="error">error</p>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox">
+                                <label for="keep">Keep me signed in</label>
+                            </div>
+
+                            <div class="sign-in">
+                                <input type="submit" value="Sign In">
+                            </div>
+
+                            <div class="form-footer">
+                                <a href="#"> Forgot password</a>
+                                <a href="#"> Create an account</a>
+                            </div>
+                        </div>
+                    </form>
+                    <form>
+                        <div class="form-wrapper">
+                            <div class="top">
+                                <div id="username">
+                                    <label for="">Username</label>
+                                    <input type="text">
+                                    <p class="error">error</p>
+                                </div>
+
+                                <div id="password">
+                                    <label for="">Password</label>
+                                    <input type="text">
+                                    <p class="error">error</p>
+                                </div>
+                            </div>
+                            <div id="repeat-password">
+                                <label for="">Repeat Password</label>
+                                <input type="text">
                                 <p class="error">error</p>
+                            </div>
+
+                            <div class="join-us">
+                                <input type="submit" value="Join In">
+                            </div>
+
+                            <div class="form-footer">
+                                <a href="#"> Forgot password</a>
+                                <a href="#"> Create an account</a>
+                            </div>
                         </div>
-
-                        <div id="password">
-                            <label for="">Password</label>
-                            <input type="text">
-                            <p class="error">error</p>
-                        </div>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox">
-                        <label for="keep">Keep me signed in</label>
-                    </div>
-
-                    <div class="sign-in">
-                        <input type="submit" value="Sign In">
-                    </div>
-                
-                <div class="form-footer">
-                    <a href="#"> Forgot password</a>
-                    <a href="#"> Create an account</a>
+                    </form>
                 </div>
-            </div>
-        </form>
-        </div>
-        <div class="tab-content">
-            <form>
-                <div class="form-wrapper">
-                    <div class="top">
-                <div id="username">
-                       <label for="">Username</label>
-                        <input type="text" >
-                        <p class="error">error</p>
-                </div>
-
-                <div id="password">
-                    <label for="">Password</label>
-                    <input type="text">
-                    <p class="error">error</p>
-                </div>
-            </div>
-            <div id="repeat-password">
-                <label for="">Repeat Password</label>
-                <input type="text">
-                <p class="error">error</p>
-            </div>
-
-            <div class="join-us">
-                <input type="submit" value="Join In">
-            </div>
-        
-        <div class="form-footer">
-            <a href="#"> Forgot password</a>
-            <a href="#"> Create an account</a>
-        </div>
-    </div>
-</form>
-</div>
     </section>
 </body>
+
 </html>
