@@ -8,60 +8,89 @@
     background-image: url(img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1070px;
+    min-height: 100hv;
+   
+     
+}
+.content {
+    margin: 0 auto;
     width: 100%;
-    max-width: 1600px;
-    position: relative;
-    
+    max-width: 565px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 280px;
+    padding-bottom: 395px;
 }
-.logo {
-    position: absolute;
-    top: 280px;
-    left: 928px;
+
+.header__logo {
+    padding-bottom: 90px;
 }
-.header__text {
-width: 628px;
-height: 322px;
+.header__text > h3 {
+    font-size: 54px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+.header__text > p {
+
 font-size: 15px;
 letter-spacing: 1px;
 line-height: 29px;
 color: #ffffff;
 font-weight: 400;
-font-family: 'Lato', sans-serif;
-text-align: center;
-position: absolute;
-top: 440px;
-left: 660px;
-}
-.header__text > h3 {
-    font-size: 54px;
-letter-spacing: 9px;
-color: #ffffff;
-font-weight: 700;
 font-family: "Lato";
 text-align: center;
-line-height: 22px;
 }
-.about__content > h3 {
+
+i.fas {
+   color: white;
+    font-size: 38px;
+    padding-top: 245px;
+}
+a.url {
+    
+    padding-left: 46%;
+}
+
+.about__content {
+  
+
+    padding-top: 145px;
+    padding-bottom: 160px;
+    
+}
+.about__border {
+    border: 2px solid black;
+    border-top: none;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.about__border > h3 {
     font-size: 34px;
     letter-spacing: 5px;
     color: #3c3c3c;
     font-weight: 700;
     font-family: "Lato";
     text-align: center;
+    padding-bottom: 65px;
 }
-.about__content > p {
+.about__border > p {
     width: 553px;
-
-font-size: 16px;
-line-height: 24px;
-color: #3c3c3c;
-font-weight: 300;
-font-family: "Lato";
-text-align: center;
-}
-.about__content {
-   
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .services__content__bg {
