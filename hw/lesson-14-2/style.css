@@ -51,17 +51,13 @@ i.fas {
     font-size: 38px;
     padding-top: 245px;
 }
-a.url {
-    
+a.url {  
     padding-left: 46%;
 }
 
 .about__content {
-  
-
     padding-top: 145px;
-    padding-bottom: 160px;
-    
+    padding-bottom: 160px;   
 }
 .about__border {
     border: 2px solid black;
@@ -93,7 +89,7 @@ a.url {
     padding-bottom: 30px;
 }
 
-.services__content__bg {
+/*.services__content__bg {
     background-image: url(img/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
