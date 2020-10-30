@@ -56,14 +56,21 @@ input[type="text"], #username,
     /*  */
 .form-content input:first-child:checked ~ .tab-content form:nth-child(1) {
     /* opacity: 1; */
-    display: none;
+    display: block;
 }
-.form-content input:nth-child(3):checked ~ .tab-content form:nth-child(3) {
+
+.form-content input:first-child:checked ~ .tab-content form:nth-child(2) {
     /* opacity: 1; */
     display: none;
 }
 
-input[type="radio"] {    /* шо с ним дальше не знааааю(((*/
+#join-us:checked + .tab-content form:nth-child(2) {
+    display: block;
+}
+#join-us:checked + .tab-content form:nth-child(1) {
+    display: none;
+}
+input[type="radio"] {   
    opacity: 0;
 }
 .background {
