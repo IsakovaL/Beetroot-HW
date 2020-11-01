@@ -8,11 +8,9 @@
     background-image: url(img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100hv;
-   
-     
+    min-height: 100hv;    
 }
-.content {
+.header-content {
     margin: 0 auto;
     width: 100%;
     max-width: 565px;
@@ -26,7 +24,7 @@
 .header__logo {
     padding-bottom: 90px;
 }
-.header__text > h3 {
+.header__text > h2 {
     font-size: 54px;
     color: #ffffff;
     font-weight: 700;
@@ -37,13 +35,13 @@
 }
 .header__text > p {
 
-font-size: 15px;
-letter-spacing: 1px;
-line-height: 29px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Lato";
-text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
 }
 
 i.fas {
@@ -53,13 +51,13 @@ i.fas {
 }
 a.url {  
     padding-left: 46%;
+    padding-top: 633px;
 }
 
-.about__content {
-    padding-top: 145px;
-    padding-bottom: 160px;   
-}
-.about__border {
+.about__border,
+.services__border,
+.what-we-do__border,
+.contact-us__border {
     border: 2px solid black;
     border-top: none;
     width: 100%;
@@ -68,8 +66,12 @@ a.url {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    
 }
-.about__border > h3 {
+.about__content > h3,
+.services__content > h3,
+.what-we-do__content > h3,
+.contact-us__content > h3 {
     font-size: 34px;
     letter-spacing: 5px;
     color: #3c3c3c;
@@ -78,7 +80,22 @@ a.url {
     text-align: center;
     padding-bottom: 65px;
 }
-.about__border > p {
+.what-we-do__content,
+.contact-us__content {
+    width: 553px;
+    height: 324px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.about__content > p,
+.services__content > p,
+.what-we-do__content > p,
+.contact-us__content > p {
     width: 553px;
     font-size: 16px;
     line-height: 24px;
@@ -89,9 +106,119 @@ a.url {
     padding-bottom: 30px;
 }
 
-/*.services__content__bg {
+.services-background {
     background-image: url(img/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 480px;
+    min-height: 100hv;  
+}
+.about {
+    padding-top: 145px;
+    padding-bottom: 160px;   
+}
+.services {
+    padding-top: 115px;
+    padding-bottom: 105px;
+}
+.what-we-do {
+    padding-top: 105px;
+    padding-bottom: 115px
+}
+.contact-us {
+    padding-top: 135px;
+    padding-bottom: 65px;
+    
+}
+footer {
+    padding-bottom: 65px;
+    text-align: center;
+}
+.what-we-do__border {
+    height: 170vh;
+}
+ h5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.img-1 {
+    background-image: url(img/work1.jpg);
+}
+.img-2 {
+    background-image: url(img/work2.jpg);
+    margin-left: 10px;
+}
+.img-3 {
+    background-image: url(img/work3.jpg);
+    margin-left: 10px;
+}
+.img-4 {
+    background-image: url(img/work4.jpg);
+}
+.img-5 {
+    background-image: url(img/work5.jpg);
+    margin-left: 10px;
+}
+.img-6 {
+    background-image: url(img/wodrk6.jpg);
+   margin-left: 10px;
+}
+.rows {
+    height: 200px;
+    padding-top: 10px;
+    
+}
+.col {
+    position: relative;
+}
+a {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Lato";
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+button.contact {
+    color: white;
+    background-color: #3c3c3c;
+    width: 390px;
+    height: 55px;
+    cursor: pointer;
+}
+
+h3 {
+    position: relative;
+}
+h3::before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid black;
+    width: 240px;
+    left: -31.3%;
+    
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid black;
+    width: 240px;
+    left: 87.96%;
+    
 }
