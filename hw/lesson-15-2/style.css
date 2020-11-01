@@ -7,7 +7,7 @@
 .background-yellow {
   background-color: #ffe92f;
   width: 100%;
-  max-width: 1920px;
+  max-width: 120rem;
 }
 
 .background-yellow__gallery-header {
@@ -15,71 +15,71 @@
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
-  width: 580px;
+  width: 36.25rem;
 }
 
 .pictures-content {
   margin: 0 auto;
   width: 100%;
-  max-width: 1170px;
-  padding-bottom: 50px;
+  max-width: 73.125rem;
+  padding-bottom: 3.125rem;
 }
 
 #plate {
   background-image: url(img/plate.png);
-  height: 550px;
+  height: 34.375rem;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 750px;
+  max-width: 75%;
 }
 
 #berries {
   background-image: url(img/berries.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
+  height: 16.25rem;
   width: 100%;
-  max-width: 390px;
-  margin-left: 30px;
+  max-width: 30%;
+  margin-left: 1.875rem;
 }
 
 #berries2 {
   background-image: url(img/berries2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
+  height: 16.25rem;
   width: 100%;
-  max-width: 390px;
-  margin-left: 780px;
-  margin-top: -285px;
+  max-width: 30%;
+  margin-left: 51.75rem;
+  margin-top: -16.25rem;
 }
 
 #bowl {
   background-image: url(img/bowl.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
+  height: 16.25rem;
   width: 100%;
-  max-width: 570px;
-  margin-top: 30px;
+  max-width: 48.43%;
+  margin-top: 1.875rem;
 }
 
 #fruit {
   background-image: url(img/fruit.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
+  height: 16.25rem;
   width: 100%;
-  max-width: 570px;
-  margin-left: 30px;
-  margin-top: 30px;
+  max-width: 48.43%;
+  margin-left: 1.875rem;
+  margin-top: 1.875rem;
 }
 
 .view-more {
   color: white;
   background-color: #5585a2;
-  width: 200px;
-  height: 55px;
+  width: 10%;
+  height: 3.438rem;
   border-color: transparent;
   cursor: pointer;
 }
@@ -88,33 +88,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 120px;
+  padding-bottom: 7.5rem;
 }
 
 .subscribe-background {
   background-image: url(img/bg.png);
   width: 100%;
-  max-width: 1920px;
+  max-width: 120rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .subscribe__content {
-  padding-bottom: 160px;
-  padding-top: 145px;
-  padding-left: 165px;
-  max-width: 770px;
+  padding-bottom: 10rem;
+  padding-top: 9.063rem;
+  padding-left: 10.313rem;
+  max-width: 48.125rem;
   width: 100%;
 }
 
 input.input-email {
-  height: 50px;
-  width: 570px;
-  padding-left: 15px;
+  height: 3.125rem;
+  width: 35.625rem;
+  padding-left: 0.938rem;
 }
 
 .subscribe__btn {
-  width: 170px;
-  height: 50px;
+  width: 10.625rem;
+  height: 3.1250rem;
   background-color: #96b92c;
   color: white;
   border-color: transparent;
@@ -124,5 +124,5 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
