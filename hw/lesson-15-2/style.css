@@ -1,134 +1,128 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .background-yellow {
-    background-color: #ffe92f;
-    width: 100%;
-    max-width: 1920px;
+  background-color: #ffe92f;
+  width: 100%;
+  max-width: 1920px;
 }
 
 .background-yellow__gallery-header {
-    display: flex;
-    flex-direction: column;
-   margin: 0 auto;
-    text-align: center;
-    width: 580px;
-    
-   
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 580px;
 }
 
 .pictures-content {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1170px;
-    padding-bottom: 50px;
- 
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  padding-bottom: 50px;
 }
 
- #plate {
-    background-image: url(img/plate.png);
-    height: 550px;
-    background-repeat: no-repeat;
-    background-size:cover ;
-    max-width: 750px;
+#plate {
+  background-image: url(img/plate.png);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 750px;
 }
 
 #berries {
-    background-image: url(img/berries.png);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    height: 260px;
-    width: 100%;
-    max-width: 390px;
-    margin-left: 30px;
+  background-image: url(img/berries.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  max-width: 390px;
+  margin-left: 30px;
 }
 
 #berries2 {
-    background-image: url(img/berries2.png);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    height: 260px;
-    width: 100%;
-    max-width: 390px;
-    margin-left: 780px;
-    margin-top: -285px;
+  background-image: url(img/berries2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  max-width: 390px;
+  margin-left: 780px;
+  margin-top: -285px;
 }
 
 #bowl {
-    background-image: url(img/bowl.png);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    height: 260px;
-    width: 100%;
-    max-width: 570px;
-    margin-top: 30px;
+  background-image: url(img/bowl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  max-width: 570px;
+  margin-top: 30px;
 }
 
 #fruit {
-    background-image: url(img/fruit.png);
-    background-repeat: no-repeat;
-    background-size:cover ;
-    height: 260px;
-    width: 100%;
-    max-width: 570px;
-    margin-left: 30px;
-    margin-top: 30px;
+  background-image: url(img/fruit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  max-width: 570px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .view-more {
-    color: white;
-    background-color: #5585a2;
-    width: 200px;
-    height: 55px;
-    border-color: transparent;
-    cursor: pointer;
-    
+  color: white;
+  background-color: #5585a2;
+  width: 200px;
+  height: 55px;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 .view {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
 }
 
 .subscribe-background {
-    background-image: url(img/bg.png);
-    width: 100%;
-    max-width: 1920px;
-    background-repeat: no-repeat;
-    background-size:cover;
+  background-image: url(img/bg.png);
+  width: 100%;
+  max-width: 1920px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .subscribe__content {
-    padding-bottom: 160px;
-    padding-top: 145px;
-    padding-left: 165px;
-    max-width: 770px;
-    width: 100%;
+  padding-bottom: 160px;
+  padding-top: 145px;
+  padding-left: 165px;
+  max-width: 770px;
+  width: 100%;
 }
 
 input.input-email {
-    height: 50px;
-    width: 570px;
-    padding-left: 15px;
-  
-
+  height: 50px;
+  width: 570px;
+  padding-left: 15px;
 }
 
 .subscribe__btn {
-    width: 170px;
-    height: 50px;
-    background-color: #96b92c;
-    color: white;
-    border-color: transparent;
+  width: 170px;
+  height: 50px;
+  background-color: #96b92c;
+  color: white;
+  border-color: transparent;
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
 }
