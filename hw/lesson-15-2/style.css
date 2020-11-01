@@ -1,4 +1,8 @@
-* {
+@-ms-viewport{
+    width: device-width;
+  }
+  
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,6 +35,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 75%;
+  display: block;
 }
 
 #berries {
@@ -41,6 +46,7 @@
   width: 100%;
   max-width: 30%;
   margin-left: 1.875rem;
+  display: block;
 }
 
 #berries2 {
@@ -52,6 +58,7 @@
   max-width: 30%;
   margin-left: 51.75rem;
   margin-top: -16.25rem;
+  display: block;
 }
 
 #bowl {
@@ -62,6 +69,7 @@
   width: 100%;
   max-width: 48.43%;
   margin-top: 1.875rem;
+  display: block;
 }
 
 #fruit {
@@ -73,6 +81,7 @@
   max-width: 48.43%;
   margin-left: 1.875rem;
   margin-top: 1.875rem;
+  display: block;
 }
 
 .view-more {
