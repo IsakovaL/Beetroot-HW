@@ -214,8 +214,7 @@ h3::before {
     position: absolute;
     border-top: 2px solid black;
     width: 240px;
-    left: -31.3%;
-    
+    left: -31.3%;    
 }
 
 h3::after {
@@ -223,6 +222,5 @@ h3::after {
     position: absolute;
     border-top: 2px solid black;
     width: 240px;
-    left: 87.96%;
-    
+    left: 87.96%;  
 }
