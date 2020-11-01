@@ -136,6 +136,7 @@ footer {
 .what-we-do__border {
     height: 170vh;
 }
+
  h5 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -172,8 +173,7 @@ footer {
 }
 .rows {
     height: 200px;
-    padding-top: 10px;
-    
+    padding-top: 10px;   
 }
 .col {
     position: relative;
@@ -185,8 +185,6 @@ a {
     position: absolute;
     top: 130px;
     left: 40px;
-    
-
 }
 
 a:hover {
@@ -205,13 +203,13 @@ button.contact {
 h3 {
     position: relative;
 }
+
 h3::before {
     content: "";
     position: absolute;
     border-top: 2px solid black;
     width: 240px;
-    left: -31.3%;
-    
+    left: -31.3%;   
 }
 
 h3::after {
