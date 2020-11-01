@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <section class="background-yellow">
+        <header class="background-yellow__gallery-header">
+            <h1>Gallery</h1>
+            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat.</p>
+        </header>
+
     
+
+<div class="pictures-content">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+    <div class="col-12 col-md-8" id="plate"></div>
+    <div class="col-6 col-md-4" id="berries"></div>
+  </div>
+  
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-12 col-md-8"></div>
+    <div class="col-6 col-md-4" id="berries2"></div>
+  </div>
+  
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6" id="bowl"></div>
+    <div class="col-6" id="fruit"></div>
+  </div>
+
+</div>
+<div class="view">
+<button class="view-more"> VIEW MORE</button>
+</div>
+</section>
+
+<section class="subscribe-background">
+<div class="subscribe__content">
+    <h1>Subscribe To Us</h1>
+    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+<form action="subscribe">
+    <input type="text" class="input-email" value="Your email address...">
+    <button class="subscribe__btn">SUBSCRIBE</button>
+</form>
+</div>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
