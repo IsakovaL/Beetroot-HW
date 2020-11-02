@@ -25,7 +25,7 @@ body {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 1000px;
+  height: 62.5rem;
   margin: 0 auto;
 }
 .header {
@@ -33,7 +33,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 90%;
-  top: 55px;
+  top: 3.438rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -55,7 +55,7 @@ body {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
   color: #262626;
   font-weight: 700;
   font-family: "Raleway";
@@ -63,7 +63,7 @@ body {
 }
 
 .nav__item {
-  padding-top: 9px;
+  padding-top: 0.563rem;
   border-top: transparent solid 3px;
 }
 .nav__item:hover {
@@ -74,72 +74,72 @@ a:hover {
   color: #262626;
 }
 .content-fresh__text {
-  width: 370px;
-  height: 69px;
-  font-size: 17px;
-  line-height: 27px;
+  width: 23.125rem;
+  height: 4.313rem;
+  font-size: 1.063rem;
+  line-height: 1.688rem;
   color: #262626;
   font-weight: 300;
   font-family: "Raleway";
 }
 .content-fresh__FL {
-  font-size: 60px;
-  line-height: 25px;
+  font-size: 3.75rem;
+  line-height: 1.563rem;
   color: #262626;
   font-family: "Raleway";
   padding-bottom: 30px;
 }
 .content-fresh {
   position: absolute;
-  top: 360px;
-  left: 170px;
+  top: 22.5rem;
+  left: 10.625rem;
 }
 .get-free-btn {
-  margin-top: 30px;
-  width: 200px;
-  height: 55px;
+  margin-top: 1.875rem;
+  width: 12.5rem;
+  height: 3.438rem;
   color: white;
   background-color: #ff6033;
   border: none;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.688rem;
   color: #ffffff;
   font-weight: 300;
   font-family: "Raleway";
-  box-shadow: 0 0 10px #7d7d80;
+  box-shadow: 0 0 0.625rem #7d7d80;
 }
 .mouse-img {
   position: absolute;
   left: 50%;
-  top: 890px;
+  top: 55.625rem;
 }
 .about-raspberry__bg2-image {
   background-image: url(img/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 43.75rem;
 }
 .about-raspberry {
   position: relative;
 }
 .about-raspberry__content {
   position: absolute;
-  top: 180px;
-  left: 835px;
+  top: 11.25rem;
+  left: 52.188rem;
 }
 .about-raspberry__content-AU {
-  font-size: 90px;
-  line-height: 27px;
+  font-size: 5.625rem;
+  line-height: 1.688rem;
   color: #ffffff;
   font-weight: 700;
   font-family: "Raleway";
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 .longt-text {
-  width: 500px;
+  width: 31.25rem;
 
-  font-size: 17px;
-  line-height: 27px;
+  font-size: 1.063rem;
+  line-height: 1.688rem;
   color: #ffffff;
   font-weight: 300;
   font-family: "Raleway";
@@ -151,32 +151,32 @@ a:hover {
   background-image: url(img/bg-tomato.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 790px;
+  height: 49.375rem;
   width: 100%;
-  max-width: 1500px;
+  max-width: 100rem;
 }
 button.tomato {
-  width: 400px;
-  height: 100px;
+  width: 25rem;
+  height: 6.25rem;
   background-color: white;
   border: none;
-  margin-bottom: 20px;
-  padding: 40px 0 45px 0;
-  font-size: 20px;
-  line-height: 27px;
+  margin-bottom: 1.25rem;
+  padding: 2.5rem 0 2.813rem 0;
+  font-size: 1.25rem;
+  line-height: 1.688rem;
   color: #262626;
   font-weight: 700;
   font-family: "Raleway";
   align-items: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .buttons-tomato {
-  margin-left: -660px;
-  padding-top: 180px;
+  margin-left: -41.25rem;
+  padding-top: 11.25rem;
 }
 
 .content {
@@ -184,10 +184,10 @@ button.tomato {
 }
 .text {
   position: absolute;
-  top: 330px;
-  left: 795px;
-  font-size: 90px;
-  line-height: 27px;
+  top: 20.625rem;
+  left: 49.688rem;
+  font-size: 5.625rem;
+  line-height: 1.688rem;
   color: #ffffff;
   font-weight: 700;
   font-family: "Raleway";
@@ -196,10 +196,10 @@ button.tomato {
 
 .icon {
   border-left: 1px solid rgb(216, 205, 205);
-  margin-top: 5px;
+  margin-top: 0.313rem;
   margin-right: 0px;
-  margin: 5px 0 0 0;
-  height: 100px;
+  margin: 0.313rem 0 0 0;
+  height: 6.25rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -225,7 +225,7 @@ button.tomato {
   margin: 0 auto;
   text-align: center;
   width: 36.25rem;
-  padding-top: 95px;
+  padding-top: 5.938rem;
 }
 
 .pictures-content {
@@ -351,28 +351,28 @@ input.input-email {
 .background-view {
   background-size: cover;
   width: 100%;
-  height: 865px;
+  height: 54.063rem;
   background-image: url(img/bg-view.png);
 }
 .form-name > h1 {
-  font-size: 90px;
-  line-height: 25px;
+  font-size: 5.625rem;
+  line-height: 1.563rem;
   color: #262626;
   font-weight: bold;
   font-family: "Raleway";
   text-align: center;
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .form-name > p {
-  width: 350px;
-  height: 66px;
-  font-size: 17px;
-  line-height: 25px;
+  width: 21.875rem;
+  height: 4.125rem;
+  font-size: 1.063rem;
+  line-height: 1.563rem;
   color: #262626;
   font-weight: 300;
   font-family: "Raleway";
-  padding-top: 50px;
+  padding-top: 3.125rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -383,16 +383,16 @@ input.input-email {
 }
 
 .info h3 {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 1.063rem;
+  line-height: 1.563rem;
   color: #262626;
   font-weight: 700;
   font-family: "Raleway";
 }
 
 .info p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 1.063rem;
+  line-height: 1.563rem;
   color: #262626;
   font-weight: 300;
   font-family: "Raleway";
@@ -400,23 +400,23 @@ input.input-email {
 
 input.view,
 textarea.view {
-  width: 500px;
-  margin-top: 15px;
+  width: 31.25rem;
+  margin-top: 0.938rem;
   background-color: #00c4c4;
-  padding: 20px 0 20px 20px;
+  padding: 1.25rem 0 1.25rem 1.25rem;
   border: none;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 textarea.view {
-  height: 250px;
+  height: 15.625rem;
 }
 input.view {
-  height: 50px;
+  height: 3.125rem;
 }
 
 ::placeholder {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.938rem;
+  line-height: 1.563rem;
   color: #ffffff;
   font-weight: 300;
   font-family: "Raleway";
@@ -428,13 +428,13 @@ textarea:focus {
   outline: none;
 }
 .content__info {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .adress,
 .email,
 .phone {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 footer {
@@ -450,7 +450,7 @@ footer {
   width: 80%;
   display: flex;
   flex-direction: row;
-  padding: 40px 0 40px;
+  padding: 2.5rem 0 2.5rem;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -459,8 +459,8 @@ footer {
   content: "";
   border-left: 5px solid #355b82;
   position: absolute;
-  height: 50px;
-  margin-top: 39px;
+  height: 3.125rem;
+  margin-top: 2.438rem;
 }
 .contact-form {
   position: relative;
@@ -469,6 +469,6 @@ footer {
   content: "";
   border-left: 5px solid #355b82;
   position: absolute;
-  height: 250px;
-  margin-top: 39px;
+  height: 15.62rem;
+  margin-top: 2.438rem;
 }
