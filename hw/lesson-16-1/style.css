@@ -216,7 +216,7 @@ button.tomato {
 .background-yellow {
   background-color: #ffe92f;
   width: 100%;
-  max-width: 120rem;
+  max-width: 100rem;
 }
 
 .background-yellow__gallery-header {
@@ -224,7 +224,7 @@ button.tomato {
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
-  width: 36.25rem;
+  width: 100%;
   padding-top: 5.938rem;
 }
 
