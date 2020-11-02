@@ -65,6 +65,7 @@ a.url {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  height: 100%;
 }
 .about__content > h3,
 .services__content > h3,
@@ -77,7 +78,8 @@ a.url {
   font-family: "Lato";
   text-align: center;
   padding-bottom: 65px;
-  font-size:100%; width:65%
+  font-size: 100%;
+  
 }
 .what-we-do__content,
 .contact-us__content {
@@ -89,8 +91,9 @@ a.url {
   font-weight: 300;
   font-family: "Lato";
   text-align: center;
-  font-size:100%; width:100%;
-  height: 80%;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .about__content > p,
@@ -105,9 +108,8 @@ a.url {
   font-family: "Lato";
   text-align: center;
   padding-bottom: 30px;
-  font-size:100%; 
-  width:60%;
-  
+  font-size: 100%;
+  width: 60%;
 }
 
 .services-background {
@@ -140,9 +142,7 @@ footer {
   font-weight: 400;
   font-family: "Lato";
 }
-.what-we-do__border {
-  height: 170vh;
-}
+
 h5 {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -153,7 +153,8 @@ h5 {
   font-weight: 700;
   font-family: "Lato";
   text-align: center;
-  font-size:100%; width:100%;
+  font-size: 100%;
+  width: 100%;
 }
 
 .img-1 {
@@ -202,35 +203,38 @@ a:hover {
 button.contact {
   color: white;
   background-color: #3c3c3c;
-  width: 390px;
+  width: 50%;
   height: 55px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 h3 {
   position: relative;
+  width: 100%;
 }
 h3::before {
   content: "";
   position: absolute;
   border-top: 2px solid black;
-  width: calc(100% - 20em);
-  left: -27%;
-  
+  width: calc(50% - 10em);
+  left: 0;
+  top: 0;
 }
 
 h3::after {
   content: "";
   position: absolute;
   border-top: 2px solid black;
-  width: calc(100% - 20em);
-  left: 82%;
+  width: calc(50% - 10em);
+  right: 0;
+  top: 0;
 }
 .about__content,
 .services__content,
 .what-we-do__content,
 .contact-us__content {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

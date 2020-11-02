@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+@-ms-viewport {
+  width: device-width;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/*12-1*/
+
+.header__bg1-image {
+  background-image: url(img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 62.5rem;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  top: 3.438rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+}
+.header__menu {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  float: right;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  float: right;
+}
+
+.nav__item {
+  padding-top: 0.563rem;
+  border-top: transparent solid 3px;
+}
+.nav__item:hover {
+  border-top: 3px solid orange;
+}
+a:hover {
+  text-decoration: none;
+  color: #262626;
+}
+.content-fresh__text {
+  width: 23.125rem;
+  height: 4.313rem;
+  font-size: 1.063rem;
+  line-height: 1.688rem;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+.content-fresh__FL {
+  font-size: 3.75rem;
+  line-height: 1.563rem;
+  color: #262626;
+  font-family: "Raleway";
+  padding-bottom: 30px;
+}
+.content-fresh {
+  position: absolute;
+  top: 22.5rem;
+  left: 10.625rem;
+}
+.get-free-btn {
+  margin-top: 1.875rem;
+  width: 12.5rem;
+  height: 3.438rem;
+  color: white;
+  background-color: #ff6033;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  box-shadow: 0 0 0.625rem #7d7d80;
+}
+.mouse-img {
+  position: absolute;
+  left: 50%;
+  top: 55.625rem;
+}
+.about-raspberry__bg2-image {
+  background-image: url(img/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 43.75rem;
+}
+.about-raspberry {
+  position: relative;
+}
+.about-raspberry__content {
+  position: absolute;
+  top: 11.25rem;
+  left: 52.188rem;
+}
+.about-raspberry__content-AU {
+  font-size: 5.625rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  padding-bottom: 2.5rem;
+}
+.longt-text {
+  width: 31.25rem;
+
+  font-size: 1.063rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+/*14-1*/
+
+.background-tomato {
+  background-image: url(img/bg-tomato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 49.375rem;
+  width: 100%;
+  max-width: 100rem;
+}
+button.tomato {
+  width: 25rem;
+  height: 6.25rem;
+  background-color: white;
+  border: none;
+  margin-bottom: 1.25rem;
+  padding: 2.5rem 0 2.813rem 0;
+  font-size: 1.25rem;
+  line-height: 1.688rem;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  align-items: center;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons-tomato {
+  margin-left: -41.25rem;
+  padding-top: 11.25rem;
+}
+
+.content {
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 20.625rem;
+  left: 49.688rem;
+  font-size: 5.625rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: right;
+}
+
+.icon {
+  border-left: 1px solid rgb(216, 205, 205);
+  margin-top: 0.313rem;
+  margin-right: 0px;
+  margin: 0.313rem 0 0 0;
+  height: 6.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+.btn-name {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+}
+
+/*15-2*/
+.background-yellow {
+  background-color: #ffe92f;
+  width: 100%;
+  max-width: 120rem;
+}
+
+.background-yellow__gallery-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 36.25rem;
+  padding-top: 5.938rem;
+}
+
+.pictures-content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 73.125rem;
+  padding-bottom: 3.125rem;
+}
+
+#plate {
+  background-image: url(img/plate.png);
+  height: 34.375rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 75%;
+  display: block;
+}
+
+#berries {
+  background-image: url(img/berries.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16.25rem;
+  width: 100%;
+  max-width: 30%;
+  margin-left: 1.875rem;
+  display: block;
+}
+
+#berries2 {
+  background-image: url(img/berries2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16.25rem;
+  width: 100%;
+  max-width: 30%;
+  margin-left: 51.75rem;
+  margin-top: -16.25rem;
+  display: block;
+}
+
+#bowl {
+  background-image: url(img/bowl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16.25rem;
+  width: 100%;
+  max-width: 48.43%;
+  margin-top: 1.875rem;
+  display: block;
+}
+
+#fruit {
+  background-image: url(img/fruit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16.25rem;
+  width: 100%;
+  max-width: 48.43%;
+  margin-left: 1.875rem;
+  margin-top: 1.875rem;
+  display: block;
+}
+
+.view-more {
+  color: white;
+  background-color: #5585a2;
+  width: 10%;
+  height: 3.438rem;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 7.5rem;
+}
+
+.subscribe-background {
+  background-image: url(img/bg.png);
+  width: 100%;
+  max-width: 120rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscribe__content {
+  padding-bottom: 10rem;
+  padding-top: 9.063rem;
+  padding-left: 10.313rem;
+  max-width: 48.125rem;
+  width: 100%;
+}
+.form-berries {
+  display: flex;
+  flex-direction: row;
+}
+input.input-email {
+  height: 3.125rem;
+  width: 35.625rem;
+  padding-left: 0.938rem;
+  color: #262626 !important;
+}
+
+.subscribe__btn {
+  width: 10.625rem;
+  height: 3.125rem;
+  background-color: #96b92c;
+  color: white;
+  border-color: transparent;
+}
+
+.form-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.875rem;
+}
+
+/*13-1*/
+
+.background-view {
+  background-size: cover;
+  width: 100%;
+  height: 54.063rem;
+  background-image: url(img/bg-view.png);
+}
+.form-name > h1 {
+  font-size: 5.625rem;
+  line-height: 1.563rem;
+  color: #262626;
+  font-weight: bold;
+  font-family: "Raleway";
+  text-align: center;
+  padding-top: 6.25rem;
+}
+
+.form-name > p {
+  width: 21.875rem;
+  height: 4.125rem;
+  font-size: 1.063rem;
+  line-height: 1.563rem;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  padding-top: 3.125rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info h3 {
+  font-size: 1.063rem;
+  line-height: 1.563rem;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.info p {
+  font-size: 1.063rem;
+  line-height: 1.563rem;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+input.view,
+textarea.view {
+  width: 31.25rem;
+  margin-top: 0.938rem;
+  background-color: #00c4c4;
+  padding: 1.25rem 0 1.25rem 1.25rem;
+  border: none;
+  font-size: 0.938rem;
+}
+textarea.view {
+  height: 15.625rem;
+}
+input.view {
+  height: 3.125rem;
+}
+
+::placeholder {
+  font-size: 0.938rem;
+  line-height: 1.563rem;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+input:focus,
+textarea:focus {
+  font-weight: bold;
+  color: #ffffff;
+  outline: none;
+}
+.content__info {
+  margin-bottom: 1.25rem;
+}
+
+.adress,
+.email,
+.phone {
+  margin-bottom: 1.25rem;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+}
+.made-by p,
+.rights p {
+  color: #6a6a6a;
+}
+.footer-content {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem 0 2.5rem;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.line:hover:before {
+  content: "";
+  border-left: 5px solid #355b82;
+  position: absolute;
+  height: 3.125rem;
+  margin-top: 2.438rem;
+}
+.contact-form {
+  position: relative;
+}
+.text-area:hover:before {
+  content: "";
+  border-left: 5px solid #355b82;
+  position: absolute;
+  height: 15.62rem;
+  margin-top: 2.438rem;
+}
