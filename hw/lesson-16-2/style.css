@@ -203,9 +203,10 @@ a:hover {
 button.contact {
   color: white;
   background-color: #3c3c3c;
-  width: 390px;
+  width: 50%;
   height: 55px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -224,7 +225,7 @@ h3::after {
   position: absolute;
   border-top: 2px solid black;
   width: calc(100% - 20em);
-  left: 82%;
+  right: -27%;
 }
 .about__content,
 .services__content,
