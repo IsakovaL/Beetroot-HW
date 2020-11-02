@@ -79,7 +79,7 @@ a.url {
   text-align: center;
   padding-bottom: 65px;
   font-size: 100%;
-  width: 65%;
+  
 }
 .what-we-do__content,
 .contact-us__content {
@@ -211,21 +211,24 @@ button.contact {
 
 h3 {
   position: relative;
+  width: 100%;
 }
 h3::before {
   content: "";
   position: absolute;
   border-top: 2px solid black;
-  width: calc(100% - 20em);
-  left: -27%;
+  width: calc(50% - 10em);
+  left: 0;
+  top: 0;
 }
 
 h3::after {
   content: "";
   position: absolute;
   border-top: 2px solid black;
-  width: calc(100% - 20em);
-  right: -27%;
+  width: calc(50% - 10em);
+  right: 0;
+  top: 0;
 }
 .about__content,
 .services__content,
