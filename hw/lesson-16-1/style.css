@@ -1,10 +1,6 @@
 
 @media screen and (min-width: 800px) {
-  .nav__list {
-display: flex;
-flex-direction: column;
-  }
-  .mouse-img {
+  input[type="button"].get-free-btn {
     margin-top: 200px;
   }
 }
