@@ -1,7 +1,11 @@
 
 @media screen and (min-width: 800px) {
-   {
-
+  .nav__list {
+display: flex;
+flex-direction: column;
+  }
+  .mouse-img {
+    margin-top: 200px;
   }
 }
 
