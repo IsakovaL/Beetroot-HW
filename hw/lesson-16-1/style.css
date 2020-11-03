@@ -1,7 +1,7 @@
 
-@media screen and (max-width: 800px) {
-  input[type="button"].get-free-btn {
-    margin-top: 200px;
+@media screen and (max-width: 600px) {
+  .get-free-btn {
+    margin-top: 500px;
   }
 }
 
