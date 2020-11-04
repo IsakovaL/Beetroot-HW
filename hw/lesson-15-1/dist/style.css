@@ -92,6 +92,20 @@ li {
   width: 0;
 }
 
+.myCarousel {
+  margin-top: 90px;
+}
+
+.control-items > li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffcc00;
+}
+.control-items > li.active {
+  background-color: #ffcc00;
+}
+
 .info__text {
   padding-bottom: 55px;
   text-align: center;
