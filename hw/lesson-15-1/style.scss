@@ -1,3 +1,4 @@
+@import "variables";
 @import url("style.scss"); 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto:ital,wght@0,900;1,300&display=swap');
@@ -9,26 +10,31 @@
   
   body,
   html {
-    height: 99%;
+    height: $maxSize;
   }
   
   .wrapper {
     max-width: 1920px;
-    width: 99%;
+    width: $maxSize;
     max-height: 998px;
-    height: 99%;
+    height: $maxSize;
   }
 .section__dude {
-  width: 40%;
+  width: 50%;
+  padding-left: 60px;
+
 }
+
   .section__info {
       display: flex;
       flex-direction: column;
      align-items: center;
-     padding-left: 520px;
+     padding-left: 60%;
      margin-top: -350px;
      padding-bottom: 145px;
-     width: 80%;
+     padding-right: 60px;
+     width: 100%;
+    
    
   }
   .header__content {
@@ -44,7 +50,7 @@ font-family: "Raleway";
   .header__content h1 {
     font-size: 60px;
 line-height: 66px;
-color: #ffcc00;
+color: $yellow;
 font-weight: 900;
 font-family: "Roboto";
   }
@@ -55,7 +61,7 @@ i.fab {
 }
 
 li {
- color: #ffcc00;
+ color: $yellow;
 }
 
 .info__socialmedia {
@@ -69,6 +75,7 @@ line-height: 36px;
 color: #666666;
 font-weight: 400;
 font-family: "Raleway";
+padding-top: 35px;
 
 }
 
@@ -79,28 +86,34 @@ line-height: 24px;
 color: #666666;
 font-weight: 900;
 font-family: "Roboto";
+border-bottom: 2px solid $yellow;
+
+padding-bottom: 35px;
+
 }
 .carousel-control {
   width: 0;
 }
 .info__text {
   padding-bottom: 55px;
+  text-align: center;
+  
+
 }
   .button {
       background-color: white;
-      border: 2px solid #ffcc00;
+      border: 2px solid $yellow;
       height: 25px;
       width: 120px;
       font-size: 14px;
-line-height: 24px;
-color: #666666;
-font-weight: 700;
-font-family: "Open Sans";
+      line-height: 24px;
+      color: #666666;
+      font-weight: 700;
+      font-family: "Open Sans";
+     
   }
 
-  .header__content h1 {
-      color: #ffcc00;
-  }
+  
   .header__content {
      text-align: center;
   }
