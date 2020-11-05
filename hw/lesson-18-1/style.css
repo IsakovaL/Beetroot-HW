@@ -5,7 +5,6 @@
   width: device-width;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -19,36 +18,34 @@ body {
 }
 
 /*12-1*/
-@media (max-width: 375px){
-    .content-fresh { width: 100%;}
-    .header__top {
-        
-        width: 90%;
-      
-      }
+@media (max-width: 375px) {
+  .content-fresh {
+    width: 100%;
+  }
+  .header__top {
+    width: 90%;
+  }
 }
 .fresh-bg {
-    height: 100vh;
+  height: 100vh;
 }
 .fresh-bg-image {
-  z-index: -1;  
-position: absolute;
+  z-index: -1;
+  position: absolute;
   width: 100%;
   object-fit: contain;
   margin: 0 auto;
 }
 
-
 .nav__list {
   list-style: none;
   display: flex;
   flex-direction: row;
-  
 }
 .header__menu {
   display: flex;
   width: 90%;
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
 .header-top {
@@ -77,7 +74,6 @@ position: absolute;
 }
 .nav__item:hover {
   border-top: 3px solid orange;
-  
 }
 a:hover {
   text-decoration: none;
@@ -91,9 +87,6 @@ a:hover {
   width: 35%;
   padding-top: 365px;
   padding-left: 165px;
-
-
-
 }
 .content-fresh__text {
   width: 23.125rem;
@@ -131,13 +124,12 @@ a:hover {
   cursor: pointer;
 }
 .mouse {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    padding-bottom: 70px;
-   
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 70px;
+}
 
 .mouse-img {
   /* display: flex;
@@ -145,29 +137,24 @@ a:hover {
   flex-direction: row; */
   width: 9%;
   /* padding-top: 18.75rem;*/
-  
 }
 
 .raspberry__bg-image {
-
- 
-  
-  z-index: -1;  
+  z-index: -1;
   position: absolute;
-    width: 100%;
-    object-fit: contain;
-    margin: 0 auto;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .about-raspberry-content {
   display: flex;
   flex-direction: column;
-z-index: -1;
+  z-index: -1;
 
- align-items: flex-end;
+  align-items: flex-end;
   width: 100%;
   padding: 180px 165px 0 0;
-  
 }
 
 .about-raspberry-content h1 {
@@ -177,7 +164,7 @@ z-index: -1;
   font-weight: 700;
   font-family: "Raleway";
   padding-bottom: 2.5rem;
- text-align: left;
+  text-align: left;
 }
 .about-raspberry-content p {
   width: 31.25rem;
@@ -190,20 +177,21 @@ z-index: -1;
 }
 
 /*14-1*/
-
+.services-bg-tomato {
+    
+}
 .background-tomato {
   background-image: url(img/bg-tomato.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-height: 100vh;
-  
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
-
 button.tomato {
-    width:100%;
-  height: 6.25rem;
+  width: 100%;
+  height:20px;
   background-color: white;
   border: none;
   margin-bottom: 1.25rem;
@@ -221,30 +209,27 @@ button.tomato {
 }
 
 .buttons-tomato {
-  margin-top:-180px;
-  margin-left: 256px;
+  margin-top: -180px;
+   margin-left: 40px;
   padding-bottom: 3.125rem;
- 
+
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
 }
 
-
 .text-tomato {
- 
   font-size: 5.625rem;
   line-height: 1.688rem;
   color: #ffffff;
   font-weight: 700;
   font-family: "Raleway";
- text-align: end;
- padding-top: 20.625rem;
- padding-right: 10.313rem;
+  text-align: end;
+  padding-top: 0.625rem;
+  padding-right: 10.313rem;
 }
 .text-tomato p {
   width: 100%;
- 
 }
 
 .icon {
@@ -506,8 +491,8 @@ footer {
   height: 100%;
   display: flex;
   flex-direction: row;
- align-items: center;
- vertical-align: middle;
+  align-items: center;
+  vertical-align: middle;
   justify-content: space-between;
   margin: 0 auto;
 }
