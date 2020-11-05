@@ -189,7 +189,7 @@ a:hover {
 /*14-1*/
 
 .background-tomato {
-  background-image: url(img/bg-tomato.png);
+ 
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -220,7 +220,7 @@ button.tomato {
 }
 
 .buttons-tomato {
-    margin-top: -80px;
+    margin-top: -97px;
     margin-left: 20px;
     /* padding-bottom: 3.125rem; */
     display: flex;
@@ -266,96 +266,77 @@ button.tomato {
 /*15-2*/
 .background-yellow {
   background-color: #ffe92f;
-  width: 100%;
-  max-width: 100rem;
+ 
 }
 
 .background-yellow__gallery-header {
-  display: flex;
-  flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0 auto;
+    text-align: center;
+    /* width: 100%; */
+    
+    padding-top: 20px;
+}
+
+.plate { 
+  z-index: 1;
+  object-fit: contain;
   margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  max-width: 60%;
-  padding-top: 5.938rem;
+  
 }
 
-.pictures-content {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 73.125rem;
-  padding-bottom: 3.125rem;
+
+.berries {
+    z-index: 1;
+    object-fit: contain;
+    margin: 0 auto;
+    
 }
 
-#plate {
-  background-image: url(img/plate.png);
-  height: 34.375rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 75%;
-  display: block;
+.berries2 {
+    z-index: 1;
+    object-fit: contain;
+    margin: 0 auto;
+    
 }
 
-#berries {
-  background-image: url(img/berries.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16.25rem;
-  width: 100%;
-  max-width: 30%;
-  margin-left: 1.875rem;
-  display: block;
+.bowl {
+
+    z-index: 1;
+   
+    object-fit: contain;
+    margin: 0 auto;
 }
 
-#berries2 {
-  background-image: url(img/berries2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16.25rem;
-  width: 100%;
-  max-width: 30%;
-  margin-left: 51.75rem;
-  margin-top: -16.25rem;
-  display: block;
+.fruit {
+    z-index: 1;
+   
+    object-fit: contain;
+    margin: 0 auto;
 }
 
-#bowl {
-  background-image: url(img/bowl.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16.25rem;
-  width: 100%;
-  max-width: 48.43%;
-  margin-top: 1.875rem;
-  display: block;
-}
-
-#fruit {
-  background-image: url(img/fruit.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16.25rem;
-  width: 100%;
-  max-width: 48.43%;
-  margin-left: 1.875rem;
-  margin-top: 1.875rem;
-  display: block;
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .view-more {
-  color: white;
-  background-color: #5585a2;
-  width: 10%;
-  height: 3.438rem;
-  border-color: transparent;
-  cursor: pointer;
+    color: white;
+    background-color: #5585a2;
+    width: 27%;
+    height: 2.438rem;
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .view {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .subscribe-background {
@@ -366,104 +347,111 @@ button.tomato {
   background-size: cover;
 }
 .subscribe__content {
-  padding-bottom: 10rem;
-  padding-top: 9.063rem;
-  padding-left: 10.313rem;
-  max-width: 48.125rem;
-  width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 .form-berries {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
 }
 input.input-email {
-  height: 3.125rem;
-  width: 35.625rem;
-  padding-left: 0.938rem;
-  color: #262626 !important;
+    height: 3.125rem;
+    width: 300px;
+    padding-left: 0.938rem;
+    color: #262626 !important;
+    margin: 0 auto;
 }
 
 .subscribe__btn {
-  width: 10.625rem;
-  height: 3.125rem;
-  background-color: #96b92c;
-  color: white;
-  border-color: transparent;
+    width: 12.625rem;
+    height: 3.125rem;
+    background-color: #96b92c;
+    color: white;
+    border-color: transparent;
+    margin: 20px auto;
 }
 
-.form-view {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1.875rem;
-}
+
 
 /*13-1*/
 
+.form-view {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
 .background-view {
-  background-size: cover;
-  width: 100%;
-  height: 54.063rem;
-  background-image: url(img/bg-view.png);
+    z-index: -1;
+    position: absolute;
+  
+    object-fit: contain;
+    margin: 0 auto;
 }
 .form-name > h1 {
-  font-size: 5.625rem;
-  line-height: 1.563rem;
-  color: #262626;
-  font-weight: bold;
-  font-family: "Raleway";
-  text-align: center;
-  padding-top: 6.25rem;
+    font-size: 24px;
+    color: #262626;
+    font-weight: bold;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: 20px;
 }
 
-.form-name > p {
-  width: 21.875rem;
-  height: 4.125rem;
-  font-size: 1.063rem;
-  line-height: 1.563rem;
-  color: #262626;
-  font-weight: 300;
-  font-family: "Raleway";
-  padding-top: 3.125rem;
-  margin: 0 auto;
-  text-align: center;
+.form-name > p {  
+    font-size: 12px;
+    color: #262626;
+    /* font-weight: 300; */
+    font-family: "Raleway";
+    margin: 0 auto;
+    text-align: center;
 }
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 10px;
+}
 .info h3 {
-  font-size: 1.063rem;
-  line-height: 1.563rem;
-  color: #262626;
-  font-weight: 700;
-  font-family: "Raleway";
+    font-size: 12px;
+    line-height: 1.563rem;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-bottom: -5px;
 }
 
 .info p {
-  font-size: 1.063rem;
-  line-height: 1.563rem;
-  color: #262626;
-  font-weight: 300;
-  font-family: "Raleway";
+    font-size: 14px;
+    /* line-height: 1.563rem; */
+    color: #262626;
+    font-weight: 300;
+    font-family: "Raleway";
+    margin-bottom: 16px;
 }
 
 input.view,
 textarea.view {
-  width: 31.25rem;
-  margin-top: 0.938rem;
-  background-color: #00c4c4;
-  padding: 1.25rem 0 1.25rem 1.25rem;
-  border: none;
-  font-size: 0.938rem;
+    width: 100%;
+    margin-top: -20px;
+    background-color: #00c4c4;
+    padding: 1.25rem;
+    border: none;
+    font-size: 12px;
 }
 textarea.view {
-  height: 15.625rem;
+    height: 7.625rem;
+    width: 82%;
+    
 }
 input.view {
-  height: 3.125rem;
+  height: 10px;
 }
 
 ::placeholder {
@@ -486,27 +474,29 @@ textarea:focus {
 .adress,
 .email,
 .phone {
-  margin-bottom: 1.25rem;
+    margin-bottom: -30px;
+    margin-top: 15px;
 }
 
 footer {
-  background-color: black;
-  width: 100%;
-  height: 90px;
+    background-color: black;
+    /* width: 100%; */
+    /* height: 100%; */
+    position: sticky;
 }
 .made-by p,
 .rights p {
   color: #6a6a6a;
 }
 .footer-content {
-  width: 80%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  vertical-align: middle;
-  justify-content: space-between;
-  margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .line:hover:before {

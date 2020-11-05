@@ -101,7 +101,7 @@
 </div>
 </section>
 
-    <!-- <section class="background-yellow">
+    <section class="background-yellow">
       <header class="background-yellow__gallery-header">
         <h1>Gallery</h1>
         <p>
@@ -111,23 +111,48 @@
         </p>
       </header>
 
-      <div class="pictures-content">
+      <div class="gallery">
         <!--  Stack the columns on mobile by making one full-width and the other half-width --> 
-         <!-- <div class="row"> 
-          <div class="col-12 col-md-8" id="plate"></div>
-          <div class="col-6 col-md-4" id="berries"></div>
+         <div class="row"> 
+          <div class="col-12 col-md-8">
+            <img class="plate"
+            srcset="img/plate-375.png 375w"
+            sizes="(max-width: 375px) 375px" 
+            src="img/plate-375.png" alt="bg">
+          </div>
+          <div class="col-6 col-md-4">
+            <img class="berries"
+            srcset="img/berries-375.png 375w"
+            sizes="(max-width: 375px) 375px" 
+            src="img/berries-375.png" alt="bg">
+          </div>
         </div>
 
        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <!--  <div class="row">
+        <div class="row">
           <div class="col-12 col-md-8"></div>
-          <div class="col-6 col-md-4" id="berries2"></div>
+          <div class="col-6 col-md-4" >
+              <img class="berries2"
+            srcset="img/berries2-375.png 375w"
+            sizes="(max-width: 375px) 375px" 
+            src="img/berries2-375.png" alt="bg">
+        </div>
         </div>
 
          
         <div class="row">
-          <div class="col-6" id="bowl"></div>
-          <div class="col-6" id="fruit"></div>
+          <div class="col-12">
+              <img class="bowl"
+            srcset="img/bowl-375.png 375w"
+            sizes="(max-width: 375px) 375px" 
+            src="img/bowl-375.png" alt="bg">
+          </div>
+          <div class="col-12">
+            <img class="fruit"
+            srcset="img/fruit-375.png 375w"
+            sizes="(max-width: 375px) 375px" 
+            src="img/fruit-375.png" alt="bg">
+          </div>
         </div>
       </div>
       <div class="view">
@@ -153,8 +178,12 @@
       </div>
     </section>
 
-    <section class="wrapper">
-      <div class="background-view">
+    <section class="bg-view">
+      
+        <img class="background-view"
+        srcset="img/bg-view-375.png 375w"
+        sizes="(max-width: 375px) 375px" 
+        src="img/bg-view-375.png" alt="bg">
          <div class="form-name">
             <h1>Contact</h1>
             <p>For new projects, ideas, business or anything
@@ -180,7 +209,9 @@
                      <label for=""></label>
                      <textarea class="view" type="text" rows="10" cols="45" placeholder="Your messge..." id=""></textarea>
                   </div>
+                </form>
             </div>
+       
             <div class="info">
                 <div class="adress">
                     <h3>ADDRESS</h3>
@@ -196,8 +227,9 @@
                 </div>
             </div>
          </div>
-         </form>
-      </div>
+         
+      
+    </section>   
       <footer>
          <div class="footer-content">
             <div class="rights">
@@ -211,7 +243,7 @@
             </div>
          </div>
       </footer>
-   </section>   -->
+   
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
