@@ -20,16 +20,24 @@ body {
 
 /*12-1*/
 @media (max-width: 375px){
-    
+    .fresh-bg-image { width: 100%;}
+    .header__top {
+        
+        width: 90%;
+      
+      }
 }
 
 .fresh-bg-image {
-width: 100%;
+  z-index: 1;  
+position: absolute;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
+
 
 .nav__list {
   list-style: none;
