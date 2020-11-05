@@ -4,9 +4,7 @@
 @-ms-viewport {
   width: device-width;
 }
-@media (min-width: 320px){
 
-}
 
 * {
   margin: 0;
@@ -21,9 +19,12 @@ body {
 }
 
 /*12-1*/
+@media (max-width: 375px){
+    
+}
 
-.header-fresh-bg-image {
-  background-image: url(img/bg1.png);
+.fresh-bg-image {
+width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
