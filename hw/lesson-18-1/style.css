@@ -196,7 +196,10 @@ a:hover {
   object-fit: contain;
   margin: 0 auto;
 }
-
+.content-tomato {
+    display: flex;
+    flex-direction: row;
+}
 button.tomato {
     width: 62%;
     height: 25px;
@@ -217,15 +220,19 @@ button.tomato {
 }
 
 .buttons-tomato {
-     /* margin-top: -180px; */
-     margin-left: 40px;
-     /* padding-bottom: 3.125rem; */
-     display: flex;
-     flex-direction: column;
-     width: 70%;
-     margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 20px;
+    /* padding-bottom: 3.125rem; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
 }
-
+.text-tomato {
+ 
+    margin-left: 190px;
+    padding-top: 76px;
+}
 .text-tomato p {
   font-size: 18px;
   margin: 0 auto;
@@ -233,6 +240,7 @@ button.tomato {
   font-weight: 700;
   font-family: "Raleway";
   text-align: center;
+  
 }
 
 
@@ -240,8 +248,8 @@ button.tomato {
   border-left: 1px solid rgb(216, 205, 205);
   margin-top: 0.313rem;
   margin-right: 0px;
-  margin: 0.313rem 0 0 0;
-  height: 6.25rem;
+  margin: 1px 0 0 0;
+  height: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
