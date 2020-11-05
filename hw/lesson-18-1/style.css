@@ -128,13 +128,17 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 82%;
+    width: 100%;
     /* align-items: center;*/
    
 }
 .mouse-img {
     padding-bottom: 20px;
     padding-top: 5px;
+}
+
+.about-us-raspberry {
+    margin-bottom: -153px;
 }
 
 .raspberry__bg-image {
@@ -155,10 +159,11 @@ a:hover {
   /* padding: 180px 165px 0 0; */
 }
 .about-raspberry-content__inside-cont {
-    width: 50%;
+    width: 55%;
+    height: 48vh;
     display: flex;
     flex-direction: column;
-    padding-right: 70px;
+    padding-right: 10px;
     text-align: center;
 }
 
@@ -168,23 +173,21 @@ a:hover {
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
-    /* padding-bottom: 2.5rem; */
+    padding-top: 10px;
    
     text-align: center;
 }
 .about-raspberry-content p {
 
-  font-size: 12px;
-  
+  font-size: 9px;
+  margin-bottom:5px;
   color: #ffffff;
   font-weight: 300;
   font-family: "Raleway";
 }
 
 /*14-1*/
-.services-bg-tomato {
-    
-}
+
 .background-tomato {
   background-image: url(img/bg-tomato.png);
   z-index: -1;
@@ -195,47 +198,43 @@ a:hover {
 }
 
 button.tomato {
-  width: 100%;
-  height:20px;
-  background-color: white;
-  border: none;
-  margin-bottom: 1.25rem;
-  padding: 2.5rem 0 2.813rem 0;
-  font-size: 1.25rem;
-  line-height: 1.688rem;
-  color: #262626;
-  font-weight: 700;
-  font-family: "Raleway";
-  align-items: center;
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    width: 62%;
+    height: 25px;
+    background-color: white;
+    border: none;
+    margin-bottom: 5px;
+    padding: 1rem 0 1rem 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    font-weight: 600;
+    font-family: "Raleway";
+    align-items: center;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .buttons-tomato {
-  margin-top: -180px;
-   margin-left: 40px;
-  padding-bottom: 3.125rem;
-
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+     /* margin-top: -180px; */
+     margin-left: 40px;
+     /* padding-bottom: 3.125rem; */
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     margin: 0 auto;
 }
 
-.text-tomato {
-  font-size: 5.625rem;
-  line-height: 1.688rem;
+.text-tomato p {
+  font-size: 18px;
+  margin: 0 auto;
   color: #ffffff;
   font-weight: 700;
   font-family: "Raleway";
-  text-align: end;
-  padding-top: 0.625rem;
-  padding-right: 10.313rem;
+  text-align: center;
 }
-.text-tomato p {
-  width: 100%;
-}
+
 
 .icon {
   border-left: 1px solid rgb(216, 205, 205);
