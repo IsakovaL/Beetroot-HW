@@ -20,21 +20,21 @@ body {
 
 /*12-1*/
 @media (max-width: 375px){
-    .fresh-bg-image { width: 100%;}
+    .content-fresh { width: 100%;}
     .header__top {
         
         width: 90%;
       
       }
 }
-
+.fresh-bg {
+    height: 100vh;
+}
 .fresh-bg-image {
-  z-index: 1;  
+  z-index: -1;  
 position: absolute;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  object-fit: contain;
   margin: 0 auto;
 }
 
@@ -89,7 +89,9 @@ a:hover {
   flex-direction: column;
   justify-content: left;
   width: 35%;
-  padding: 22.5rem 0 0 10.313rem;
+  padding-top: 365px;
+  padding-left: 165px;
+
 
 
 }
@@ -129,12 +131,21 @@ a:hover {
   cursor: pointer;
 }
 .mouse {
-  display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 70px;
+   
+  }
+
+.mouse-img {
+  /* display: flex;
   justify-content: center;
-  flex-direction: row;
-  width: 100%;
-  padding-top: 18.75rem;
-  padding-bottom: 4.375rem;
+  flex-direction: row; */
+  width: 9%;
+  /* padding-top: 18.75rem;*/
+  
 }
 
 .raspberry__bg-image {
@@ -148,10 +159,11 @@ a:hover {
 .about-raspberry-content {
   display: flex;
   flex-direction: column;
+z-index: -1;
 
  align-items: flex-end;
   width: 100%;
-  padding: 180px 165px 230px 0;
+  padding: -200px 165px 230px 0;
   
 }
 
