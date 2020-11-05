@@ -149,11 +149,14 @@ a:hover {
 }
 
 .raspberry__bg-image {
-  background-image: url(img/bg2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+ 
   min-height: 100vh;
+  z-index: -1;  
+  position: absolute;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .about-raspberry-content {
