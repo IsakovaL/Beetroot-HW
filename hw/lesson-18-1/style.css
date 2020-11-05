@@ -151,7 +151,7 @@ a:hover {
 .raspberry__bg-image {
 
  
-  min-height: 100vh;
+  
   z-index: -1;  
   position: absolute;
     width: 100%;
@@ -166,7 +166,7 @@ z-index: -1;
 
  align-items: flex-end;
   width: 100%;
-  padding: 200px 165px 230px 0;
+  padding: 180px 165px 0 0;
   
 }
 
