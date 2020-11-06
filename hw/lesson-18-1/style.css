@@ -34,7 +34,10 @@ body {
   object-fit: contain;
   margin: 0 auto;
 }
-
+.fresh-bg {
+  height: 100%;
+   
+}
 .nav__list {
     list-style: none;
     display: flex;
@@ -49,12 +52,12 @@ body {
 } */
 
 .header-top {
-  display: flex;
-  flex-direction: row;
-  vertical-align: middle;
-  padding-top: 0.375rem;
-  width: 80%;
-  margin: 0 auto;
+      /* display: flex; */
+    /* flex-direction: row; */
+    /* vertical-align: middle; */
+    padding-top: 0.375rem;
+    /* width: 80%; */
+    margin: 0 auto;
 }
 .nav__link {
   text-decoration: none;
@@ -142,7 +145,7 @@ a:hover {
 .raspberry__bg-image {
   z-index: -1;
   position: absolute;
-  width: 100%;
+ 
   object-fit: contain;
   margin: 0 auto;
 }
@@ -151,10 +154,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   z-index: -1;
-
   align-items: flex-end;
-  width: 100%;
-  /* padding: 180px 165px 0 0; */
+  /* width: 100%; */
+  padding: -50px 0px 0 0;
+ 
 }
 .about-raspberry-content__inside-cont {
     width: 55%;
@@ -190,7 +193,7 @@ a:hover {
  
   z-index: -1;
   position: absolute;
-  width: 100%;
+ 
   object-fit: contain;
   margin: 0 auto;
 }
@@ -266,7 +269,12 @@ button.tomato {
   background-color: #ffe92f;
  
 }
-
+.background-yellow h1 {
+font-size: 24px;
+}
+.background-yellow p {
+  font-size: 14px;
+}
 .background-yellow__gallery-header {
     /* display: flex; */
     /* flex-direction: column; */
@@ -276,42 +284,15 @@ button.tomato {
     
     padding-top: 20px;
 }
-
-.plate { 
+.row {
+  
+  width: 100%;
+}
+.gallery__img{ 
   z-index: 1;
   object-fit: contain;
   margin: 0 auto;
   
-}
-
-
-.berries {
-    z-index: 1;
-    object-fit: contain;
-    margin: 0 auto;
-    
-}
-
-.berries2 {
-    z-index: 1;
-    object-fit: contain;
-    margin: 0 auto;
-    
-}
-
-.bowl {
-
-    z-index: 1;
-   
-    object-fit: contain;
-    margin: 0 auto;
-}
-
-.fruit {
-    z-index: 1;
-   
-    object-fit: contain;
-    margin: 0 auto;
 }
 
 .gallery {
@@ -355,7 +336,7 @@ button.tomato {
 }
 input.input-email {
     height: 3.125rem;
-    width: 300px;
+    width: 299px;
     padding-left: 0.938rem;
     color: #262626 !important;
     margin: 0 auto;
@@ -384,9 +365,13 @@ input.input-email {
 .background-view {
     z-index: -1;
     position: absolute;
-  
-    object-fit: contain;
+  width: 100%;
+  height: 50%;
+    object-fit: cover;
     margin: 0 auto;
+}
+.bg-view {
+  height: 50%;
 }
 .form-name > h1 {
     font-size: 24px;
@@ -444,7 +429,7 @@ textarea.view {
     font-size: 12px;
 }
 textarea.view {
-    height: 7.625rem;
+    height:6.625rem;
     width: 82%;
     
 }
@@ -480,7 +465,7 @@ footer {
     background-color: black;
     /* width: 100%; */
     /* height: 100%; */
-    position: sticky;
+    position: static;
 }
 .made-by p,
 .rights p {
@@ -499,18 +484,18 @@ footer {
 
 .line:hover:before {
   content: "";
-  border-left: 5px solid #355b82;
+  border-left: 3px solid #355b82;
   position: absolute;
-  height: 3.125rem;
-  margin-top: 2.438rem;
+  height: 41px;
+  margin-top: 4px;
 }
 .contact-form {
   position: relative;
 }
 .text-area:hover:before {
   content: "";
-  border-left: 5px solid #355b82;
+  border-left: 3px solid #355b82;
   position: absolute;
-  height: 15.62rem;
-  margin-top: 2.438rem;
+  height: 105px;
+    margin-top: 5px;
 }
