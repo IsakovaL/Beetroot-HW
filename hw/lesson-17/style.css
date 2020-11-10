@@ -80,13 +80,14 @@ input {
 }
 
 
-input:checked.nav__list {
+input:checked .nav__list {
   display: flex;
   /* flex: 1 0 90%; */
   flex-direction: column;
   justify-content: center;
   background-color: black;
   color: white;
+  
 }
 
 /* 
