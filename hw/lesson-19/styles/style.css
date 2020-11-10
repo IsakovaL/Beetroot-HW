@@ -15,10 +15,7 @@ body {
   height: 350px;
   position: relative;
 }
-.card__container {
 
- 
-}
 
 .card__container:nth-child(1),
 .card__container:nth-child(2) {
