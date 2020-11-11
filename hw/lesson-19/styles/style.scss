@@ -1,0 +1,32 @@
+@import "style.css";
+
+
+@for $i from 1 through 36 { 
+  .card__container:nth-child(#{$i}){
+    left: 80px + $i;
+    top: 80px + $i;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 25%;
+  height: 250px;
+  position: relative;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
