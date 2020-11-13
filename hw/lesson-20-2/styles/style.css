@@ -15,6 +15,8 @@ html {
     height: 100%;
 }
 
+@media screen and (min-width: 320px), (max-width: 1900px) {
+
 
 
 .container {
@@ -26,6 +28,7 @@ html {
     padding: 20px;
     margin: 0 auto;
     background-color: rgb(181, 190, 209);
+    position: relative;
 }
 
 .pic-big {
@@ -68,3 +71,23 @@ font-family: "Hans Kendrick";
     padding: 10px;
 }
 
+i.fas{
+    color: #8996a3;
+    font-size: 24px;
+}
+
+.loading {
+    display: flex;
+    flex-direction: row;
+    left: 40%;
+    bottom: 50px;
+    position: absolute;
+    padding-bottom: 50px;
+}
+
+.load-p {
+    color: #8996a3;
+    padding-left: 20px;
+   
+}
+}
