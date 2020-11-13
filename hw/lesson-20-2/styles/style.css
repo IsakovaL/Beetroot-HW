@@ -47,24 +47,24 @@ img {
     
 }
 .text {
+    
     font-size: 22px;
-    letter-spacing: 1px;
-    padding: 20px;
+   padding-top: 20px;
     color: #1d1d1d;
     font-family: "Hans Kendrick";
-    text-transform: uppercase;
+text-transform: uppercase;
 }
 .date {
     font-size: 13px;
-    
-    color: #818181;
-    font-weight: 500;
-    font-family: "Hans Kendrick";
+color: #818181;
+font-weight: 500;
+font-family: "Hans Kendrick";
     
 
 }
 .author{
    
-    
+    width: 20%;
     padding: 10px;
 }
+
