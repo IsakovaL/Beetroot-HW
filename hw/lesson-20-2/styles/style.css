@@ -34,11 +34,14 @@ img {
     height: 50%;
     vertical-align: middle;
 }
-.text {
+.text-container {
     background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
-.text2 {
+.text {
     /* margin-left: 40px;
     padding-top: 60px; */
     text-transform: uppercase;
