@@ -15,16 +15,19 @@ html {
     height: 100%;
 }
 
-@media screen and (max-width: 2900px) {
 
+.wrapper {
+    width: 90vw;
+    margin: 0 auto;
+}
 
 
 .container {
     display: grid;
-    grid-template:  1fr 1fr/1fr 1fr 1fr ;
-    gap: 20px;
-    /* width: 50%; */
-    height: 100%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    gap: 1.786vw;
+   
     padding: 1.25rem;
     margin: 0 auto;
     background-color: rgb(181, 190, 209);
@@ -46,15 +49,15 @@ img {
 }
 .text-container {
     background-color: white;
-    padding: 0.9375rem;
+    padding:2.679vw;
     display: flex;
     flex-direction: column;
-    height: 50%;
+    
 }
 .text {
     
     font-size: 1.375rem;
-    padding-top: 1.25rem;
+    padding-top: 2.232vw;
     color: #1d1d1d;
     font-family: "Hans Kendrick";
     text-transform: uppercase;
@@ -69,7 +72,7 @@ img {
 .author{
    
     width: 20%;
-    padding: 7.5rem 0 0 0.625rem;
+    padding: 6.250vw 0 2.232vw 2.411vw;
 }
 
 .author__pic {
@@ -114,4 +117,3 @@ i.fas{
     font-weight: 500;
     font-family: "Hans Kendrick";
    }
-}
