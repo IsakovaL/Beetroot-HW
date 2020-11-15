@@ -1,13 +1,6 @@
 @import "style.css";
 
 
-// @for $i from 1 through 36 { 
-//   .card__container:nth-child(#{$i}){
-//     left: 80px + $i;
-//     top: 80px + $i;
-//     position: absolute;
-//   }
-// }
 
 * {
   margin: 0;
@@ -21,18 +14,24 @@ body {
   height: 100%;
 }
 
-.container {
-  width: 25%;
-  height: 250px;
+.card-container {
+ 
   position: relative;
+  margin: 0 auto;
 }
 
 input[type="checkbox"] {
   visibility: hidden;
  
 }
-label.card-container__back {
-  position: absolute;
-  top: 2px;
-  left: 2px;
+@for $i from 1 through 36 { 
+  .card-container__back:nth-child(#{$i}){
+    left: 80px + $i;
+    top: 80px + $i;
+    position: absolute;
+  }
+}
+
+label:checked {
+  background-color: red;
 }
