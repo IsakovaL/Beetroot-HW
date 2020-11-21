@@ -1,0 +1,59 @@
+@import url("style.scss");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+footer,
+.footer-content h1,
+.footer-content p {
+  background-color: black;
+  color: #fff;
+  font-family: "Josefin Sans";
+}
+footer i.fab,
+.footer-content h1 i.fab,
+.footer-content p i.fab {
+  font-size: large;
+  padding-left: 25px;
+}
+footer i.fab:first-child,
+.footer-content h1 i.fab:first-child,
+.footer-content p i.fab:first-child {
+  padding-left: 0px;
+}
+footer i:hover,
+.footer-content h1 i:hover,
+.footer-content p i:hover {
+  color: #5474fd;
+}
+footer .footer-content,
+.footer-content h1 .footer-content,
+.footer-content p .footer-content {
+  text-align: center;
+  padding: 120px 0 50px 0;
+}
+footer .footer-content__icons,
+.footer-content h1 .footer-content__icons,
+.footer-content p .footer-content__icons {
+  padding-top: 30px;
+}
+footer .footer-content p,
+.footer-content h1 .footer-content p,
+.footer-content p .footer-content p {
+  padding-top: 17px;
+  font-size: 16px;
+}
+footer .footer-content h1,
+.footer-content h1 .footer-content h1,
+.footer-content p .footer-content h1 {
+  font-size: 24px;
+}
