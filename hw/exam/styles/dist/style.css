@@ -40,6 +40,7 @@ html {
   height: 3.529vw;
   width: 29.412vw;
   padding: 0 100px;
+  border: 1px solid #fff;
 }
 .site-header .site-header__search-form {
   padding-top: 50px;
@@ -55,6 +56,11 @@ html {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
+  margin-left: -2px;
+}
+.site-header .site-header__search-form__container {
+  display: flex;
+  justify-content: center;
 }
 .site-header button.scroll {
   background-color: transparent;
