@@ -1,5 +1,7 @@
-@import url("style.scss");
+@charset "UTF-8";
+@import url("style.css");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,12 +14,225 @@ html {
   height: 100%;
 }
 
+.site-header {
+  background-image: url("../../img/header-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.site-header .site-heade__content {
+  padding-top: 265px;
+  padding-bottom: 290px;
+  margin: 0 auto;
+}
+.site-header h1 {
+  font-size: 48px;
+}
+.site-header p {
+  font-size: 22px;
+  padding-top: 30px;
+}
+.site-header input {
+  color: #999999;
+  font-size: 14px;
+  height: 3.529vw;
+  width: 29.412vw;
+  padding: 0 100px;
+}
+.site-header .site-header__search-form {
+  padding-top: 50px;
+}
+.site-header button {
+  height: 3.529vw;
+  /* width: 8.529vw; */
+  padding-left: 30px;
+  padding-right: 15px;
+  color: #fff;
+  background-color: #5474fd;
+  border: 2px solid #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.site-header i {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.booking-steps {
+  background-color: #333333;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.booking-steps .booking-steps__content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+.booking-steps i {
+  color: #5474fd;
+  font-size: 36px;
+}
+.booking-steps i:hover {
+  color: #ff6363;
+}
+.booking-steps p {
+  font-family: "Aleo";
+  font-size: 36px;
+  position: relative;
+  padding-top: 30px;
+}
+.booking-steps .select::before {
+  content: " ";
+  border-top: 2px dotted #757575;
+  border-radius: 60%;
+  padding-right: 30px;
+  position: absolute;
+  right: 658px;
+  width: 318px;
+}
+.pool {
+  background-image: url("../../img/pool-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+}
+.pool .info__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  background-color: #322b2c;
+  opacity: 0.9;
+  width: 25.882vw;
+  padding: 0 30px 50px 30px;
+}
+.pool .pool__info {
+  padding: 213px 0 100px 230px;
+}
+.pool input[type=button] {
+  background-color: #5474fd;
+  color: #fff;
+  height: 3.529vw;
+  width: 13.235vw;
+  margin-top: 50px;
+  font-family: "Aleo";
+  font-size: 16px;
+}
+.pool p {
+  padding-top: 30px;
+  font-size: 16px;
+}
+.pool h1 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.pool p.country {
+  padding-top: 50px;
+}
+
+.mountain {
+  background-image: url("../../img/sunset-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+}
+.mountain .info__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  background-color: #322b2c;
+  opacity: 0.9;
+  width: 25.882vw;
+  padding: 0 30px 50px 30px;
+}
+.mountain .mountain__info {
+  display: flex;
+  justify-content: flex-end;
+  padding: 230px 330px 100px 0;
+}
+.mountain input[type=button] {
+  background-color: #5474fd;
+  color: #fff;
+  height: 3.529vw;
+  width: 13.235vw;
+  margin-top: 50px;
+  font-family: "Aleo";
+  font-size: 16px;
+}
+.mountain p {
+  padding-top: 30px;
+  font-size: 16px;
+}
+.mountain h1 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.mountain p.country {
+  padding-top: 50px;
+}
+
+.testimonial {
+  background-image: url("../../img/backpack-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+}
+.testimonial p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  padding: 0px 15px 20px 0px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 20px;
+  color: #5474fd;
+}
+.testimonial h1 {
+  font-size: 36px;
+  font-family: "Aleo";
+  text-align: center;
+  padding-top: 120px;
+}
+.testimonial .testimonial__container {
+  display: flex;
+  flex-direction: row;
+  padding: 250px 0 200px 0;
+  justify-content: center;
+}
+.testimonial .testimonial__container__content-text {
+  background-color: #333333;
+  width: 39.118vw;
+  text-align: left;
+}
+.testimonial h2 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.testimonial p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 16px;
+}
+
 footer,
 .footer-content h1,
 .footer-content p {
   background-color: black;
   color: #fff;
   font-family: "Josefin Sans";
+  margin-top: -1px;
 }
 footer i.fab,
 .footer-content h1 i.fab,

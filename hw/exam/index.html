@@ -10,41 +10,43 @@
 </head>
 <body>
     <header class="site-header">
-        <h1>Bhromaon</h1>
-        <p>Safe Travel Anywhere</p>
-            <form action="page search">
-                <div class="site-header__search-form">
-                    <input type="search" id="site-search" name="q" value="Search Your Travel Destination" aria-label="Search Your Travel Destination">
-                    <button>Search</button>
-                </div>
-            </form> 
-
-        <div class="site-header__menu">
-            <p class="logo">Bhromaon</p>
-                <nav class="main-navigation">
-                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
-                    <div class="main-navigation__container">
-                        <ul class="menu nav-menu">
-                            <li class="menu-item"> 
-                                <a href="#">Who We Are</a>
-                            </li>
-                            <li class="menu-item"> 
-                                <a href="#">What We Do</a>
-                            </li>
-                            <li class="menu-item"> 
-                                <a href="#">Travel With Us</a>
-                            </li>
-                            <li class="menu-item"> 
-                                <a href="#">Contact Us</a>
-                            </li>
-                        </ul>
+        <div class="site-heade__content">
+            <h1>Bhromaon</h1>
+            <p>Safe Travel Anywhere</p>
+                <form action="page search">
+                    <div class="site-header__search-form">
+                        <input type="search" id="site-search" name="q" value="Search Your Travel Destination" aria-label="Search Your Travel Destination">
+                        <button><span> Search <i class="fas fa-search" id="search" ></i></span></button>
                     </div>
-                </nav>
-
-                <a href="#scroll"><button class="scroll">Scroll down</button></a>
-           </div>
-           
+                </form> 
+        </div>
     </header>
+        <section class="header-nav">
+            <div class="site-header__menu">
+                <p class="logo">Bhromaon</p>
+                    <nav class="main-navigation">
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+                        <div class="main-navigation__container">
+                            <ul class="menu nav-menu">
+                                <li class="menu-item"> 
+                                    <a href="#">Who We Are</a>
+                                </li>
+                                <li class="menu-item"> 
+                                    <a href="#">What We Do</a>
+                                </li>
+                                <li class="menu-item"> 
+                                    <a href="#">Travel With Us</a>
+                                </li>
+                                <li class="menu-item"> 
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                <a href="#scroll"><button class="scroll">Scroll down</button></a>
+            </div>
+        </section>
+    
 
     <section class="why-choose-us" id="scroll">
         <div class="why-choose-us__content">
@@ -67,15 +69,15 @@
     <section class="booking-steps">
         <div class="booking-steps__content">
             <div class="search">
-                <img src="" alt="search icon">
+                <i class="fas fa-search" id="search" ></i>
                 <p>Search Places</p>
             </div>
             <div class="select">
-                <img src="" alt="select icon">
+                <i class="far fa-check-circle" id="select"></i>
                 <p>Select Places</p>
             </div>
             <div class="book">
-                <img src="" alt="book icon">
+                <i class="far fa-thumbs-up" id="book" ></i>
                 <p>Book & Enjoy</p>
             </div>
         </div>
@@ -83,36 +85,44 @@
 
     <section class="pool" id="searchpool">
         <div class="pool__info">
-            <p>Spain</p>
-            <h1>GRAND SPAIN MADRID</h1>
-            <p>But I must explain to you how all this mistaken idea of 
-               account to denouncing pleasure and praising pain was account
-               born and I account will give you a complete </p>
-            <input type="button" value="BOOK NOW">
+            <div class="info__block">
+                <p>Spain</p>
+                <h1>GRAND SPAIN MADRID</h1>
+                <p>But I must explain to you how all this mistaken idea of 
+                account to denouncing pleasure and praising pain was account
+                born and I account will give you a complete </p>
+                <input type="button" value="BOOK NOW">
+            </div>
         </div>
     </section>
 
     <section class="mountain">
-        <div class="mountain__info">
-            <p>Spain</p>
-            <h1>GRAND SPAIN MADRID</h1>
-            <p>But I must explain to you how all this mistaken idea of 
-               account to denouncing pleasure and praising pain was account
-               born and I account will give you a complete </p>
-            <input type="button" value="BOOK NOW">
+        <div class="mountain__info info">
+            <div class="info__block">
+                <p class="country">Spain</p>
+                <h1>GRAND SPAIN MADRID</h1>
+                <p>But I must explain to you how all this mistaken idea of 
+                account to denouncing pleasure and praising pain was account
+                born and I account will give you a complete </p>
+                <input type="button" value="BOOK NOW">
+           </div>
         </div>
     </section>
 
     <section class="testimonial">
-        <h1>What Our  Tourist Say</h1>
-        <div class="testimonial_content">
-            <img src="img/review-bg.png" alt="man with backpack in mountainsd">
-            <h2>SAM SUMON</h2>
-            <q> But I must explain to you how all this mistaken idea of account to denouncin
-                pleasure and praising pain  But I must explain to you how all this mistaken idea 
-                of account to nai denouncing pleasure and praising pain was account  born 
-                and I account will give you a complete account of the system was account  born 
-                and I account will </q>
+        <h1>What Our Tourist Say</h1>
+        <div class="testimonial__container">
+            <div class="testimonial-container__content__img">
+                <img src="img/review.png" alt="man with backpack in mountains">
+            </div>
+            <div class="testimonial__container__content-text">
+                <h2>SAM SUMON</h2>
+                <p>  But I must explain to you how all this mistaken idea of account to denouncin
+                    pleasure and praising pain  But I must explain to you how all this mistaken idea 
+                    of account to nai denouncing pleasure and praising pain was account  born 
+                    and I account will give you a complete account of the system was account  born 
+                    and I account will </p>
+            </div>
         </div>
     </section>
    

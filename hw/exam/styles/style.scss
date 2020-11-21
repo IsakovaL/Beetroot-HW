@@ -1,6 +1,7 @@
-@import url("style.scss");
+@import url("style.css");
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +17,61 @@ html {
 
 // -------------------HEADER--------------
 
+.site-header {
+    background-image: url("../../img/header-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
+    text-align: center;
 
+    .site-heade__content {
+        padding-top: 265px;
+        padding-bottom: 290px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 48px;
+        
+    }
+    p {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    input {
+        color: #999999;
+        font-size: 14px;
+        height: 3.529vw;
+        width: 29.412vw;
+        padding: 0 100px;
+    }
+    .site-header__search-form {
+        padding-top: 50px;
+        
+    }
+    button {
+        height: 3.529vw;
+            /* width: 8.529vw; */
+        padding-left: 30px;
+        padding-right: 15px;
+        color: $white;
+        background-color: $blue;
+        border: 2px solid $white;
+        font-size: 14px;
+        text-transform: uppercase;
+       text-align: center;
+   
+    }
+    i {
+        padding-left: 15px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+// -------------------HEADER-NAVIGATION--------------
 
 
 // ---------------Section class="why-choose-us"--------------
@@ -25,22 +80,206 @@ html {
 
 // ---------------Section class="booking-steps"--------------
 
+.booking-steps {
+    background-color: $bg-br;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
+    text-align: center;
 
+   .booking-steps__content {
+       display: flex;
+       justify-content: space-evenly;
+       padding-top: 100px;
+       padding-bottom: 115px;
+   }
+   i {
+       color: $blue;
+       font-size: $FontSize36;
+       
+   }
+
+   i:hover {
+       color: #ff6363;
+   }
+   p {
+       font-family: $Aleo;
+       font-size: $FontSize36;
+       position: relative;
+       padding-top: 30px;
+   }
+
+   .select::before {
+        content: " ";
+        border-top: 2px dotted #757575;
+        border-radius: 60%;
+        padding-right: 30px;
+        position: absolute;
+        right: 658px;
+        width: 318px;
+   }
+   .select::after {
+
+}
+}
 
 
 // --------------Section class="pool"--------------
 
+.pool {
+    background-image: url("../../img/pool-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
 
+    .info__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        background-color: $brown;
+        opacity: 0.9;
+        width: 25.882vw;
+        padding: 0 30px 50px 30px;
+    }
+    .pool__info {
+        padding: 213px 0 100px 230px;
+    
+    }
+    input[type="button"] {
+        background-color: $blue;
+        color: $white;
+        height: 3.529vw;
+        width: 13.235vw;
+        margin-top: 50px;
+        font-family: $Aleo;
+        font-size: $FontSize16;
+    }
+    p {
+        padding-top: 30px;
+        font-size: $FontSize16;
+    }
+    h1 {
+        padding-top: 30px; 
+        font-size: $FontSize20;
+    }
+    p.country {
+        padding-top: 50px;
+    }
+}
 
 
 // --------------Section class="mountain"--------------
+.mountain {
+    background-image: url("../../img/sunset-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
 
+    .info__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        background-color: $brown;
+        opacity: 0.9;
+        width: 25.882vw;
+        padding: 0 30px 50px 30px;
+    }
+    .mountain__info {
+        display: flex;
+        justify-content: flex-end;
+        padding: 230px 330px 100px 0;
+    }
+    input[type="button"] {
+        background-color: $blue;
+        color: $white;
+        height: 3.529vw;
+        width: 13.235vw;
+        margin-top: 50px;
+        font-family: $Aleo;
+        font-size: $FontSize16;
+    }
+    p {
+        padding-top: 30px;
+        font-size: $FontSize16;
+    }
+    h1 {
+        padding-top: 30px; 
+        font-size: $FontSize20;
+    }
+    p.country {
+        padding-top: 50px;
+    }
+}
 
 
 
 // --------------Section class="testimonial"--------------
 
+.testimonial {
+    background-image: url("../../img/backpack-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
+    
+p::before {
+    font-family: "Font Awesome 5 Free";
+   content: "\f10d";
+   padding: 0px 15px 20px 0px;
+   vertical-align: middle;
+   font-weight: 900;
+   font-size: $FontSize20;
+   color: $blue;
+   
+}
+     h1 {
+        font-size: $FontSize36;
+        font-family: $Aleo;
+        text-align: center;
+        padding-top: 120px;
+        
+    }
 
+    .testimonial__container {
+        display: flex;
+        flex-direction: row;
+        padding: 250px 0 200px 0;
+        justify-content: center;
+    }
+    .testimonial__container__content-text {
+        background-color: $bg-br;
+        width: 39.118vw;
+        text-align: left;
+    }
+
+    h2 {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+        font-size: $FontSize20;
+        
+    }
+    p {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        font-size: $FontSize16;
+        
+    }
+    
+    // .testimonial-container__content__img {
+    //     width: 25.882vw;
+
+    // }
+    // img {
+    //     width: 100%;
+    //     height: 16.471vw;
+    // }
+}
 
 
 // -------------------FOOTER--------------
@@ -51,6 +290,7 @@ footer,
     background-color: black;
     color: $white;
     font-family: $JosefinSans;
+    margin-top: -1px;
 
 
     i.fab  {
