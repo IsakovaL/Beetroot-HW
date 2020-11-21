@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form p {
+    color: #3671fd;
+    font-size: 50px;
+    line-height: 98px;
+    color: #3677fd;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+
+.contact-form {
+    width: 810px;
+    margin: 0 auto;
+    border: 1px solid #b6bfc9;
+    flex-direction: column;
+    position: relative;
+}
+i {
+    color: #3677fd;
+    font-size: 28px;
+    font-weight: 100;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    height: 45px;
+    width: 515px;
+
+}
+
+textarea {
+    height: 180px;
+    width: 515px;
+}
+input[type="submit"],
+ {
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+    margin: 45px 0 60px 0;
+    background-color: #3677fd;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+input[type="text"],
+textarea,
+#name:focus,
+textarea:focus{
+    margin-top: 15px;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #b6bfc9;
+}
+
+input:focus {
+    border-color: transparent;
+    border-radius: 7px;
+}
