@@ -24,7 +24,7 @@ html {
 }
 .site-header .site-heade__content {
   padding-top: 265px;
-  padding-bottom: 290px;
+  padding-bottom: 135px;
   margin: 0 auto;
 }
 .site-header h1 {
@@ -44,7 +44,7 @@ html {
 .site-header .site-header__search-form {
   padding-top: 50px;
 }
-.site-header button {
+.site-header button.header-search {
   height: 3.529vw;
   /* width: 8.529vw; */
   padding-left: 30px;
@@ -56,9 +56,104 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
+.site-header button.scroll {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Josefin Sans";
+  padding-top: 130px;
+}
+.site-header button.scroll img {
+  height: 20px;
+}
 .site-header i {
   padding-left: 15px;
   font-size: 20px;
+}
+
+.header-nav {
+  background-color: #5474fd;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header-nav .menu-item a {
+  font-size: 14px;
+  font-family: "Aleo";
+  color: #fff;
+  text-decoration: none;
+}
+.header-nav .menu-toggle {
+  display: none;
+}
+.header-nav ul.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-nav .main-navigation__container ul li {
+  padding-left: 40px;
+}
+.header-nav li {
+  list-style: none;
+}
+.header-nav .site-header__menu {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-around;
+  align-items: self-end;
+}
+
+.why-choose-us {
+  background-image: url("../../img/recharge-bg.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: "Josefin Sans";
+  display: flex;
+  flex-direction: row;
+  line-height: 26px;
+}
+.why-choose-us .why-choose-us__content {
+  display: flex;
+  flex-direction: column;
+  width: 31.765vw;
+  padding: 0 0 135px 0px;
+  margin-left: 330px;
+}
+.why-choose-us .why-choose-us__content p.top-p {
+  padding-top: 65px;
+}
+.why-choose-us .why-choose-us__content p {
+  padding-top: 40px;
+}
+.why-choose-us button {
+  background-color: #5474fd;
+  color: #fff;
+  height: 3.529vw;
+  width: 13.235vw;
+  margin-top: 50px;
+  font-family: "Aleo";
+  font-size: 16px;
+}
+.why-choose-us button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Aleo";
+}
+.why-choose-us .why-choose-us__images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  /* max-width: 22.059vw; */
+  padding-left: 40px;
+}
+.why-choose-us .why-choose-us__images img {
+  width: 100%;
+}
+.why-choose-us h1 {
+  padding-top: 200px;
 }
 
 .booking-steps {

@@ -27,7 +27,7 @@ html {
 
     .site-heade__content {
         padding-top: 265px;
-        padding-bottom: 290px;
+        padding-bottom: 135px;
         margin: 0 auto;
     }
     h1 {
@@ -49,7 +49,7 @@ html {
         padding-top: 50px;
         
     }
-    button {
+    button.header-search {
         height: 3.529vw;
             /* width: 8.529vw; */
         padding-left: 30px;
@@ -62,6 +62,19 @@ html {
        text-align: center;
    
     }
+
+   button.scroll {
+       background-color: transparent;
+       border: 1px solid transparent;
+       color: $white;
+       font-size: 14px;
+       font-family: $JosefinSans;
+       padding-top: 130px;
+
+         img {
+             height: 20px;
+         }
+   }
     i {
         padding-left: 15px;
         font-size: 20px;
@@ -72,10 +85,100 @@ html {
 
 
 // -------------------HEADER-NAVIGATION--------------
+.header-nav {
+    background-color: $blue;
+    color: $white;
+    text-transform: uppercase;
 
+.menu-item a {
+    font-size: 14px;
+    font-family: $Aleo;
+    color: $white;
+    text-decoration: none;
+}
+.menu-toggle {
+    display: none;
+}
+
+ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-navigation__container ul li {
+    padding-left: 40px;
+}
+
+li {
+    list-style: none;
+}
+.site-header__menu {
+    display: flex;
+  padding: 30px 0;
+    justify-content: space-around;
+    align-items: self-end;
+}
+
+}
 
 // ---------------Section class="why-choose-us"--------------
+.why-choose-us {
+    background-image: url("../../img/recharge-bg.png");
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-family: $JosefinSans;
+    display: flex;
+    flex-direction: row;
+    line-height: 26px;
 
+    .why-choose-us__content {
+        display: flex;
+        flex-direction: column;
+        width: 31.765vw;
+        padding: 0 0 135px 0px;
+        margin-left: 330px;
+    }
+    .why-choose-us__content p.top-p {
+        padding-top: 65px;
+    }
+    .why-choose-us__content p {
+        padding-top: 40px;
+    }
+    button {
+        background-color: $blue;
+        color: $white;
+        height: 3.529vw;
+        width: 13.235vw;
+        margin-top: 50px;
+        font-family: $Aleo;
+        font-size: $FontSize16;
+    }
+    button a {
+        color: $white;
+        text-decoration: none;
+        font-size: $FontSize16;
+        font-family: $Aleo;
+    }
+
+    .why-choose-us__images {
+        display: flex;
+    flex-direction: column;
+    padding-top: 115px;
+    /* max-width: 22.059vw; */
+  
+    padding-left: 40px;
+    
+
+        img {
+            width: 100%;
+        }
+    }
+    h1 {
+        padding-top: 200px;
+    }
+}
 
 
 // ---------------Section class="booking-steps"--------------
