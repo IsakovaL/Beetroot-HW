@@ -76,7 +76,7 @@ html {
        padding-top: 130px;
 
          img {
-             height: 20px;
+             height: 70px;
          }
    }
     i {
@@ -243,7 +243,7 @@ li {
 
 .pool {
     background-image: url("../../img/pool-bg.png");
-    background-size: cover;
+    background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
     color: $white;
@@ -288,7 +288,7 @@ li {
 // --------------Section class="mountain"--------------
 .mountain {
     background-image: url("../../img/sunset-bg.png");
-    // background-size: cover;
+    background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
     color: $white;
@@ -336,7 +336,7 @@ li {
 
 .testimonial {
     background-image: url("../../img/backpack-bg.png");
-    background-size: cover;
+    background-size: inherit;
     background-position: center;
     background-repeat: no-repeat;
     color: $white;
@@ -522,7 +522,11 @@ p.logo {
         font-size: 14px;
         padding-left: 25px;
     }
-
+    .site-header .site-heade__content {
+        padding-top: 85px;
+        padding-bottom: 35px;
+        margin: 0 auto;
+    }
     .site-header button.header-search {
         width: 100%;
         height: 100%;
@@ -614,3 +618,130 @@ p.logo {
 }
 
 
+@media screen and (max-width: 320px)  {
+    .pool .pool__info {
+        padding: 40px 10px;
+
+    }
+
+    .info__block {
+        padding: 20px 10px 20px 10px;
+
+    }
+    .pool p {
+        padding-top: 10px;
+    }
+
+    .pool h1 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .pool .info__block {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .pool input[type=button] {
+        font-size: 12px;
+        margin-top: 10px;
+        height: 4vh;
+        width: 14vh;
+    }
+
+    .why-choose-us .why-choose-us__container {
+        text-align: center;
+        flex-direction: column;
+        width: 90%;
+    }
+       
+    .why-choose-us .why-choose-us__content {
+        padding: 0;
+    }
+
+    .why-choose-us button {
+        height: 9.529vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .why-choose-us .why-choose-us__images {
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 50px; */
+        width: 101%;
+        /* max-width: 100%; */
+        padding-left: 0 !important;
+        margin: 0 auto;
+    }
+    .why-choose-us .why-choose-us__content p.top-p {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .why-choose-us .why-choose-us__content p {
+        padding-top: 10px;
+        font-size: 14px;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .why-choose-us .why-choose-us__images img#mt-blue {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    img#lake {
+        width: 100%;
+    }
+
+    .booking-steps p {
+        font-size: 14px;
+        padding-top: 7px;
+    }
+
+    .booking-steps .booking-steps__content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .site-header .site-heade__content {
+        padding-top: 25px;
+    padding-bottom: 0px;
+    }
+
+    .site-header button.scroll {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .site-header button.scroll img {
+        height: 45px;
+    }
+
+    .testimonial-container__content__img img {
+        width: 100%;
+    }
+
+    .site-header input {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 0px;
+    }
+
+    .site-header .site-header__search-form {
+        padding-top: 20px;
+    }
+
+    .site-header p {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}
