@@ -48,6 +48,8 @@ html {
         padding-top: 50px;
         
     }
+
+     
     button.header-search {
         height: 3.529vw;
             /* width: 8.529vw; */
@@ -59,7 +61,7 @@ html {
         font-size: 14px;
         text-transform: uppercase;
        text-align: center;
-       margin-left: -2px;
+       cursor: pointer;
     }
 .site-header__search-form__container {
     display: flex;
@@ -172,9 +174,9 @@ li {
     .why-choose-us__images {
            /* display: flex; */
     flex-direction: row;
-    // padding-top: 115px;
-    /* max-width: 82%; */
-    /* width: 113vw; */
+    //  padding-top: 115px;
+    //  max-width: 82%; 
+    //  width: 113vw; 
     padding-left: 40px;
     
 
@@ -336,7 +338,7 @@ li {
 
 .testimonial {
     background-image: url("../../img/backpack-bg.png");
-    background-size: inherit;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: $white;

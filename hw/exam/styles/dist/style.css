@@ -56,7 +56,7 @@ html {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
-  margin-left: -2px;
+  cursor: pointer;
 }
 .site-header .site-header__search-form__container {
   display: flex;
@@ -154,8 +154,6 @@ html {
 .why-choose-us .why-choose-us__images {
   /* display: flex; */
   flex-direction: row;
-  /* max-width: 82%; */
-  /* width: 113vw; */
   padding-left: 40px;
 }
 .why-choose-us .why-choose-us__images img#mt-blue {
@@ -287,7 +285,7 @@ html {
 
 .testimonial {
   background-image: url("../../img/backpack-bg.png");
-  background-size: inherit;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
