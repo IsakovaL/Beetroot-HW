@@ -41,7 +41,18 @@ switch(number) {
 }
 
 // 3 Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.
+let nmbr = prompt("enter number from 100 to 999");
+nmbr = "nmbr";
 
+let num1 = nmbr[0];
+let num2 = nmbr[1];
+let num3 = nmbr[2];
+
+let sum1 = num1 + num2;
+let sum2 = num1 + num3;
+if ( sum1 = sum2) {
+    alert()
+}
 
 
 // 4 Запросить у пользователя год и проверить, високосный он или нет. Високосный год либо кратен 400, либо кратен 4 и при этом не кратен 100.
@@ -85,9 +96,15 @@ let price = prompt('Enter the price');
 
 // 8 Запросить у пользователя длину окружности и периметр квадрата. Определить, может ли такая окружность поместиться в указанный квадрат.
 
-let okrujnost = prompt('enter dlinu okrujnosti');
-let P = prompt('enter P of square');
-if ()
+let circleOkrujnost = prompt('enter dlinu okrujnosti');
+let perimetr = prompt('enter Perimetr of square');
+let sqSideHeight = p / 4;
+let circleDiametr = circleOkrujnost / PI;
+if (circleDiametr <= sqSideHeight) {
+    alert("correct");
+} else {
+    alert("wrong");
+}
 
 // 9 Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа. За каждый правильный ответ начисляется 2 балла. После вопросов выведите пользователю количество набранных баллов.
 
