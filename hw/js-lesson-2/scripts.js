@@ -51,7 +51,7 @@ let num3 = nmbr[2];
 let sum1 = num1 + num2;
 let sum2 = num1 + num3;
 if ( sum1 = sum2) {
-    alert()
+    alert("no")
 }
 
 

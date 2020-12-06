@@ -134,8 +134,7 @@ while (true) {
   if (!confirm('Monday. Do you want to see next day of the week?')) {
     break;
   }
- 
- 
+  
   if(!confirm('Tuesday. Do you want to see next day of the week?')) {
     break;
   }
@@ -168,3 +167,26 @@ while (true) {
 //  цикла делите диапазон чисел пополам, записываете результат в N и спрашиваете у пользователя «Ваше число > N, < N или == N?». 
 //  В зависимости от того, что указал пользователь, уменьшаете диапазон. Начальный диапазон от 0 до 100, поделили пополам и получили 50. 
 //  Если пользователь указал, что его число > 50, то изменили диапазон на от 51 до 100. И так до тех пор, пока пользователь не выберет == N.
+
+let yourNum = prompt("choose number from 0 to 100");
+
+let N;
+let topBorder = 100;
+let bottom = 0;
+
+
+while(true) {
+  
+  N = Math.round((topBorder + bottom) / 2); //50, 
+  if (confirm(`Ваше число == ${N} ?`)) {
+    alert("End");
+    break;
+  } 
+  
+  if(confirm(`Ваше число > ${N} ?`)) {
+    bottom = N;
+  } else {
+    topBorder = N;
+  }
+}
+
