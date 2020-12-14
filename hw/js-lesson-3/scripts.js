@@ -169,11 +169,14 @@ while (true) {
 
 // 9 Вывести таблицу умножения для всех чисел от 2 до 9. Каждое число необходимо умножить на числа от 1 до 10.
 for ( let i = 2; i <= 9; i++) {
-  console.log(i ${i}); 
+
+  console.log(`i ${i}`); 
+
   for ( let j = 1; j <= 10; j++) {
+    
   console.log('j', j);
  
-    console.log( ${i} * ${j} = ${ i * j} );
+    console.log( `${i} * ${j} = ${ i * j}` );
 }
 }
 
@@ -204,3 +207,36 @@ while(true) {
   }
 }
 
+// рекурсия
+// function guessNumber(bottomNumber, topNumber) {
+
+//   let avarageNumber = Math.round((bottomNumber + topNumber) / 2);
+
+//   if(confirm(`is your number == ${avarageNumber}`)) {
+//     return avarageNumber;
+//   }
+//   if(confirm(`is your number > ${avarageNumber}`)) {
+//     return guessNumber(avarageNumber, topNumber);
+//   } else {
+//     return guessNumber(bottomNumber, avarageNumber);
+//   }
+// }
+// let answer = guessNumber(0, 100);
+// console.log(answer);
+
+//замыкание 
+// function dividerFactory(number) {
+//   let divider = number;
+
+//   return function(numberToDivide) {
+//     return numberToDivide / divider; 
+//   }
+// }
+
+// let divider2Function = dividerFactory(2);
+
+// console.log(divider2Function(100));
+
+// let divider3Function = dividerFactory(3);
+
+// console.log(divider3Function(30));
