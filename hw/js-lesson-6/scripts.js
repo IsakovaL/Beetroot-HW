@@ -163,12 +163,48 @@ console.log(calcSum);
 // 12 Дан массив с числами. Найдите сумму первых N элементов до первого нуля. Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем первые 3 элемента, так как дальше стоит элемент 
 // с числом 0. 
 
+
 // 13 Дан массив с числами. Найдите сумму последних N элементов до первого нуля с конца. Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем последние 3 элемента, так как 
 // дальше стоит элемент с числом 0. 
 
 // 14 Дан массив с числами. Узнайте сколько элементов с начала массива надо сложить, чтобы в сумме получилось больше 10-ти. 
 
+let array = [1,2,8,4,5,10]
+function getSums(arr) {
+  var result;
+  
+  arr.reduce(function(sum, item) {
+    if(sum > 10){
+      result = item;
+      return false
+    }
+    return sum + item;
+    }
+  );
+  result = array.indexOf(result)
+  return result;
+}
+
+console.log(getSums(array));
 // 15 Дан массив с числами. Узнайте сколько элементов с конца массива надо сложить, чтобы в сумме получилось больше 10-ти.
+
+let array = [1,2,8,4,5,10]
+function getSums(arr) {
+  var result;
+  
+  arr.reduceRight(function(sum, item) {
+    if(sum > 10){
+      result = item;
+      return false
+    }
+    return sum + item;
+    }
+  );
+  result = array.indexOf(result)
+  return result;
+}
+
+console.log(getSums(array));
 
 // Закрепление
 
