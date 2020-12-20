@@ -49,11 +49,7 @@ console.log(newArr);
 let arr = [1, 2, 3, 4, 5];
 
 let checkArr = arr.every(function(element) {
-	if (element > 0) {
-		return true;
-        } else {
-            return false;
-        }
+    return element > 0;
     }
 );
 
@@ -65,11 +61,7 @@ console.log(checkArr);
 let arr = [1, -2, 3, -4, 5];
 
 let checkArr = arr.some(function(element) {
-	if (element < 0) {
-		return true;
-        } else {
-            return false;
-        }
+    return element < 0; 
     }
 );
 
@@ -163,9 +155,34 @@ console.log(calcSum);
 // 12 Дан массив с числами. Найдите сумму первых N элементов до первого нуля. Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем первые 3 элемента, так как дальше стоит элемент 
 // с числом 0. 
 
+let arr = [1, 2, 3, 0, 4, 5, 6];
+let stopSum = 0;
+let result = arr.reduce(function(sum, elem) {
+        if (elem == 0) {
+            stopSum = sum;
+        } else {
+            return sum + elem;
+        }
+    }
+);
+
+console.log(stopSum);
 
 // 13 Дан массив с числами. Найдите сумму последних N элементов до первого нуля с конца. Пример: [1, 2, 3, 0, 4, 5, 6] - суммируем последние 3 элемента, так как 
 // дальше стоит элемент с числом 0. 
+
+let arr = [1, 2, 3, 0, 4, 5, 6];
+let stopSum = 0;
+let result = arr.reduceRight(function(sum, elem) {
+        if (elem == 0) {
+            stopSum = sum;
+        } else {
+            return sum + elem;
+        }
+    }
+);
+
+console.log(stopSum);
 
 // 14 Дан массив с числами. Узнайте сколько элементов с начала массива надо сложить, чтобы в сумме получилось больше 10-ти. 
 
@@ -186,6 +203,7 @@ function getSums(arr) {
 }
 
 console.log(getSums(array));
+
 // 15 Дан массив с числами. Узнайте сколько элементов с конца массива надо сложить, чтобы в сумме получилось больше 10-ти.
 
 let array = [1,2,8,4,5,10]
