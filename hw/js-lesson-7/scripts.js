@@ -45,7 +45,17 @@ showInfo(renault);
 
 // 3. Создать объект, описывающий время (часы, минуты, секунды), и следующие функции для работы с этим объектом: 
 
+let time = [
+{
+    hour: 9,
+    minutes: 20,
+    seconds: 45
+}
+];
+
+
 //-- Функция вывода времени на экран;
+
 
 //-- Функция изменения времени на переданное количество секунд;
 
@@ -85,6 +95,20 @@ let shoppingList = [
 
 // --Вывод всего списка на экран таким образом, чтобы сначала шли некупленные продукты, а потом – купленные.
 
+function filterByStatus(arr, status) {
+    let newArrOrder = arr.filter(function(item){
+  return item.bought == status;
+  
+          }
+      );
+      return newArrOrder ;
+  };
+  
+let notBought = filterByStatus(shoppingList, false);
+let bought = filterByStatus(shoppingList, true);
+
+console.log(notBought);
+console.log(bought);
 
 // --Добавление покупки в список. Учтите, что при добавлении покупки с уже существующим в списке продуктом, необходимо увеличивать количество
 // в существующей покупке, а не добавлять новую.
@@ -98,7 +122,28 @@ let shoppingList = [
 //состоящий из двух свойств: название стиля и значение стиля. Написать функцию, которая принимает массив стилей и текст, и выводит 
 //этот текст с помощью document.write() в тегах <p></p>, добавив в открывающий тег атрибут style со всеми стилями, перечисленными в массиве.
 
-
+let style = [
+    {
+      propertyName: color,
+      propertyValue: red
+    },
+    {
+      propertyName: font-size,
+      propertyValue: 20
+    }  
+  ]
+  
+  function textStyle(style, text) {
+    let string = "";
+    for (let element of style) {
+      string += `${element.propertyName}:${element.propertyValue}`;
+  }
+    console.log(string);
+    document.write("<p style=${string}>${text}</p>")
+  }
+  
+  
+  textStyle(style, askdasdlkasdjl);
 
 // 6. Создать массив аудиторий академии. Объект-аудитория состоит из названия, количества посадочных мест (от 10 до 20) и названия факультета, для которого она 
 //предназначена. Написать несколько функций для работы с ним^
