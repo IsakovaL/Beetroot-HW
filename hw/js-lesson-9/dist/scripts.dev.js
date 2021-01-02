@@ -50,3 +50,54 @@ var modal = $modal();
 findBtn.addEventListener('click', function () {
   modal.show();
 }); // 3. Создать HTML-страницу со светофором и кнопкой, которая переключает светофор на следующий цвет.
+
+var traffic_button = document.querySelector('.traffic-button');
+
+if (traffic_button) {
+  traffic_button.addEventListener('click', traffic, false);
+}
+
+var clicks = 0;
+
+function traffic() {
+  var lights = document.querySelectorAll(this.dataset.lights + ' .color');
+
+  if (lights.length !== clicks) {
+    switch (clicks) {
+      case 0:
+        offLights();
+        lights[clicks].classList.add('active');
+        clicks++;
+        break;
+
+      case 1:
+        offLights();
+        lights[clicks - 1].classList.add('active');
+        lights[clicks].classList.add('active');
+        clicks++;
+        break;
+
+      case 2:
+        offLights();
+        lights[clicks].classList.add('active');
+        clicks++;
+        break;
+
+      default:
+        break;
+    }
+  } else {
+    offLights();
+    clicks = 0;
+  }
+
+  function offLights() {
+    for (var i = 0; i < lights.length; i++) {
+      var element = lights[i];
+
+      if (element.classList.contains('active')) {
+        element.classList.remove('active');
+      }
+    }
+  }
+}
