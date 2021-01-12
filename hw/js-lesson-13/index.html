@@ -6,7 +6,16 @@
   <title>A Great Demo on CodePen</title>
 </head>
 <body>
-  
-    <script src="scripts.js"></script>
+    <label for="movie-name">Enter film name</label>
+    <input type="text" id="movie-name">
+    <select name="" id="movie-type">
+        <option value="movie">movie</option>
+        <option value="series">series</option>
+        <option value="episode">episode</option>
+    </select>
+    <button onclick="onClickHandler()">Search</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>

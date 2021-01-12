@@ -1,36 +1,31 @@
+"use strict";
+
 function onClickHandler() {
-let filmName = $("#movie-name").val();
-let filmType = $("#movie-type").children("option:selected").val();
+  var filmName = $("#movie-name").val();
+  var filmType = $("#movie-type").children("option:selected").val();
+  var url = "http://www.omdbapi.com/?apikey=e5d14904&s=" + filmName + "&type=" + filmType;
+  var xhttp = new XMLHttpRequest();
 
-let url = "http://www.omdbapi.com/?apikey=e5d14904&s=" + filmName + "&type=" + filmType;
-
-let xhttp = new XMLHttpRequest();
-
-xhttp.onreadystatechange = function() {
+  xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-        debugger;
-        
-        let resp = JSON.parse(this.responseText);
-        debugger;
-        if (resp.totalResults == 0) {
-            alert("no movies");
-            return;
-        }
+      debugger;
+      var resp = JSON.parse(this.responseText);
+      debugger;
 
-        let filmsList = resp.Search;
-      } 
-     
+      if (resp.totalResults == 0) {
+        alert("no movies");
+        return;
+      }
+
+      var filmsList = resp.Search;
+    }
+  };
+
+  xhttp.open("GET", url, true);
+  xhttp.send();
 }
 
-xhttp.open("GET", url, true);
-xhttp.send();
-}
-
-function renderFilms(arr) {
-    
-}
-
-//"{"Search":[{"Title":"Friends","Year":"1994–2004","imdbID":"tt0108778","Type":"series",
+function renderFilms(arr) {} //"{"Search":[{"Title":"Friends","Year":"1994–2004","imdbID":"tt0108778","Type":"series",
 // "Poster":"https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"},
 // {"Title":"Foster's Home for Imaginary Friends","Year":"2004–2009","imdbID":"tt0419326","Type":"series",
 // "Poster":"https://m.media-amazon.com/images/M/MV5BNjYyNGFjOTctYzFmNC00NzdmLThhMDgtNjEzZTRmNzA3ODc5XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg"},
