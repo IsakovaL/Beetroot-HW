@@ -1,4 +1,6 @@
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,27 +28,43 @@ body {
 
 
 
-.slick-slider {
- 
-  width: 100%;  
-}
+
 /* --------header----- */
 .header {
     width: 100%;
-    background-image: url("../img/monticello.png");
+    background-color: #756af8;
     background-size: cover;
     height: 30vh;
 }
+
 .logo {
-    width: 20%;
+    
     float: left;
 }
-
-/* ---------nav------------ */
-.main-navigation {
-
-	padding: 28px 0 24px;
+header li {
+    list-style: none;
+    color: white;
 }
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    
+}
+ul {
+    color: white;
+}
+/* ---------nav------------ */
+.social_list li {
+    list-style: none;
+    padding-left: 20px !important;
+}
+.social_list {
+    margin-left: 80px;
+}
+.main-navigation {
+    padding-top: 60px;
+}
+    
 .main-navigation .container,
 .social_list {
     display: flex;
@@ -58,15 +76,14 @@ ul.nav-menu {
     flex-direction: row;
 }
 ul.nav-menu li {
-	padding-left: 40px;
-}
-ul.nav-menu li {
-	text-transform: uppercase;
+	padding-left: 68px;
 }
 
 ul.nav-menu li a {
-	font-size: 14px;
-	font-family: "Aleo";
+        font-size: 14px;
+        font-family: "Aleo";
+        text-transform: uppercase;
+        font-family: "Gotham";
 }
 .burger-check {
     display: none;
@@ -74,6 +91,7 @@ ul.nav-menu li a {
     right: 29px;
 }
 .burger {
+    color: white;
   display: inline-block;
   border: 0;
   background: none;
@@ -152,4 +170,140 @@ ul.nav-menu li a {
 		display: none;
 	}
 }
+@media screen and (max-width: 768px) {
+	ul.nav-menu {
+		display: none;
+	    overflow: hidden;
+	    max-height: 0;
+	    -webkit-transition: max-height 0.5s ease-in-out;
+	    transition: max-height 0.5s ease-in-out;
+	}
+	ul.nav-menu li {
+	    padding-left: 0;
+	}
+	ul.nav-menu li a {
+	    font-size: 13px;
+	}
+}
+/* ---------slider--------- */
+.slick-slider {
+ 
+    width: 100%;  
+  }
+/* --------gallery------ */
 
+#grid { 
+    
+    display: grid;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: 215px 215px 215px;
+  gap: 10px 10px;
+  grid-template-areas: 
+    "post-1 post-1 post-2 post-3"
+    "post-1 post-1 post-4 post-5"
+    "post-6 post-7 post-8 post-9";
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+  }
+  .post-1 {
+    grid-column: 1/2; 
+    grid-row: 1/2;
+  }
+  .post-2 {
+    grid-column: 3; 
+    grid-row: 1;
+  }
+  .post-3 {
+    grid-column: 4; 
+    grid-row: 1;
+  }
+  .post-4 {
+    grid-column: 3; 
+    grid-row: 2;
+  }
+  .post-5 {
+    grid-column: 4; 
+    grid-row: 2;
+  }
+  .post-6 {
+    grid-column: 1; 
+    grid-row: 3;
+  }
+  .post-7 {
+    grid-column: 2; 
+    grid-row: 3;
+  }
+  .post-8 {
+    grid-column: 3; 
+    grid-row: 3;
+  }
+  .post-9 {
+    grid-column: 4; 
+    grid-row: 3;
+  }
+  h2 {
+    padding: 180px 0  50px 0;
+    text-align: center;
+    font-size: 44px;
+    color: #2c4058;
+    font-family: "Gotham";
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url("../css/fonts/GothamMedium.woff") format("woff");
+           
+   }
+
+   button.see-more {
+       
+       margin: 60px 0 135px  45.5%;
+       width: 9%;
+       height: 5vh;
+       font-size: 0.875rem;
+background-color: white;
+color: #2c4058;
+text-transform: uppercase;
+font-family: "Gotham";
+   }
+
+
+   /* ----------footer--------- */
+
+   footer {
+       background-color: #55b6ff;
+   }
+footer p {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    color: white;
+}
+   .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+    
+    
+}
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    padding-left: 80px;
+    max-width: 770px;
+    margin: 0 auto;
+}
+.footer-text p {
+padding-left: 20px;
+}
+#with-decoration::before {
+    content: "";
+    border-left: white 2px solid;
+    height: 50px;
+    padding-left: 20px;
+}

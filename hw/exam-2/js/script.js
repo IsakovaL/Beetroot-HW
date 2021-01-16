@@ -9,3 +9,11 @@ $(document).ready(function(){
       autoplaySpeed:1000
     });
   });
+
+
+  $('[data-fancybox="gallery"]').fancybox({
+	loop: true,
+    buttons: [
+    "close"
+  ],
+});
