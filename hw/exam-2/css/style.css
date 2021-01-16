@@ -256,7 +256,7 @@ ul.nav-menu li a {
    }
 
    button.see-more {
-       
+       cursor: pointer;
        margin: 60px 0 135px  45.5%;
        width: 9%;
        height: 5vh;
