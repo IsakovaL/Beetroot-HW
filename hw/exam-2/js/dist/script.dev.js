@@ -13,6 +13,18 @@ $(document).ready(function () {
 $('[data-fancybox="gallery"]').fancybox({
   loop: true,
   buttons: ["close"]
+});
+$('.nav__link').on('click', function () {
+  var section = $(this).attr('href');
+  var top = $(section).offset().top - 100;
+  $('html, body').animate({
+    scrollTop: top
+  }, 1000);
+});
+$('.up').click(function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1000);
 }); // Initialize and add the map
 
 function initMap() {

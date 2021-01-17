@@ -19,6 +19,22 @@ $(document).ready(function(){
 });
 
 
+
+$('.nav__link').on('click', function(){
+  let section = $(this).attr('href')
+  let top = $(section).offset().top - 100
+  $('html, body').animate({
+    scrollTop: top
+  }, 1000)
+   
+})
+
+$('.up').click(function(){
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1000)
+})
+
  // Initialize and add the map
  function initMap() {
   // The location of Uluru
