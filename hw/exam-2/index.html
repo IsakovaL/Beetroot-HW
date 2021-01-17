@@ -69,48 +69,47 @@
         <section class="gallery" id="projects">
             <div class="container">
                 <h2>Gallery</h2>
-                <div class="filter">
-
+                <div class="filter-btns">
+                    <button class="buildings-btn">buildings</button>
+                    <button class="apt-btn">apartments</button>
                 </div>
                 <div id="grid">
-                    <div class="post-1"><a href="img/1.png" data-fancybox="gallery" data-caption="Caption #1">
-                        <img src="img/1.png" alt="" /></a>
+                    <div class="post-1"><a href="img/1.png" data-fancybox="gallery" data-caption="1">
+                        <img src="img/1.png"  width="570px" height="440px" alt="" /></a>
                     </div>
-                    <div class="post-2"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-2"><a href="img/2.png" data-fancybox="gallery" data-caption="2">
+                        <img src="img/2.png" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-3"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-3"><a href="img/3.jpg" data-fancybox="gallery" data-caption="3">
+                        <img src="img/3.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-4"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-4"><a href="img/4.jpg" data-fancybox="gallery" data-caption="4">
+                        <img src="img/4.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-5"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-5"><a href="img/5.jpg" data-fancybox="gallery" data-caption="5">
+                        <img src="img/5.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-6"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-6"><a href="img/6.jpg" data-fancybox="gallery" data-caption="6">
+                        <img src="img/6.jpg" width="280px" height="215px" /></a>
                     </div>
-                    <div class="post-7"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-7"><a href="img/7.jpg" data-fancybox="gallery" data-caption="7">
+                        <img src="img/7.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-8"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-8"><a href="img/8.jpg" data-fancybox="gallery" data-caption="8">
+                        <img src="img/8.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
-                    <div class="post-9"><a href="img/2.png" data-fancybox="gallery" data-caption="Caption for single image">
-                        <img src="img/2.png" alt="" /></a>
+                    <div class="post-9"><a href="img/9.jpg" data-fancybox="gallery" data-caption="9">
+                        <img src="img/9.jpg" width="280px" height="215px" alt="" /></a>
                     </div>
                   </div>
                   <button class="see-more">See More</button>
             </div>
         </section>
-        <section class="map" id="">
-            <div class="container">
-               
-
-            </div>
+        <section class="Gmap" id="">
+            <div id="map"></div>
         </section>
-
+       
+        
 
         <footer>
             
@@ -137,7 +136,9 @@
              
              
         </footer>
-
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDniwxfpCFHZYYicVCeDvUQyFvJVjjvkOs&callback=initMap">
+    </script>
         <script src="js/jquery-3.5.1.js" type="text/javascript"></script>
         <script src="js/slick.js" type="text/javascript"></script>
 
