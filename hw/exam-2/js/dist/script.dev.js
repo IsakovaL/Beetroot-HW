@@ -4,9 +4,9 @@
 $(document).ready(function () {
   $('.slick-slider').slick({
     // infinite: true,
-    // dots:true,
+    dots: true,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000
   });
 });
@@ -19,12 +19,12 @@ $('.nav__link').on('click', function () {
   var top = $(section).offset().top - 100;
   $('html, body').animate({
     scrollTop: top
-  }, 1000);
+  }, 1500);
 });
 $('.up').click(function () {
   $('html, body').animate({
     scrollTop: 0
-  }, 1000);
+  }, 1500);
 }); // Initialize and add the map
 
 function initMap() {

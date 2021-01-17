@@ -336,3 +336,20 @@ button.apt-btn {
   height: 80vh;
   width: 100%;
 }
+
+/* -------slider-------- */
+.slick-dots {
+  position: absolute;
+  bottom: 50%;
+  left: 97%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+ 
+}
+.slick-dots li {
+  color: white;
+}
