@@ -20,6 +20,40 @@ $(document).ready(function(){
 
 
 
+$('.buildings-btn').on('click', function() {
+
+let toDisable = $('.apartment');
+
+toDisable.toArray().forEach(element =>{
+  $(element).hide();
+})
+
+let toEnable = $('.building');
+
+toEnable.toArray().forEach(element => {
+   $(element).show();
+})
+}); 
+
+
+
+$('.apt-btn').on('click', function() {
+
+let toDisable = $('.building');
+
+
+toDisable.toArray().forEach(element =>{
+  $(element).hide();
+})
+
+let toEnable = $('.apartment');
+
+toEnable.toArray().forEach(element => {
+   $(element).show();
+}); 
+})
+
+
 $('.nav__link').on('click', function(){
   let section = $(this).attr('href')
   let top = $(section).offset().top - 100
