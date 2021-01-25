@@ -14,6 +14,26 @@ $('[data-fancybox="gallery"]').fancybox({
   loop: true,
   buttons: ["close"]
 });
+$('.buildings-btn').on('click', function () {
+  var toDisable = $('.apartment');
+  toDisable.toArray().forEach(function (element) {
+    $(element).hide();
+  });
+  var toEnable = $('.building');
+  toEnable.toArray().forEach(function (element) {
+    $(element).show();
+  });
+});
+$('.apt-btn').on('click', function () {
+  var toDisable = $('.building');
+  toDisable.toArray().forEach(function (element) {
+    $(element).hide();
+  });
+  var toEnable = $('.apartment');
+  toEnable.toArray().forEach(function (element) {
+    $(element).show();
+  });
+});
 $('.nav__link').on('click', function () {
   var section = $(this).attr('href');
   var top = $(section).offset().top - 100;
@@ -43,4 +63,38 @@ function initMap() {
     position: uluru,
     map: map
   });
+} //  -----------form-----------
+
+
+function validateFormName() {
+  var x = document.forms["myForm"]["form-name"].value;
+
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+function validateFormEmail(e) {
+  var x = document.forms["myForm"]["form-email"].value;
+
+  if (x == "") {
+    alert("E-mail must be filled out");
+    e.preventDefault();
+    return false;
+  }
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = document.forms["myForm"].elements["form-email"].value;
+
+  if (reg.test(address) == false) {
+    alert('Enter correct e-mail');
+    e.preventDefault();
+    return false;
+  }
+}
+
+function onSubmit() {
+  validateFormName();
+  validateFormEmail();
 }

@@ -84,3 +84,38 @@ $('.up').click(function(){
     map: map,
   });
 }
+
+
+//  -----------form-----------
+function validateFormName() {
+  var x = document.forms["myForm"]["form-name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+function validateFormEmail(e) {
+  var x = document.forms["myForm"]["form-email"].value;
+  if (x == "") {
+    alert("E-mail must be filled out");
+    e.preventDefault();
+    return false;
+  }
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = document.forms["myForm"].elements["form-email"].value;
+
+  if(reg.test(address) == false) {
+     alert('Enter correct e-mail');
+     e.preventDefault();
+     return false;
+  }
+}
+
+
+function onSubmit() {
+  validateFormName();
+  validateFormEmail();
+
+}
