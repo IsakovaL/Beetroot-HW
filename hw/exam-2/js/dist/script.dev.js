@@ -66,11 +66,12 @@ function initMap() {
 } //  -----------form-----------
 
 
-function validateFormName() {
+function validateFormName(e) {
   var x = document.forms["myForm"]["form-name"].value;
 
   if (x == "") {
     alert("Name must be filled out");
+    e.preventDefault();
     return false;
   }
 }
@@ -86,6 +87,7 @@ function validateFormEmail(e) {
 
   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
   var address = document.forms["myForm"].elements["form-email"].value;
+  debugger;
 
   if (reg.test(address) == false) {
     alert('Enter correct e-mail');
@@ -94,7 +96,7 @@ function validateFormEmail(e) {
   }
 }
 
-function onSubmit() {
-  validateFormName();
-  validateFormEmail();
+function onSubmit(e) {
+  validateFormName(e);
+  validateFormEmail(e);
 }

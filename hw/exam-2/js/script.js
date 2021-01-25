@@ -8,6 +8,8 @@ $(document).ready(function(){
       
       autoplaySpeed:1000
     });
+   
+    
   });
 
 
@@ -87,10 +89,11 @@ $('.up').click(function(){
 
 
 //  -----------form-----------
-function validateFormName() {
+function validateFormName(e) {
   var x = document.forms["myForm"]["form-name"].value;
   if (x == "") {
     alert("Name must be filled out");
+    e.preventDefault();
     return false;
   }
 }
@@ -105,7 +108,7 @@ function validateFormEmail(e) {
 
   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
   var address = document.forms["myForm"].elements["form-email"].value;
-
+debugger;
   if(reg.test(address) == false) {
      alert('Enter correct e-mail');
      e.preventDefault();
@@ -114,8 +117,8 @@ function validateFormEmail(e) {
 }
 
 
-function onSubmit() {
-  validateFormName();
-  validateFormEmail();
+function onSubmit(e) {
+  validateFormName(e);
+  validateFormEmail(e);
 
 }
