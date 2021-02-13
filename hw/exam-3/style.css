@@ -132,6 +132,8 @@ button.start {
     background-color: #e74090;
     text-align: center;
     text-transform: uppercase;
+    border: 2px solid transparent !important;
+
 }
 button.start:focus {
     color: #333 !important;
@@ -144,12 +146,36 @@ button.start:focus {
     flex-direction: row;
     width: 80%;
     margin: 0 auto !important;
+    padding: 80px 0;
 }
 .row>* {
     width: 50% !important;
 }
-.row__right-block {
-    
+.row p {
+    font-size: 26px;
+    line-height: 32px;
+}
+.row h2 {
+    color: #e74090;
+    font-size: 42px;
+}
+.row h6 {
+    padding: 10px 0 20px 0;
+    color: grey;
+}
+
+button.about-trainer:focus {
+    border: 2px solid #642b72 !important;
+    color: #e74090 !important;
+
+}
+.delatls__container {
+    /* width: 80%; */
+    margin: 0 auto;
+    background-color: #642b72;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
 }
 /* --------FOOTER----------- */
 
