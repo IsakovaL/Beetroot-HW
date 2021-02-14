@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   font-size: 20px;
   }
   html {
     scroll-behavior: smooth;
@@ -150,6 +151,7 @@ button.start:hover {
 .about__container {
     display: flex;
     flex-direction: row;
+    text-align: left;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto !important;
@@ -182,6 +184,10 @@ button.start:hover {
         display: flex !important;
         flex-direction: column !important;
     }
+    .format__container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 320px) {
@@ -189,9 +195,13 @@ button.start:hover {
         margin: 0 auto;
         width: 70%;
     }
+    .format__container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .about__container p {
-    font-size: 26px;
+    /* font-size: 22px; */
     line-height: 32px;
 }
 .about__container h2 {
@@ -208,7 +218,6 @@ button.start:hover {
 button.about-trainer:focus {
     border: 2px solid #642b72 !important;
     color: #e74090 !important;
-
 }
 button.about-trainer:hover {
     border: 2px solid #642b72 !important;
@@ -219,14 +228,105 @@ button.about-trainer:hover {
     /* width: 80%; */
     margin: 0 auto;
     background-color: #642b72;
-    padding: 80px 20px;
+    padding: 80px 20px 10px 20px;
     text-align: center;
     color: white;
 }
 .delatls__container h2, h3 {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     color: #e74090;
 }
+
+.details__list {
+    background-color: #642b72;
+    padding-bottom: 80px;
+    color: white;
+}
+.details__list ul {
+    margin: 0 auto;
+    width: 70%;
+}
+.program-container, .about__container {
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.program-container h2, h5 {
+    text-align: center;
+    color: #e74090;
+}
+.program-container ul {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.format_container {
+  
+    padding: 20px;
+ 
+    color: white;
+    text-align: center;
+    background-color: #642b72;
+    
+}
+
+.format__grid {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-gap: 20px;
+}
+.format_container h2 {
+    padding-bottom: 30px;
+    padding-top: 60px;
+    color: #e74090;
+}
+.format__grid__grid-one, .format__grid__grid-two, .format__grid__grid-three {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.format__grid h5, h6 {
+    color: #e74090;
+}
+button.ask {
+    padding: 20px 30px;
+   
+    color: white;
+    background-color: #e74090;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid transparent !important;
+}
+button.ask:hover, button.ask:focus,
+.start-program:hover, .start-program:focus {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white !important;
+}
+.start-program {
+    padding: 20px 30px;
+   margin-bottom: 60px;
+   margin-right: 20px;
+    color: white;
+    background-color: #e74090;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid transparent !important;
+
+}
+.organization__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.organization__container h2 {
+    color: #e74090;
+}
+
 /* --------FOOTER----------- */
 
 .footer {
@@ -234,11 +334,18 @@ button.about-trainer:hover {
     background-size: cover;
     color: white;
     width: 100%;
+    
    
 }
-footer a {
+
+.footer a {
 
     color: white; 
+    
+}
+
+.footer p {
+    font-size: 14px !important;
 }
 .footer__menu {
     display: flex;
