@@ -94,7 +94,8 @@ html, body {
 
 
 .banner__container {
-    padding: 170px 50px 0 60px;
+    padding: 170px 70px 50px 70px;
+    
     text-align: center;
     color: black;
     background-image: url("img/4.jpg");
@@ -149,11 +150,46 @@ button.start:hover {
 .about__container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto !important;
     padding: 80px 0;
 }
 
+.row__left-block {
+    padding-right: 30px;
+}
+@media (max-width: 992px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .row__right-block {
+        margin: 0 auto;
+    }
+    .banner__container {
+        padding: 170px 30px 40px 30px;
+    }
+    .banner__container h3 {
+        padding-bottom: 0px;
+    }
+    button.start {
+        margin: 30px 0 40px 0;
+    }
+    .footer__menu {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width: 320px) {
+    .row__right-block {
+        margin: 0 auto;
+        width: 70%;
+    }
+}
 .about__container p {
     font-size: 26px;
     line-height: 32px;
@@ -166,7 +202,9 @@ button.start:hover {
     padding: 10px 0 20px 0;
     color: grey;
 }
-
+.row__right-block {
+    width: fit-content;
+}
 button.about-trainer:focus {
     border: 2px solid #642b72 !important;
     color: #e74090 !important;
