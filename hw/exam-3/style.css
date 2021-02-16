@@ -94,7 +94,7 @@ html, body {
 /* ---------BANNER--------- */
 
 
-.banner__container {
+.banner__container  {
     padding: 170px 70px 50px 70px;
     
     text-align: center;
@@ -103,11 +103,24 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative !important;
+    position: relative;
     z-index: 0;
-    opacity:0.5;
 }
-
+.banner__layout {
+    opacity: 0.5;
+    background: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.banner__text {
+    position:relative ;
+    z-index: 2;
+    color: #642b72;
+}
 .banner__container h3 {
     margin-top: 50px;
     line-height:30px;
@@ -198,6 +211,11 @@ button.start:hover {
     .format__container {
         display: flex;
         flex-direction: column;
+    }
+    .format__mob {
+        display: flex;
+        flex-direction: column !important; 
+        
     }
 }
 .about__container p {
