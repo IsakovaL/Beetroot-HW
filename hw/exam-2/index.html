@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    
+   <link rel="stylesheet" href="css/style.css">
+    <title>monticello</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <nav class="main-navigation">
+            <div class="logo"><img src="img/monticello (2).png" alt="company-logo" ></div>
+              <input class="burger-check" id="burger-check" type="checkbox">
+              <label for="burger-check" class="burger"></label>
+              <ul class="menu nav-menu">
+                 <li class="menu-item"> 
+                    <a href="#projects" a class="nav__link">About</a>
+                 </li>
+                 <li class="menu-item"> 
+                    <a href="#projects" a class="nav__link">Projects</a>
+                 </li>
+                 <li class="menu-item"> 
+                    <a href="#projects" a class="nav__link">News</a>
+                 </li>
+                 <li class="menu-item"> 
+                    <a href="#projects" a class="nav__link">Contact</a>
+                 </li>
+           
+          <div class="social_list">
+               <li>
+                   <a href="#" target="_blank"><img src="img/fb.png" alt="fb-logo" width="40px"></a>
+               </li>
+                <li>
+                    <a href="#" target="_blank"><img src="img/tw.png" alt="twitter-logo" width="40px"></a>
+                </li>
+               <li>
+                   <a href="#" target="_blank"><img src="img/ig.png" alt="instagram-logo" width="40px"> </a>
+               </li>
+               </div>
+           </ul>
+       
+        </nav>
+    </div>
+
+     </header>
+     <section class="slider">
+        
+            <div class="slick-slider">
+                <div><img src="img/monticello.png" alt="slider image"></div>
+                <div><img src="img/monticello.png" alt="slider image"></div>
+                <div><img src="img/monticello.png" alt="slider image"></div>
+                <div><img src="img/monticello.png" alt="slider image"></div>
+                <div><img src="img/monticello.png" alt="slider image"></div>
+              </div>
+
+<!-- <div class="btn-scroll">
+                 <a href="#scroll">
+                    <span>Scroll down</span> 
+                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-chevron-down fa-w-14 fa-3x">
+                       <path fill="currentColor" d="M443.5 162.6l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L224 351 28.5 155.5c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.7 4.8-12.3.1-17z" class=""></path>
+                    </svg>
+                 </a>
+              </div> -->
+        
+        </section>
+        <section class="gallery" id="projects">
+            <div class="container">
+                <h2>Gallery</h2>
+                
+                <div id="grid">
+                    <div class="post-1 building"><a href="img/1.png" data-fancybox="gallery" data-caption="1">
+                        <img src="img/1.png"  width="570px" height="440px" alt="" /></a>
+                    </div>
+                    <div class="post-2 building"><a href="img/2.png" data-fancybox="gallery" data-caption="2">
+                        <img src="img/2.png" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-3 apartment"><a href="img/3.jpg" data-fancybox="gallery" data-caption="3">
+                        <img src="img/3.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-4 apartment"><a href="img/4.jpg" data-fancybox="gallery" data-caption="4">
+                        <img src="img/4.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-5 apartment"><a href="img/5.jpg" data-fancybox="gallery" data-caption="5">
+                        <img src="img/5.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-6 building "><a href="img/6.jpg" data-fancybox="gallery" data-caption="6">
+                        <img src="img/6.jpg" width="280px" height="215px" /></a>
+                    </div>
+                    <div class="post-7 building"><a href="img/7.jpg" data-fancybox="gallery" data-caption="7">
+                        <img src="img/7.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-8 apartment"><a href="img/8.jpg" data-fancybox="gallery" data-caption="8">
+                        <img src="img/8.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                    <div class="post-9 building"><a href="img/9.jpg" data-fancybox="gallery" data-caption="9">
+                        <img src="img/9.jpg" width="280px" height="215px" alt="" /></a>
+                    </div>
+                </div>
+                  
+            </div>
+        </section>
+        <section class="Gmap" id="">
+            <div id="map"></div>
+        </section>
+
+       
+    <div class="form">
+        <form action="https://www.google.com/intl/ru_ua/forms/about/" name="myForm" onsubmit="return onSubmit(event);"method="post">
+            <div> <h3>Get in Touch</h3></div>
+                <div class="form-containers">
+                    <div class="form-info">
+                        <ul class="form-list">
+                            <li><a href="https://goo.gl/maps/vxmxzvBuiowtySiV6">91 Nolan Extensions Suite 670</a></li>
+                            <li><a href="tel:+001 356-868-2454">+001 356-868-2454</a></li>
+                            <li><a href="mailto:gahuy93@gmail.com">gahuy93@gmail.com</a></li>
+                            <li><a href="">From <time>07:05</time> AM to <time>19:30</time>PM</a> </li>
+                        </ul>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="Name" id="form-name" name="form-name" value="" minlength="3"  required>
+                        <input type="text" placeholder="Email" id="form-email" name="form-email" value="" required>
+                        <input type="submit" id="form-submit" class="btn-submit" value="Submit">
+                        
+                    </div>
+                </div>    
+        </form>
+    </div>
+     
+</section>
+        <footer>
+            
+                <div class="footer-container">
+                <a href="#" class="footer-logo">
+                <img src="img/monticello (2).png" alt="Company Logo">
+                
+                </a>
+                
+                <ul class="social_list">
+                    <li>
+                        <a href="#" target="_blank"><img src="img/fb.png" alt="fb-logo" width="40px"></a>
+                    </li>
+                     <li>
+                         <a href="#" target="_blank"><img src="img/tw.png" alt="twitter-logo" width="40px"></a>
+                     </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/ig.png" alt="instagram-logo" width="40px"> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-text"><p>Copyrights © 2017 Monticello</p><p id="with-decoration">Made with ♡ by Ga Huy</p></div>
+
+        </footer>
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDniwxfpCFHZYYicVCeDvUQyFvJVjjvkOs&callback=initMap">
+    </script>
+        <script src="js/jquery-3.5.1.js" type="text/javascript"></script>
+        <script src="js/slick.js" type="text/javascript"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="js/script.js"></script>
+
+        
+</body>
+</html>
