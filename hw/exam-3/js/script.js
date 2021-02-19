@@ -28,3 +28,42 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+// ----------Fancybox----------
+$('[data-fancybox="gallery"]').fancybox({
+	loop: true,
+    buttons: [
+      
+    "close"
+  ],
+});
+
+//-----------Slider-----------
+// $('.reviews__slick-slider').slick();
+
+// $('.reviews__slick-slider').slick({
+//   infinite: true,
+//   dots: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 1
+// });
+$('.reviews__slick-slider').slick({
+	infinite: true,
+	dots: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        slidesToShow: 2,
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	      }
+	    }
+    ]
+});
