@@ -164,54 +164,7 @@ button.start:hover {
 .row__left-block {
     padding-right: 30px;
 }
-@media (max-width: 992px) {
-    .about__container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .row__right-block {
-        margin: 0 auto;
-    }
-    .banner__container {
-        padding: 170px 30px 40px 30px;
-    }
-    .banner__container h3 {
-        padding-bottom: 0px;
-    }
-    button.start {
-        margin: 30px 0 40px 0;
-    }
-    .footer__menu {
-        display: flex !important;
-        flex-direction: column !important;
-    }
 
-    /* .format__grid {
-        display: grid !important;
-        grid-template-columns: 380px !important;
-    }
-    .gallery__course-gallery-grid{
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr !important;
-    } */
-}
-
-@media (min-width: 320px) {
-    .row__right-block {
-        margin: 0 auto;
-        width: 70%;
-    }
-    /* .format__grid {
-        display: grid !important;
-        grid-template-columns: 380px !important;
-    }
-    .gallery__container{
-        display: none;
-    } */
-}
 .about__container p {
     /* font-size: 22px; */
     line-height: 32px;
@@ -298,7 +251,7 @@ button.about-trainer:hover {
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 380px 380px 380px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 .format_container h2 {
@@ -401,9 +354,7 @@ button.ask:hover, button.ask:focus,
 
   /* -------Gallery----- */
   #gallery__course-gallery-grid {
-    display: grid;
-    
-    
+    display: grid !important;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
@@ -436,6 +387,7 @@ button.ask:hover, button.ask:focus,
     width: 65%;
     max-width: 1900px;
     margin: 0 auto;
+    display: grid !important;
   }
   .gallery__container h2 {
     text-align: center;
@@ -540,4 +492,201 @@ button.ask:hover, button.ask:focus,
     flex-direction: row;
     justify-content: space-around;
     padding: 30px 5px 30px 10px;
+}
+/* ----------media---------- */
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img.portrait {
+        height: 45vh;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+    }
+     .format__grid {
+        display: flex;
+        flex-direction: column;
+    }
+     .gallery__container{
+        display: none !important;
+    } 
+    .delatls__container {
+        padding-top: 20px;
+        
+    }
+    .details__list {
+        padding-bottom: 20px;
+    }
+    .program-container {
+        padding: 20px;
+    }
+    .banner__container {
+        padding: 120px 20px 20px 20px;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .row__left-block {
+         padding-right: 0px; 
+    }
+    .program-container ul {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .start-program {
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        margin-right: 0px;
+    }
+    button.ask {
+        padding: 15px 20px;
+        width: 61%;
+        margin-bottom: 20px;
+    }
+    .organization__container {
+        width: 100%;
+        padding: 20px;
+    }
+    .faq__container {
+        width: 90%;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width : 768px) {
+    .about__container {
+        width: 100%
+    }
+    .row__left-block {
+        padding-right: 0px; 
+    }
+    .program-container ul {
+    margin: 0 auto;
+    width: 100%;
+    }
+    
+    .row__right-block {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .format__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    #gallery__course-gallery-grid {
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 13px;
+        padding: 15px;
+    }
+    .pic-1 {
+        grid-column: 1; 
+        grid-row: 1;
+      }
+      .pic-2 {
+        grid-column: 2; 
+        grid-row: 1;
+      }
+      .pic-3 {
+        grid-column: 1; 
+        grid-row: 2;
+      }
+      .pic-4 {
+        grid-column: 2; 
+        grid-row: 2;
+      }
+      .pic-5 {
+        grid-column: 1; 
+        grid-row: 3;
+      }
+      .pic-1 {
+        grid-column: 2; 
+        grid-row: 3;
+      }
+      .gallery__container {
+          margin: 0 auto;
+          width: 90%;
+      }
+      .about__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    #gallery__course-gallery-grid img {
+        width: 250px;
+    }
+    .organization__container {
+        width: 100%;
+        
+        padding: 20px;
+    }
+    .start-program {
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        margin-right: 0px;
+    }
+    button.ask {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    .faq__container {
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    /* .row__right-block {
+        margin: 0 auto;
+    }
+    .banner__container {
+        padding: 170px 30px 40px 30px;
+    }
+    .banner__container h3 {
+        padding-bottom: 0px;
+    }
+    button.start {
+        margin: 30px 0 40px 0;
+    }
+    .footer__menu {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+     .format__grid {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #gallery__course-gallery-grid{
+        display: flex;
+        flex-direction: column; 
+       
+    } 
+}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
