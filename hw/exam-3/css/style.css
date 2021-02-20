@@ -25,7 +25,7 @@ html, body {
 .ru-flag {
     padding-right: 15px;
     cursor: pointer;
-    padding-left: 45px;
+   
     
 }
 .ua-flag, .ru-flag {
@@ -73,7 +73,7 @@ html, body {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
-  .navbar-light .navbar-toggler, .navbar-toggler:focus, button:focus:not(:focus-visible) {
+  .navbar-light .navbar-toggler, .navbar-toggler:focus, button.navbar-toggler:focus:not(:focus-visible) {
     color: transparent !important;
     border-color: transparent !important;
 }
@@ -140,6 +140,7 @@ html, body {
 }
 
 button.start {
+    width: 12.5rem;
     padding: 20px 30px;
     margin: 60px 0;
     color: white;
@@ -150,9 +151,9 @@ button.start {
 
 }
 button.start:focus {
-    color: #333 !important;
+    border: 2px solid #642b72 !important;
+    color: #642b72 !important;
     background-color: transparent;
-    border: 2px solid white !important;
 }
 button.start:hover {
     border: 2px solid #642b72 !important;
@@ -278,7 +279,7 @@ button.about-trainer:hover {
 }
 button.ask {
     padding: 20px 30px;
-   
+    width: 12.5rem;
     color: white;
     background-color: #e74090;
     text-align: center;
@@ -291,7 +292,9 @@ button.ask:hover, button.ask:focus,
     background-color: transparent;
     border: 2px solid white !important;
 }
+
 .start-program {
+    width: 12.5rem;
     padding: 20px 30px;
    margin-bottom: 60px;
    margin-right: 20px;
@@ -352,7 +355,7 @@ button.ask:hover, button.ask:focus,
   .accordion.active:after {
     content: "\2212";
   }
-  button:focus:not(:focus-visible) {
+  button.accordion:focus:not(:focus-visible) {
       color: white !important;
   }
   
