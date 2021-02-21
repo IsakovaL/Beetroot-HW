@@ -142,7 +142,7 @@ html, body {
 button.start {
     width: 12.5rem;
     padding: 20px 30px;
-    margin: 60px 0;
+    margin: 30px 0;
     color: white;
     background-color: #e74090;
     text-align: center;
@@ -520,7 +520,7 @@ button.ask:hover, button.ask:focus,
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 280px) {
     img.portrait {
-        height: 45vh;
+        width: 100%
     }
     .about__container {
         display: flex;
@@ -608,7 +608,7 @@ button.ask:hover, button.ask:focus,
     
     .row__right-block {
         margin: 0 auto;
-        width: 70%;
+        
     }
     .format__grid {
         display: flex;
@@ -721,6 +721,12 @@ button.ask:hover, button.ask:focus,
       }
     .format__grid {
         width: 100%;
+        width: 100%;
+    padding: 20px;
+    grid-gap: 5px;
+    }
+    .format_container {
+        padding: 0px;
     }
 }
 
