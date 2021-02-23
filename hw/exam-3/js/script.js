@@ -33,8 +33,7 @@ for (i = 0; i < acc.length; i++) {
 $('[data-fancybox="gallery"]').fancybox({
 	loop: true,
     buttons: [
-      
-    "close"
+       "close"
   ],
 });
 
@@ -67,3 +66,132 @@ $('.reviews__slick-slider').slick({
 	    }
     ]
 });
+//  -----------form register-----------
+function validateFormName(e) {
+  var x = document.forms["myFormRegister"]["form-register-name"].value;
+  if (x == "") {
+    alert("Имя должно быть заполнено");
+    e.preventDefault();
+    return false;
+  }
+}
+function validateFormPhone(e) {
+  var x = document.forms["myFormRegister"]["form-register-phone"].value;
+  if (x == "") {
+    alert("Телефон должен быть заполнен");
+    e.preventDefault();
+    return false;
+  }
+}
+
+function validateFormEmail(e) {
+  var x = document.forms["myFormRegister"]["form-register-email"].value;
+  if (x == "") {
+    alert("E-mail должен быть заполнен");
+    e.preventDefault();
+    return false;
+  }
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = document.forms["myFormRegister"].elements["form-register-email"].value;
+debugger;
+  if(reg.test(address) == false) {
+     alert('Введите правильный e-mail');
+     e.preventDefault();
+     return false;
+  }
+}
+
+
+function onSubmit(e) {
+  validateFormName(e);
+  validateFormEmail(e);
+  validateFormPhone(e);
+
+}
+
+// ----------form ask--------
+function validateFormNameAsk(e) {
+  var x = document.forms["myFormAsk"]["form-ask-name"].value;
+  if (x == "") {
+    alert("Имя должно быть заполнено");
+    e.preventDefault();
+    return false;
+  }
+}
+function validateFormPhoneAsk(e) {
+  var x = document.forms["myFormAsk"]["form-ask-phone"].value;
+  if (x == "") {
+    alert("Телефон должен быть заполнен");
+    e.preventDefault();
+    return false;
+  }
+}
+
+function validateFormEmailAsk(e) {
+  var x = document.forms["myFormAsk"]["form-ask-email"].value;
+  if (x == "") {
+    alert("E-mail должен быть заполнен");
+    e.preventDefault();
+    return false;
+  }
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = document.forms["myFormAsk"].elements["form-ask-email"].value;
+debugger;
+  if(reg.test(address) == false) {
+     alert('Введите правильный e-mail');
+     e.preventDefault();
+     return false;
+  }
+}
+
+
+function onSubmit(e) {
+  validateFormNameAsk(e);
+  validateFormEmailAsk(e);
+  validateFormPhoneAsk(e);
+
+}
+
+$(document).ready(function(){
+  
+  let btnAskFirst = $('#btn-ask-first');
+  btnAskFirst.on('click', function() {
+       let toEnable = $('.form-ask-question-container');
+       $(toEnable).css("display","block");
+    });
+
+  let btnAskSecond = $('#btn-ask-second');
+  btnAskSecond.on('click', function() {
+      let toEnable = $('.form-ask-question-container');
+      $(toEnable).css("display","block");
+    });
+
+  let btnRegisterBanner = $('#btn-start-banner');
+  btnRegisterBanner.on('click', function() {
+      let toEnable = $('.form-register-container');
+      $(toEnable).css("display","block");
+    });
+
+  let btnRegisterProgram = $('#btn-start-in-program');
+  btnRegisterProgram.on('click', function() {
+      let toEnable = $('.form-register-container');
+      $(toEnable).css("display","block");
+    });
+
+  let closeReg = $('.close');                  // When the user clicks on <div> (x), close the modal
+  closeReg.on('click', function() {
+      let closeForm = $('.form-register-container');
+      $(closeForm).css("display","none");
+    });
+
+    let closeAsk = $('.close');                  // When the user clicks on <div> (x), close the modal
+    closeAsk.on('click', function() {
+        let closeForm = $('.form-ask-question-container');
+        $(closeForm).css("display","none");
+      });
+    // When the user clicks anywhere outside of the modal, close it
+    
+  
+}); 

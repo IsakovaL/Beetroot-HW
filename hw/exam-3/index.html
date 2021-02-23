@@ -56,7 +56,7 @@
           <h1>Психиатрическая Пропидевтика</h1>
           <h3>Схема-терапия – современный интегративный подход с доказанной эффективностью, интегрирующий принципы 
              и техники КПТ, гештальт-терапии, трансактного анализа, терапии субличностей, эмоционально-фокусированной терапии…</h3>
-          <button class="start">начать обучение</button>
+          <button class="start" id="btn-start-banner">начать обучение</button>
         <h2>НАЧАЛО КУРСА 06.03.2021г.</h2>
       </div>
         </div>
@@ -70,7 +70,7 @@
               <p>Oпыт практической работы 15 лет.</p>
               <p>Доцент кафедры клинической неврологии, психиатрии и наркологии медицинского факультета, ХНУ им.В.Н.Каразина</p>
               <p>Cооснователь общественной организации «Комплексная психологическая помощь»</p>
-              <button class="start about-trainer">задать вопрос</button>
+              <button class="start ask-question" id="btn-ask-first">задать вопрос</button>
             </div>
           <div class="row__right-block">
             <img src="img/andrey.jpg" alt="портрет ведущей тренинга" class="portrait" width="600px">
@@ -166,8 +166,8 @@
        <p>Если Вы пропустили базовый курс (Основы КПТ в психологическом консультировании) — Вы можете приобрести его в записи и получить скидку<strong> 25%</strong></p>
        <p>При оплате до 28 февраля скидка <strong>10%</strong></p>
        <h2>Уже определились с форматом?</h2>
-       <button class="start-program">начать обучение</button>
-       <button class="ask">задать вопрос</button>
+       <button class="start-program" id="btn-start-in-program">начать обучение</button>
+       <button class="ask" id="btn-ask-second">задать вопрос</button>
       </div>
     </section>
     <section class="faq">
@@ -241,7 +241,8 @@
 </main>
 <!-- ----------FORMS----------- -->
 <div class="form-ask-question-container">
-  <form action="" class="form-ask">
+  <div class="close">&times;</div>
+  <form action="" class="form-ask" id="my-form-ask" name="myFormAsk" onsubmit="return onSubmit(event);"method="post">
     <label for="form-ask-name">your name</label>
     <input type="text" id="form-ask-name" name="form-ask-name">
     <label for="form-ask-phone">your phone</label>
@@ -254,14 +255,14 @@
   </form>
 </div>
 <div class="form-register-container">
-  <form action="" class="form-register">
+  <div class="close">&times;</div>
+  <form action="" class="form-register" name="myFormRegister" onsubmit="return onSubmit(event);"method="post">
     <label for="form-register-name">your name</label>
-    <input type="text" id="form-register-name" name="form-register-name">
+    <input type="text" id="form-register-name" name="form-register-name" value="" required>
     <label for="form-register-phone">your phone</label>
-    <input type="text" id="form-register-phone" name="form-register-phone">
+    <input type="text" id="form-register-phone" name="form-register-phone" value="" required>
     <label for="form-register-email">your e-mail</label>
-    <input type="text" id="form-ask-email" name="form-register-email">
-    
+    <input type="text" id="form-ask-email" name="form-register-email" value="" required>
     <input type="submit" value="Submit" class="form-register-submit">
   </form>
 </div>

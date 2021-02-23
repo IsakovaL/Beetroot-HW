@@ -190,11 +190,11 @@ button.start:hover {
 .row__right-block {
     width: fit-content;
 }
-button.about-trainer:focus {
+button.ask-question:focus {
     border: 2px solid #642b72 !important;
     color: #e74090 !important;
 }
-button.about-trainer:hover {
+button.ask-question:hover {
     border: 2px solid #642b72 !important;
     color: #642b72 !important;
     background-color: transparent;
@@ -426,7 +426,7 @@ button.ask:hover, button.ask:focus,
     left: 20%;
     top: 100%;
     border: 5px solid white;
-    display: none;
+   display: none;
 }
 .form-ask {
     width: 65%;
@@ -587,7 +587,17 @@ button.ask:hover, button.ask:focus,
     .faq__container {
         width: 90%;
     }
-    
+   /* The Close Button */
+ .close {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    font-size: 32px;
+  }
+  
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
