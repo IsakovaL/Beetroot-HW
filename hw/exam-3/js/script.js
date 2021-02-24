@@ -42,37 +42,31 @@ $('[data-fancybox="gallery"]').fancybox({
 
 
 $(document).ready(function(){
-  $('.reviews__slick-slider').slick({
-      // infinite: true,
-      dots:true,
-      arrows:false,
-      autoplay:false,
-    
-    autoplaySpeed:1000
-  });
  
+  $('.reviews__slick-slider').slick({
+     	infinite: true,
+     	dots: true,
+       arrows: false,
+     	slidesToShow: 1,
+    	slidesToScroll: 1,
+     	// responsive: [
+    	//     {
+     	//       breakpoint: 768,
+     	//       settings: {
+    	//         slidesToShow: 2,
+     	//       }
+     	//     },
+      //   {
+    	//       breakpoint: 480,
+     	//       settings: {
+    	//         slidesToShow: 1,
+     	//       }
+     	//     }
+      //    ]
+     });
   
 });
-// $('.reviews__slick-slider').slick({
-// 	infinite: true,
-// 	dots: true,
-// 	slidesToShow: 3,
-// 	slidesToScroll: 1,
-// 	responsive: [
-// 	    {
-// 	      breakpoint: 768,
-// 	      settings: {
-// 	        slidesToShow: 2,
-// 	      }
-// 	    },
-// 	    {
-// 	      breakpoint: 480,
-// 	      settings: {
-// 	        slidesToShow: 1,
-// 	      }
-// 	    }
-//     ]
-// });
+// 
 //  -----------form register-----------
 function validateFormNameRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-name"].value;

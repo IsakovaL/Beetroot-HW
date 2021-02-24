@@ -504,10 +504,30 @@ button.ask:hover, button.ask:focus,
   }
   /* --------slider------- */
 .reviews__container {
-    width: 70%;
+    width: 50%;
+    margin: 50px auto;
+   
+}
+.reviews__container h2{
+    text-align: center;
+    color: #e74090;
+    padding-bottom: 15px;
+}
+.slick-slide img {
+    display: block;
+    width: 60%;
     margin: 0 auto;
 }
-  
+.slick-arrow {
+    background-color: grey;
+}
+.slick-next:hover,
+.slick-prev:hover,
+.slick-next:focus,
+.slick-prev:focus {
+    background-color: grey;
+}
+
 /* --------FOOTER----------- */
 
 .footer {
