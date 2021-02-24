@@ -630,7 +630,11 @@ button.ask:hover, button.ask:focus,
     .faq__container {
         width: 90%;
     }
-   
+    .slick-slide img {
+       
+        width: 100%;
+        
+    }
   
   
 }
@@ -722,6 +726,11 @@ button.ask:hover, button.ask:focus,
     }
     .faq__container {
         width: 90%;
+    }
+    .slick-slide img {
+        
+        width: 100%;
+        
     }
 }
 
