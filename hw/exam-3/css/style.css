@@ -748,6 +748,14 @@ button.ask:hover, button.ask:focus,
     /* .gallery__container{
         display: none !important;
     }  */
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    }
     #gallery__course-gallery-grid {
     
         display: grid;
