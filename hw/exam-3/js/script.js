@@ -67,27 +67,27 @@ $('.reviews__slick-slider').slick({
     ]
 });
 //  -----------form register-----------
-function validateFormName(e) {
+function validateFormNameRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-name"].value;
   if (x == "") {
-    alert("Имя должно быть заполнено");
+    alert("Имя должно быть заполнено!");
     e.preventDefault();
     return false;
   }
 }
-function validateFormPhone(e) {
+function validateFormPhoneRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-phone"].value;
   if (x == "") {
-    alert("Телефон должен быть заполнен");
+    alert("Телефон должен быть заполнен!");
     e.preventDefault();
     return false;
   }
 }
 
-function validateFormEmail(e) {
+function validateFormEmailRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-email"].value;
   if (x == "") {
-    alert("E-mail должен быть заполнен");
+    alert("E-mail должен быть заполнен!");
     e.preventDefault();
     return false;
   }
@@ -96,7 +96,7 @@ function validateFormEmail(e) {
   var address = document.forms["myFormRegister"].elements["form-register-email"].value;
 debugger;
   if(reg.test(address) == false) {
-     alert('Введите правильный e-mail');
+     alert('Введите правильный e-mail!');
      e.preventDefault();
      return false;
   }
@@ -104,9 +104,9 @@ debugger;
 
 
 function onSubmit(e) {
-  validateFormName(e);
-  validateFormEmail(e);
-  validateFormPhone(e);
+  validateFormNameRegister(e);
+  validateFormEmailRegister(e);
+  validateFormPhoneRegister(e);
 
 }
 
@@ -186,12 +186,13 @@ $(document).ready(function(){
       $(closeForm).css("display","none");
     });
 
-    let closeAsk = $('.close');                  // When the user clicks on <div> (x), close the modal
-    closeAsk.on('click', function() {
+  let closeAsk = $('.close');                  // When the user clicks on <div> (x), close the modal
+  closeAsk.on('click', function() {
         let closeForm = $('.form-ask-question-container');
         $(closeForm).css("display","none");
       });
-    // When the user clicks anywhere outside of the modal, close it
-    
+
   
-}); 
+});
+ 
+  

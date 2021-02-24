@@ -132,7 +132,7 @@ html, body {
 }
 .banner__container h3 {
     margin-top: 50px;
-    line-height:30px;
+    line-height:33px;
 }
 .banner__container h2 {
     padding-bottom: 30px;
@@ -438,6 +438,12 @@ button.ask:hover, button.ask:focus,
 }
 .form-ask input {
     margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+.form-ask textarea {
+    padding: 5px;
+    font-size: 18px;
 }
 .form-ask-submit {
     color: white;
@@ -472,6 +478,8 @@ button.ask:hover, button.ask:focus,
 }
 .form-register input {
     margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
 }
 .form-register-submit {
     color: white;
@@ -485,6 +493,15 @@ button.ask:hover, button.ask:focus,
     background-color: transparent;
     border: 2px solid white;
 }
+/* The Close Button */
+.close {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    font-size: 32px;
+  }
 /* --------FOOTER----------- */
 
 .footer {
@@ -587,15 +604,7 @@ button.ask:hover, button.ask:focus,
     .faq__container {
         width: 90%;
     }
-   /* The Close Button */
- .close {
-    cursor: pointer;
-    color: white;
-    display: flex;
-    flex-direction: row-reverse;
-    padding-right: 20px;
-    font-size: 32px;
-  }
+   
   
   
 }

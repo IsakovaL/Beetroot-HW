@@ -11,6 +11,7 @@
     <title>Схема-терапия</title>
 </head>
 <body>
+ 
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #642b72 !important;">
             <div class="container-fluid">
@@ -27,13 +28,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Тренер</a>
+                    <a class="nav-link active" aria-current="page" href="#trener">Тренер</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Курс</a>
+                    <a class="nav-link" href="#course">Курс</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Оганизатор</a>
+                    <a class="nav-link" href="#organizator">Оганизатор</a>
                   </li>
                   <li class="nav-item ru-flag">
                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
@@ -61,7 +62,7 @@
       </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="trener">
         <div class="about__container">
           <div class="row__left-block">
             <h2>Гайдабрус Андрей</h2>
@@ -78,7 +79,7 @@
         </div>
 
     </section>
-    <section class="details">
+    <section class="details" id="course">
       <div class="delatls__container">
         <h3>Готовы выйти на новый профессиональный уровень?</h3>
         <h2>Для кого?</h2>
@@ -195,22 +196,22 @@
                 
                 <div id="gallery__course-gallery-grid">
           
-                    <div class="pic-1"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="1">
+                    <div class="pic-1"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-1.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-2"><a href="img/cr-2.jpg" data-fancybox="gallery" data-caption="2">
+                    <div class="pic-2"><a href="img/cr-2.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-2.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-3"><a href="img/cr-3.jpg" data-fancybox="gallery" data-caption="3">
+                    <div class="pic-3"><a href="img/cr-3.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-3.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-4"><a href="img/cr-4.jpg" data-fancybox="gallery" data-caption="4">
+                    <div class="pic-4"><a href="img/cr-4.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-4.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-5"><a href="img/cr-5.jpg" data-fancybox="gallery" data-caption="5">
+                    <div class="pic-5"><a href="img/cr-5.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-5.jpg" width="320px" height="255px" /></a>
                     </div>
-                    <div class="pic-6"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="6">
+                    <div class="pic-6"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-1.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
                   
@@ -226,7 +227,7 @@
   </div>
 </div>
     </section> -->
-    <section class="organization">
+    <section class="organization" id="organizator">
       <div class="organization__container">
         <h2>Организатор</h2>
         <p>Общественная организация «Комплексная психологическая помощь» — организация, которая занимается медико-психологической помощью людям, 
@@ -242,27 +243,27 @@
 <!-- ----------FORMS----------- -->
 <div class="form-ask-question-container">
   <div class="close">&times;</div>
-  <form action="" class="form-ask" id="my-form-ask" name="myFormAsk" onsubmit="return onSubmit(event);"method="post">
-    <label for="form-ask-name">your name</label>
-    <input type="text" id="form-ask-name" name="form-ask-name">
-    <label for="form-ask-phone">your phone</label>
-    <input type="text" id="form-ask-phone" name="form-ask-phone">
-    <label for="form-ask-email">your e-mail</label>
-    <input type="text" id="form-ask-email" name="form-ask-email">
-    <label for="form-ask-message">write your message here</label>
-    <textarea name="form-ask-" rows="5" cols="30"></textarea>
+  <form action="https://formspree.io/f/mjvpqbao" class="form-ask" id="my-form-ask" name="myFormAsk" onsubmit="return onSubmit(event);"method="post">
+    <!-- <label for="form-ask-name">your name</label> -->
+    <input type="text" id="form-ask-name" name="form-ask-name" placeholder="your name">
+    <!-- <label for="form-ask-phone">your phone</label> -->
+    <input type="text" id="form-ask-phone" name="form-ask-phone" placeholder="your phone">
+    <!-- <label for="form-ask-email">your e-mail</label> -->
+    <input type="text" id="form-ask-email" name="form-ask-email" placeholder="your e-mail">
+    <!-- <label for="form-ask-message">write your message here</label> -->
+    <textarea name="form-ask-" rows="5" cols="30" placeholder="write your message here"></textarea>
     <input type="submit" value="Submit" class="form-ask-submit">
   </form>
 </div>
 <div class="form-register-container">
   <div class="close">&times;</div>
-  <form action="" class="form-register" name="myFormRegister" onsubmit="return onSubmit(event);"method="post">
-    <label for="form-register-name">your name</label>
-    <input type="text" id="form-register-name" name="form-register-name" value="" required>
-    <label for="form-register-phone">your phone</label>
-    <input type="text" id="form-register-phone" name="form-register-phone" value="" required>
-    <label for="form-register-email">your e-mail</label>
-    <input type="text" id="form-ask-email" name="form-register-email" value="" required>
+  <form action="https://formspree.io/f/mjvpqbao" class="form-register" name="myFormRegister" onsubmit="return onSubmit(event);"method="post">
+    <!-- <label for="form-register-name">your name</label> -->
+    <input type="text" id="form-register-name" name="form-register-name" value="" placeholder="your name" required>
+    <!-- <label for="form-register-phone">your phone</label> -->
+    <input type="text" id="form-register-phone" name="form-register-phone" value="" placeholder="your phone" required>
+    <!-- <label for="form-register-email">your e-mail</label> -->
+    <input type="text" id="form-ask-email" name="form-register-email" value="" placeholder="your e-mail" required>
     <input type="submit" value="Submit" class="form-register-submit">
   </form>
 </div>
@@ -277,6 +278,7 @@
         </div>
     </div>
 </footer>
+
 <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtHBFP96TltDdsBK62owjm1wQDpMfCijE&callback=initMap">
 </script>
