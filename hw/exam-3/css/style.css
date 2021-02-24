@@ -635,6 +635,9 @@ button.ask:hover, button.ask:focus,
         width: 100%;
         
     }
+    .reviews__container {
+        width: 80%;
+    }
   
   
 }
@@ -732,6 +735,7 @@ button.ask:hover, button.ask:focus,
         width: 100%;
         
     }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -781,6 +785,11 @@ button.ask:hover, button.ask:focus,
     }
     .format_container {
         padding: 0px;
+    }
+    .slick-slide img {
+        
+        width: 100%;
+        
     }
 }
 
