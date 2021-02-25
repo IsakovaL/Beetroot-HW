@@ -19,14 +19,16 @@ html, body {
     position: fixed;
     width: 100%;
     z-index: 1;
+   
 }
 
 /* --------NAVIGATION----------- */
+.navbar {
+    background-color: #a60255;
+}
 .ru-flag {
     padding-right: 15px;
-    cursor: pointer;
-   
-    
+    cursor: pointer;  
 }
 .ua-flag, .ru-flag {
     padding-top: 7px;
@@ -108,7 +110,7 @@ html, body {
     
     text-align: center;
     color: black;
-    background-image: url("../img/4.jpg");
+    background-image: url("../img/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,11 +130,12 @@ html, body {
 .banner__text {
     position:relative ;
     z-index: 2;
-    color: #642b72;
+    color: #a30254;
 }
 .banner__container h3 {
     margin-top: 50px;
     line-height:33px;
+    color: #a30254;
 }
 .banner__container h2 {
     padding-bottom: 30px;
@@ -143,21 +146,24 @@ button.start {
     width: 12.5rem;
     padding: 20px 30px;
     margin: 30px 0;
-    color: white;
-    background-color: #e74090;
+    color: black;
+    font-weight: 500;
+    background-color: #f9c02f;
     text-align: center;
     text-transform: uppercase;
     border: 2px solid transparent !important;
 
 }
 button.start:focus {
-    border: 2px solid #642b72 !important;
-    color: #642b72 !important;
+    border: 2px solid #f9c02f !important;
+    color: black !important;
+    font-weight: 500;
     background-color: transparent;
 }
 button.start:hover {
-    border: 2px solid #642b72 !important;
-    color: #642b72 !important;
+    border: 2px solid #f9c02f !important;
+    color: black !important;
+    font-weight: 500;
     background-color: transparent;
 }
 
@@ -180,7 +186,7 @@ button.start:hover {
     line-height: 32px;
 }
 .about__container h2 {
-    color: #e74090;
+    color: #a30254;
     font-size: 42px;
 }
 .about__container h6 {
@@ -191,29 +197,31 @@ button.start:hover {
     width: fit-content;
 }
 button.ask-question:focus {
-    border: 2px solid #642b72 !important;
-    color: #e74090 !important;
+    border: 2px solid #f9c02f !important;
+    color: black !important;
+    font-weight: 500;
 }
 button.ask-question:hover {
-    border: 2px solid #642b72 !important;
-    color: #642b72 !important;
+    border: 2px solid #f9c02f !important;
+    color: black !important;
+    font-weight: 500;
     background-color: transparent;
 }
 .delatls__container {
     /* width: 80%; */
     margin: 0 auto;
-    background-color: #642b72;
+    background-color: #a60255;
     padding: 80px 20px 10px 20px;
     text-align: center;
     color: white;
 }
 .delatls__container h2, h3 {
     padding-bottom: 10px;
-    color: #e74090;
+    color: #f9c02f;
 }
 
 .details__list {
-    background-color: #642b72;
+    background-color: #a60255;
     padding-bottom: 80px;
     color: white;
 }
@@ -227,7 +235,7 @@ button.ask-question:hover {
 }
 .program-container h2, h5 {
     text-align: center;
-    color: #e74090;
+    color: #a20152;
 }
 .program-container ul {
     margin: 0 auto;
@@ -245,7 +253,7 @@ button.ask-question:hover {
     border: 1px solid white;
     padding: 10px;
    color: white;
-   background: #642b72;
+   background: #a60255;
 }
 .format_container {
   
@@ -253,7 +261,7 @@ button.ask-question:hover {
  
     color: white;
     text-align: center;
-    background-color: #642b72;
+    background-color: #a60255;
     
 }
 
@@ -267,7 +275,7 @@ button.ask-question:hover {
 .format_container h2 {
     padding-bottom: 30px;
     padding-top: 60px;
-    color: #e74090;
+    color: #f9c02f;
 }
 .format__grid__grid-one, .format__grid__grid-two, .format__grid__grid-three {
     border: 2px solid white;
@@ -275,13 +283,14 @@ button.ask-question:hover {
     padding: 20px;
 }
 .format__grid h5, h6 {
-    color: #e74090;
+    color: #f9c02f;
 }
 button.ask {
     padding: 20px 30px;
     width: 12.5rem;
-    color: white;
-    background-color: #e74090;
+    color:black;
+    font-weight: 500;
+    background-color: #f9c02f;
     text-align: center;
     text-transform: uppercase;
     border: 2px solid transparent !important;
@@ -290,7 +299,7 @@ button.ask:hover, button.ask:focus,
 .start-program:hover, .start-program:focus {
     color: white;
     background-color: transparent;
-    border: 2px solid white !important;
+    border: 2px solid #f9c02f !important;
 }
 
 .start-program {
@@ -298,8 +307,9 @@ button.ask:hover, button.ask:focus,
     padding: 20px 30px;
    margin-bottom: 60px;
    margin-right: 20px;
-    color: white;
-    background-color: #e74090;
+    color: black;
+    font-weight: 500;
+    background-color: #f9c02f;
     text-align: center;
     text-transform: uppercase;
     border: 2px solid transparent !important;
@@ -325,11 +335,11 @@ button.ask:hover, button.ask:focus,
 .faq__container h2 {
     text-align: center;
     padding-bottom: 15px;
-    color: #e74090;
+    color: #a60255;
 }
 .accordion {
-    background-color: #e74090;
-    color: white;
+    background-color: #a60255;
+    color: #f9c02f;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -341,12 +351,12 @@ button.ask:hover, button.ask:focus,
   }
   
   .accordion:active, .accordion:hover {
-    background-color: #e74090;
+    background-color: #a60255;
   }
   
   .accordion:after {
     content: '\002B';
-    color: white;
+    color: #f9c02f;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -397,7 +407,7 @@ button.ask:hover, button.ask:focus,
     grid-column: 2; 
     grid-row: 2;
   }
-  .pic-1 {
+  .pic-6 {
     grid-column: 3; 
     grid-row: 2;
   }
@@ -410,7 +420,7 @@ button.ask:hover, button.ask:focus,
   .gallery__container h2 {
     text-align: center;
     padding-bottom: 15px;
-    color: #e74090;
+    color: #a60255;
   }
 #map {
     height: 400px;
@@ -421,7 +431,7 @@ button.ask:hover, button.ask:focus,
 /* ----------form-ask---------- */
 .form-ask-question-container {
     width: 60%;
-    background-color: #e74090;
+    background-color: #a60255;
     position: absolute;
     left: 20%;
     top: 100%;
@@ -446,8 +456,8 @@ button.ask:hover, button.ask:focus,
     font-size: 18px;
 }
 .form-ask-submit {
-    color: white;
-    background-color: #642b72;
+    color: black;
+    background-color: #f9c02f;
     border: 2px solid transparent;
     width: 50%;
     padding: 15px;
@@ -455,13 +465,13 @@ button.ask:hover, button.ask:focus,
 }
 .form-ask-submit:hover, .form-ask-submit:focus {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #f9c02f;
 }
 
 /* ---------form-register---------- */
 .form-register-container {
     width: 60%;
-    background-color: #e74090;
+    background-color: #a60255;
     position: absolute;
     left: 20%;
     top: 100%;
@@ -482,8 +492,8 @@ button.ask:hover, button.ask:focus,
     font-size: 18px;
 }
 .form-register-submit {
-    color: white;
-    background-color: #642b72;
+    color: black;
+    background-color: #f9c02f;
     border: 2px solid transparent;
     width: 50%;
     padding: 15px;
@@ -491,7 +501,11 @@ button.ask:hover, button.ask:focus,
 }
 .form-register-submit:hover, .form-register-submit:focus {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #f9c02f;
+    color: white;
+}
+.form-ask-submit:hover, .form-ask-submit:focus {
+    color: white;
 }
 /* The Close Button */
 .close {
@@ -590,8 +604,10 @@ button.ask:hover, button.ask:focus,
     }
     
     .delatls__container {
-        padding-top: 20px;
-        
+        padding-top: 20px; 
+    }
+    .delatls__container h3 {
+        color: #f9c02f
     }
     .details__list {
         padding-bottom: 20px;
@@ -655,7 +671,7 @@ button.ask:hover, button.ask:focus,
         padding: 10px;
     }
     .form-ask-question-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -666,7 +682,7 @@ button.ask:hover, button.ask:focus,
         z-index: 1;
     }
     .form-register-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -731,7 +747,7 @@ button.ask:hover, button.ask:focus,
         grid-column: 1; 
         grid-row: 3;
       }
-      .pic-1 {
+      .pic-6 {
         grid-column: 2; 
         grid-row: 3;
       }
@@ -774,7 +790,7 @@ button.ask:hover, button.ask:focus,
     }
     
     .form-ask-question-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -785,7 +801,7 @@ button.ask:hover, button.ask:focus,
         z-index: 1;
     }
     .form-register-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -883,7 +899,7 @@ button.ask:hover, button.ask:focus,
     }
     
     .form-ask-question-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -894,7 +910,7 @@ button.ask:hover, button.ask:focus,
         z-index: 1;
     }
     .form-register-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 80%;
         border: 5px solid white;
         position: fixed;
@@ -909,7 +925,7 @@ button.ask:hover, button.ask:focus,
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .form-ask-question-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 60%;
         border: 5px solid white;
         position: fixed;
@@ -920,7 +936,7 @@ button.ask:hover, button.ask:focus,
         z-index: 1;
     }
     .form-register-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 50%;
         border: 5px solid white;
         position: fixed;
@@ -935,7 +951,7 @@ button.ask:hover, button.ask:focus,
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .form-ask-question-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 60%;
         border: 5px solid white;
         position: fixed;
@@ -946,7 +962,7 @@ button.ask:hover, button.ask:focus,
         z-index: 1;
     }
     .form-register-container {
-        background-color: #e74090;
+        background-color: #a60255;
         width: 50%;
         border: 5px solid white;
         position: fixed;
@@ -962,5 +978,10 @@ button.ask:hover, button.ask:focus,
     }
     .form-ask {
         padding: 10px;
+    }
+    .fab {
+        font-size: 24px;
+        height: 32px;
+        color: white;
     }
 }

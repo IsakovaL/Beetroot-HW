@@ -181,20 +181,16 @@ $(document).ready(function(){
       let toEnable = $('.form-register-container');
       $(toEnable).css("display","block");
     });
-
-  let closeReg = $('.close');                  // When the user clicks on <div> (x), close the modal
+// When the user clicks on <div> (x), close the modal
+  let closeReg = $('.close');                  
   closeReg.on('click', function() {
       let closeForm = $('.form-register-container');
       $(closeForm).css("display","none");
     });
-
-  let closeAsk = $('.close');                  // When the user clicks on <div> (x), close the modal
+// When the user clicks on <div> (x), close the modal
+  let closeAsk = $('.close');                  
   closeAsk.on('click', function() {
         let closeForm = $('.form-ask-question-container');
         $(closeForm).css("display","none");
-      });
-
-  
+      }); 
 });
- 
-  

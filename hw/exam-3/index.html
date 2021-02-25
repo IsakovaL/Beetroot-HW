@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-   
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Схема-терапия</title>
+    <title id="title">Схема-терапия</title>
 </head>
 <body>
  
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #642b72 !important;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #a60255 !important;">
             <div class="container-fluid">
               <a class="navbar-brand" href="http://cps.kh.ua/" target="blank"><img src="img/logo.png" alt="cpd logo" height="70px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -30,13 +30,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#trener">Тренер</a>
+                    <a class="nav-link active" id="trener-nav" aria-current="page" href="#trener">Тренер</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#course">Курс</a>
+                    <a class="nav-link" id="kurs-nav" href="#course">Курс</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#organizator">Оганизатор</a>
+                    <a class="nav-link" id="oranize-nav" href="#organizator">Оганизатор</a>
                   </li>
                   <li class="nav-item ru-flag">
                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
@@ -56,23 +56,23 @@
         <div class="banner__container">
           <div class="banner__layout"></div>
           <div class="banner__text">
-          <h1>Психиатрическая Пропидевтика</h1>
-          <h3>Схема-терапия – современный интегративный подход с доказанной эффективностью, интегрирующий принципы 
+          <h1 id="banner-title">Психиатрическая Пропидевтика</h1>
+          <h3 id="banner-h3">Схема-терапия – современный интегративный подход с доказанной эффективностью, интегрирующий принципы 
              и техники КПТ, гештальт-терапии, трансактного анализа, терапии субличностей, эмоционально-фокусированной терапии…</h3>
-            <button class="start" id="btn-start-banner">начать обучение</button>
-        <h2>НАЧАЛО КУРСА 06.03.2021г.</h2>
+            <button class="start" id="btn-start-banner">Pегистрация</button>
+        <h2 id="banner-h2">НАЧАЛО КУРСА 06.03.2021г.</h2>
       </div>
         </div>
     </section>
     <section class="about" id="trener">
         <div class="about__container">
           <div class="row__left-block">
-            <h2>Гайдабрус Андрей</h2>
-            <h6>ВЕДУЩИЙ КУРСА</h6>
-              <p>Bрач психиатр-нарколог высшей квалификационной категории, кандидат медицинских наук.</p>
-              <p>Oпыт практической работы 15 лет.</p>
-              <p>Доцент кафедры клинической неврологии, психиатрии и наркологии медицинского факультета, ХНУ им.В.Н.Каразина</p>
-              <p>Cооснователь общественной организации «Комплексная психологическая помощь»</p>
+            <h2 id="about-h2">Гайдабрус Андрей</h2>
+            <h6 id="about-h6">ВЕДУЩИЙ КУРСА</h6>
+              <p id="about-p-1">Bрач психиатр-нарколог высшей квалификационной категории, кандидат медицинских наук.</p>
+              <p id="about-p-2">Oпыт практической работы 15 лет.</p>
+              <p id="about-p-3">Доцент кафедры клинической неврологии, психиатрии и наркологии медицинского факультета, ХНУ им.В.Н.Каразина</p>
+              <p id="about-p-4">Cооснователь общественной организации «Комплексная психологическая помощь»</p>
               <button class="start ask-question" id="btn-ask-first">задать вопрос</button>
             </div>
           <div class="row__right-block">
@@ -83,135 +83,135 @@
     </section>
     <section class="details" id="course">
       <div class="delatls__container">
-        <h3>Готовы выйти на новый профессиональный уровень?</h3>
-        <h2>Для кого?</h2>
-        <p>Для начинающих и давно практикующих психологов, стремящихся к профессиональному росту и расширению 
+        <h3 id="details-h3">Готовы выйти на новый профессиональный уровень?</h3>
+        <h2 id="details-h2-1">Для кого?</h2>
+        <p id="details-p">Для начинающих и давно практикующих психологов, стремящихся к профессиональному росту и расширению 
           репертуара используемых техник.</p>
-          <h2>Что вы узнаете, чему научитесь?</h2>
+          <h2 id="details-h2-2">Что вы узнаете, чему научитесь?</h2>
         </div>
         <div class="details__list">
           <ul>
-            <li>Изучите структуру процесса консультирования в схема-терапии</li>
-            <li>Научитесь проводить диагностику и концептуализацию клиентского случая</li>
-            <li>Овладеете психотерапевтическими интервенциями в работе с ранними дезадаптивными схемами и дифункциональными схема-режимами:</li>
+            <li id="details-li-1">Изучите структуру процесса консультирования в схема-терапии</li>
+            <li id="details-li-2">Научитесь проводить диагностику и концептуализацию клиентского случая</li>
+            <li id="details-li-3">Овладеете психотерапевтическими интервенциями в работе с ранними дезадаптивными схемами и дифункциональными схема-режимами:</li>
               <ul>
-                <li>когнитивно-ориентированными</li>
-                <li>эмоционально-фокусированными</li>
-                <li>копинговые карточки</li>
-                <li>работа в воображении…</li>
+                <li id="details-li-4">когнитивно-ориентированными</li>
+                <li id="details-li-5">эмоционально-фокусированными</li>
+                <li id="details-li-6">копинговые карточки</li>
+                <li id="details-li-7">работа в воображении…</li>
               </ul>
-            <li>Разберете протоколы и алгоритмы схема-терапии для клиентов с разными типами личностной организации (с разными видами психологических проблем)</li>
-            <li>Научитесь мотивировать клиента на активное участие в консультации и разберете особенности индивидуальной и групповой работы</li>
+            <li id="details-li-8">Разберете протоколы и алгоритмы схема-терапии для клиентов с разными типами личностной организации (с разными видами психологических проблем)</li>
+            <li id="details-li-9">Научитесь мотивировать клиента на активное участие в консультации и разберете особенности индивидуальной и групповой работы</li>
           </ul>
         </div>
     </section>
     <section class="program">
       <div class="program-container">
-        <h2>Программа курса</h2>
-        <h5>Занятия 6, 7, 13, 14 марта</h5>
-        <h5>с 10:00 до 14:00</h5>
+        <h2 id="program-h2">Программа курса</h2>
+        <h5 id="program-h5-1">Занятия 6, 7, 13, 14 марта</h5>
+        <h5 id="program-h5-2">с 10:00 до 14:00</h5>
         <ul>
-          <li>Основные положения когнитивно-поведенческой терапии (А. Бек) как основа схемного подхода;</li>
-          <li>Принципы схемного подхода в профессиональном индивидуальном и семейном психологическом консультировании (психотерапии);</li>
-          <li>Источники, причины формирования и проявления дезадаптивных схем и дисфункциональных схема-режимов;</li>
-          <li>Дезадаптивные схемы и дисфункциональные схема-режимы в повседневной жизни и сложных жизненных ситуациях;</li>
-          <li>Схемы и схема-режимы в межличностных отношениях;</li>
-          <li>Дезадаптивные копинги (стратегии преодоления) схем;</li>
-          <li>Психодагностика и концептуализация случая в схема-терапии;</li>
-          <li>Особенности, этапы и техники схема-терапии в профессиональной психологической практике;</li>
-          <li>Когнитивные, поведенческие, экспириентальные, эмоционально фокусированные, имажинативные и другие техники в схема-терапии;</li>
-          <li>Специфика схема-терапии с клиентами различных психологических и клинических типов: депрессивных, обсессивно-компульсивных, 
+          <li id="program-li-1">Основные положения когнитивно-поведенческой терапии (А. Бек) как основа схемного подхода;</li>
+          <li id="program-li-2">Принципы схемного подхода в профессиональном индивидуальном и семейном психологическом консультировании (психотерапии);</li>
+          <li id="program-li-3">Источники, причины формирования и проявления дезадаптивных схем и дисфункциональных схема-режимов;</li>
+          <li id="program-li-4">Дезадаптивные схемы и дисфункциональные схема-режимы в повседневной жизни и сложных жизненных ситуациях;</li>
+          <li id="program-li-5">Схемы и схема-режимы в межличностных отношениях;</li>
+          <li id="program-li-6">Дезадаптивные копинги (стратегии преодоления) схем;</li>
+          <li id="program-li-7">Психодагностика и концептуализация случая в схема-терапии;</li>
+          <li id="program-li-8">Особенности, этапы и техники схема-терапии в профессиональной психологической практике;</li>
+          <li id="program-li-9">Когнитивные, поведенческие, экспириентальные, эмоционально фокусированные, имажинативные и другие техники в схема-терапии;</li>
+          <li id="program-li-10">Специфика схема-терапии с клиентами различных психологических и клинических типов: депрессивных, обсессивно-компульсивных, 
             демонстративных, эмоционально неустойчивых (пограничных), тревожных….</li>
         </ul>
       </div>
     </section>
     <section class="format">
       <div class="format_container">
-        <h2>Формат обучения</h2>
+        <h2 id="format-h2-1">Формат обучения</h2>
         <div class="format__grid">
           <div class="format__grid__grid-one">
-            <h5>ПОЛНЫЙ КУРС И КОНСУЛЬТАЦИЯ</h5>
-            <h5>3000грн</h5>
-            <h6>(КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО)</h6>
-            <p>Теория: интерактивная лекция, групповая дискуссия;
+            <h5 id="format-h5-1">ПОЛНЫЙ КУРС И КОНСУЛЬТАЦИЯ</h5>
+            <h5 id="format-h5-2">3000грн</h5>
+            <h6 id="format-h6-1">(КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО)</h6>
+            <p id="format-p-1">Теория: интерактивная лекция, групповая дискуссия;
               Практическая работа: индивидуальные упражнения (анализ и проработка личного опыта), упражнения в парах и группе.</p>
-            <p>Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией Видеозаписи и презентации модулей,</p>
-            <p>интересные домашние задания и персональный фидбек от лектора,</p>
-            <p>рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
+            <p id="format-p-2">Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией Видеозаписи и презентации модулей,</p>
+            <p id="format-p-3">интересные домашние задания и персональный фидбек от лектора,</p>
+            <p id="format-p-4">рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
                 интервенций), методические пособия.</p>
-            <p>Менторская консультация — супервизия</p>
+            <p id="format-p-5">Менторская консультация — супервизия</p>
           </div>
           <div class="format__grid__grid-two">
-            <h5>ПОЛНЫЙ КУРС</h5>
-            <h5>2800грн</h5>
-            <h6>(КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО)</h6>
-            <p>Теория: интерактивная лекция, групповая дискуссия;
+            <h5 id="format-h5-3">ПОЛНЫЙ КУРС</h5>
+            <h5 id="format-h5-4">2800грн</h5>
+            <h6 id="format-h6-2">(КОЛИЧЕСТВО МЕСТ ОГРАНИЧЕНО)</h6>
+            <p id="format-p-6">Теория: интерактивная лекция, групповая дискуссия;
               Практическая работа: индивидуальные упражнения (анализ и проработка личного опыта), упражнения в парах и группе.</p>
-              <p>Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией. Видеозаписи и презентации модулей.</p>
-              <p>Выполнение домашние задания и проверка их выполнения,</p>
-              <p>рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
+              <p id="format-p-7">Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией. Видеозаписи и презентации модулей.</p>
+              <p id="format-p-8">Выполнение домашние задания и проверка их выполнения,</p>
+              <p id="format-p-9">рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
                 интервенций), методические пособия.</p>
           </div>
           <div class="format__grid__grid-three">
-            <h5>ПОЛНЫЙ КУРС ДЛЯ СЛУШАТЕЛЯ</h5>
-            <h5>2000грн</h5>
-            <p>Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией
+            <h5 id="format-h5-5">ПОЛНЫЙ КУРС ДЛЯ СЛУШАТЕЛЯ</h5>
+            <h5 id="format-h5-6">2000грн</h5>
+            <p id="format-p-10">Подключение в интерактивный чат участников для дискуссий, обмен мнениями, информацией
               Видеозаписи и презентации модулей,</p>
-              <p>интересные домашние задания и персональный фидбек от лектора,</p>
-              <p>рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
+              <p id="format-p-11">интересные домашние задания и персональный фидбек от лектора,</p>
+              <p id="format-p-12">рабочие тетради, раздаточный материал (психодиагностические методики, схемы и алгоритмы работы, карточки психотерапевтических 
                 интервенций), методические пособия.</p>
-              <p>Менторская консультация — супервизия</p>
+              <p id="format-p-13">Менторская консультация — супервизия</p>
             </div>
           </div>
-       <h2>Скидки и бонусы:</h2>
-       <p>Если Вы уже принимали участие в одном из наших курсов — вы получаете скидку <strong>25%</strong></p>
-       <p>Если Вы студент ВУЗа – Вы получаете скидку<strong>25 %</strong></p>
-       <p>Если Вы пропустили базовый курс (Основы КПТ в психологическом консультировании) — Вы можете приобрести его в записи и получить скидку<strong> 25%</strong></p>
-       <p>При оплате до 28 февраля скидка <strong>10%</strong></p>
-       <h2>Уже определились с форматом?</h2>
-       <button class="start-program" id="btn-start-in-program">начать обучение</button>
+       <h2 id="format-h2-2">Скидки и бонусы:</h2>
+       <p id="format-p-14">Если Вы уже принимали участие в одном из наших курсов — вы получаете скидку <strong>25%</strong></p>
+       <p id="format-p-15">Если Вы студент ВУЗа – Вы получаете скидку<strong>25 %</strong></p>
+       <p id="format-p-16">Если Вы пропустили базовый курс (Основы КПТ в психологическом консультировании) — Вы можете приобрести его в записи и получить скидку<strong> 25%</strong></p>
+       <p id="format-p-17">При оплате до 28 февраля скидка <strong>10%</strong></p>
+       <h2 id="format-h2-3">Уже определились с форматом?</h2>
+       <button class="start-program" id="btn-start-in-program">Pегистрация</button>
        <button class="ask" id="btn-ask-second">задать вопрос</button>
       </div>
     </section>
     <section class="faq">
       <div class="faq__container">
-      <h2>частые вопросы</h2>
-        <button class="accordion">вопрос 1</button>
+      <h2 id="faq-h2">частые вопросы</h2>
+        <button class="accordion" id="faq-q1">вопрос 1</button>
         <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p id="faq-p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion">вопрос 2</button>
+        <button class="accordion" id="faq-q2">вопрос 2</button>
         <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p id="faq-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion">вопрос 3</button>
+        <button class="accordion" id="faq-q3">вопрос 3</button>
         <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p id="faq-p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
     </section>
     <section class="gallery">
       <div class="gallery__container">
-        <h2>Gallery</h2>
+        <h2 id="gallery-h2">Gallery</h2>
                 
                 <div id="gallery__course-gallery-grid">
           
-                    <div class="pic-1"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="">
-                        <img src="img/cr-1.jpg" width="320px" height="255px" alt="" /></a>
+                    <div class="pic-1"><a href="img/5.jpg" data-fancybox="gallery" data-caption="">
+                        <img src="img/5.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-2"><a href="img/cr-2.jpg" data-fancybox="gallery" data-caption="">
-                        <img src="img/cr-2.jpg" width="320px" height="255px" alt="" /></a>
+                    <div class="pic-2"><a href="img/1.jpg" data-fancybox="gallery" data-caption="">
+                        <img src="img/1.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-3"><a href="img/cr-3.jpg" data-fancybox="gallery" data-caption="">
-                        <img src="img/cr-3.jpg" width="320px" height="255px" alt="" /></a>
+                    <div class="pic-3"><a href="img/3.jpg" data-fancybox="gallery" data-caption="">
+                        <img src="img/3.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-4"><a href="img/cr-4.jpg" data-fancybox="gallery" data-caption="">
-                        <img src="img/cr-4.jpg" width="320px" height="255px" alt="" /></a>
+                    <div class="pic-4"><a href="img/44.jpg" data-fancybox="gallery" data-caption="">
+                        <img src="img/44.jpg" width="320px" height="255px" alt="" /></a>
                     </div>
-                    <div class="pic-5"><a href="img/cr-5.jpg" data-fancybox="gallery" data-caption="">
-                        <img src="img/cr-5.jpg" width="320px" height="255px" /></a>
+                    <div class="pic-5"><a href="img/2.jpg" data-fancybox="gallery" data-caption="">
+                        <img src="img/2.jpg" width="320px" height="255px" /></a>
                     </div>
                     <div class="pic-6"><a href="img/cr-1.jpg" data-fancybox="gallery" data-caption="">
                         <img src="img/cr-1.jpg" width="320px" height="255px" alt="" /></a>
@@ -222,7 +222,7 @@
     </section>
     <section class="reviews">
 <div class="reviews__container">
-  <h2>Reviews</h2>
+  <h2 id="reviews-h2">Reviews</h2>
   <div class="reviews__slick-slider">
     <div><img src="img/slider-1.jpg" alt="slider image"></div>
     <div><img src="img/slider-2.jpg" alt="slider image"></div>
@@ -232,7 +232,7 @@
     </section>
     <section class="organization" id="organizator">
       <div class="organization__container">
-        <h2>Организатор</h2>
+        <h2 id="organiz-h2">Организатор</h2>
         <p>Общественная организация «Комплексная психологическая помощь» — организация, которая занимается медико-психологической помощью людям, 
           находящихся в кризисных ситуациях. Опыт работы с пострадавшими от домашнего насилия, психологическая помощь перенесшим пытки и ужасы войны. 
           Мы аккумулировали свой опыт оказания психологической помощи, ведения индивидуальных консультаций в наших обучающих тренингах.</p>
@@ -265,8 +265,22 @@
     <input type="text" id="form-register-name" name="form-register-name" value="" placeholder="your name" required>
     <!-- <label for="form-register-phone">your phone</label> -->
     <input type="text" id="form-register-phone" name="form-register-phone" value="" placeholder="your phone" required>
+    <div class="choose-messenger">
+      <input type="checkbox" id="viber" name="viber" checked>
+      <label for="viber"><i class="fab fa-viber"></i></label>
+      <input type="checkbox" name="telegram" id="telegram">
+      <label for="telegram"><i class="fab fa-telegram-plane"></i></label>
+    </div>
     <!-- <label for="form-register-email">your e-mail</label> -->
     <input type="text" id="form-ask-email" name="form-register-email" value="" placeholder="your e-mail" required>
+
+  <div><input type="checkbox" name="full-course-and-consult" id="full-course-and-consult" checked>
+  <label for="full-course-and-consult">полный курс и консультация</label></div>
+  <div><input type="checkbox" name="full-course" id="full-course">
+  <label for="full-course">полный курс</label></div>
+  <div><input type="checkbox" name="listener" id="listener">
+  <label for="listener">полный курс для слушателя</label></div>
+
     <input type="submit" value="Submit" class="form-register-submit">
   </form>
 </div>
@@ -274,10 +288,10 @@
 <footer class="footer">
     <div class="footer__menu">
         <div class="footer__menu__left">
-            <p>Авторские права © 2021 schema-therapy</p>
+            <p id="footer-p1">Авторские права © 2021 schema-therapy</p>
         </div>
         <div class="footer__menu__right">
-            <p>Официальный сайт - <a href="http://cps.kh.ua/">Комплексная психологическая помощь</a></p>
+            <p id="footer-p2">Официальный сайт - <a href="http://cps.kh.ua/">Комплексная психологическая помощь</a></p>
         </div>
     </div>
 </footer>
@@ -290,12 +304,13 @@
 
 <script src="../exam-3/jquery-1.11.0.min.js" type="text/javascript"></script>
 <script src="../exam-3/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
 <script src="js/slick.min.js"></script>
 
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
+<script src="js/dictionary.js"></script>
 <script src="js/script.js"></script>
 
 </body>
