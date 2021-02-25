@@ -648,6 +648,33 @@ button.ask:hover, button.ask:focus,
     }
     .form-register {
         width: 100%;
+        padding: 10px;
+    }
+    .form-ask {
+        width: 100%;
+        padding: 10px;
+    }
+    .form-ask-question-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
     }
   
 }
@@ -745,11 +772,36 @@ button.ask:hover, button.ask:focus,
         width: 100%;
         
     }
+    
     .form-ask-question-container {
-        width: 75%;
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
     }
     .form-register {
+        width: 100%;
+        padding: 10px;
+    }
+    .form-ask {
         width: 75%;
+        padding: 10px;
     }
     
 }
@@ -765,7 +817,8 @@ button.ask:hover, button.ask:focus,
         display: none !important;
     }  */
     .form-ask-question-container {
-        width: 75%;
+        width: 80%;
+        left: 10%;
     }
     .about__container {
         display: flex;
@@ -824,14 +877,90 @@ button.ask:hover, button.ask:focus,
         width: 100%;
         
     }
+    .form-register {
+        width: 75%;
+        padding: 10px;
+    }
+    
+    .form-ask-question-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .form-ask-question-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    .form-ask-question-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register-container {
+        background-color: #e74090;
+        width: 80%;
+        border: 5px solid white;
+        position: fixed;
+        top: 120px;
+        left: 10%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .form-register {
+        width: 65%;
+        padding: 10px;
+    }
+    .form-ask {
+        padding: 10px;
+    }
 }
