@@ -38,11 +38,11 @@
                   <li class="nav-item">
                     <a class="nav-link" id="oranize-nav" href="#organizator">Оганизатор</a>
                   </li>
-                  <li class="nav-item ru-flag">
+                  <li class="nav-item ru-flag" id="ru-flag">
                     <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
                     <img src="img/ru.jpg" alt="" height="15px">
                   </li>
-                  <li class="nav-item ua-flag">
+                  <li class="nav-item ua-flag" id="ua-flag">
                     <img src="img/ua.jpg" alt="" height="15px">
                   </li>
                 </ul>
@@ -260,13 +260,13 @@
 </div>
 <div class="form-register-container">
   <div class="close">&times;</div>
-  <form action="https://formspree.io/f/mjvpqbao" class="form-register" name="myFormRegister" onsubmit="return onSubmit(event);"method="post">
+  <form action="https://formspree.io/f/mjvpqbao" class="form-register" name="myFormRegister" onsubmit="return onSubmitReg(event);"method="post">
     <!-- <label for="form-register-name">your name</label> -->
     <input type="text" id="form-register-name" name="form-register-name" value="" placeholder="your name" required>
     <!-- <label for="form-register-phone">your phone</label> -->
     <input type="text" id="form-register-phone" name="form-register-phone" value="" placeholder="your phone" required>
     <div class="choose-messenger">
-      <input type="checkbox" id="viber" name="viber" checked>
+      <input type="checkbox" id="viber" name="viber">
       <label for="viber"><i class="fab fa-viber"></i></label>
       <input type="checkbox" name="telegram" id="telegram">
       <label for="telegram"><i class="fab fa-telegram-plane"></i></label>

@@ -67,7 +67,7 @@ $(document).ready(function(){
   
 });
 // 
-//  -----------form register-----------
+//  -----------form register validation-----------
 function validateFormNameRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-name"].value;
   if (x == "") {
@@ -104,14 +104,14 @@ debugger;
 }
 
 
-function onSubmit(e) {
+function onSubmitReg(e) {
   validateFormNameRegister(e);
   validateFormEmailRegister(e);
   validateFormPhoneRegister(e);
 
 }
 
-// ----------form ask--------
+// ----------form ask validation--------
 function validateFormNameAsk(e) {
   var x = document.forms["myFormAsk"]["form-ask-name"].value;
   if (x == "") {
@@ -193,4 +193,32 @@ $(document).ready(function(){
         let closeForm = $('.form-ask-question-container');
         $(closeForm).css("display","none");
       }); 
+
+  //---------dictionary----------
+  
+  let chooseRu = $('#ru-flag');
+  debugger;
+  chooseRu.on('click', function() {
+    debugger;
+  setText("ru");
+    })
+  let chooseUa = $('#ua-flag');
+  debugger;
+  chooseUa.on('click', function() {
+    debugger;
+  setText("ua");
+    })
 });
+//---------localization----------------
+
+ function setText(language) {
+  let arr = localization[language];
+  arr.forEach(element => {
+    let id = element["Id"];
+    let text = element["text"];
+    let domElement = $(id);
+    domElement.html(text);
+  });
+}
+
+
