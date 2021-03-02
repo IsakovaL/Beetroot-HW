@@ -197,15 +197,15 @@ $(document).ready(function(){
   //---------dictionary----------
   
   let chooseRu = $('#ru-flag');
-  debugger;
+  
   chooseRu.on('click', function() {
-    debugger;
+    
   setText("ru");
     })
   let chooseUa = $('#ua-flag');
-  debugger;
+  
   chooseUa.on('click', function() {
-    debugger;
+    
   setText("ua");
     })
 });
