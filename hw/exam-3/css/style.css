@@ -455,6 +455,7 @@ button.ask:hover, button.ask:focus,
     flex-direction: column;
     color: white;
     padding: 30px;
+    font-weight: bold;
 }
 .form-ask input {
     margin-bottom: 10px;
@@ -508,6 +509,7 @@ button.ask:hover, button.ask:focus,
     width: 50%;
     padding: 15px;
     margin: 10px auto;
+    border-radius: 50px;
 }
 .form-register-submit:hover, .form-register-submit:focus {
     background-color: transparent;
@@ -691,6 +693,9 @@ button.ask:hover, button.ask:focus,
     .form-register {
         width: 100%;
         padding: 10px;
+    }
+    .form-register label {
+        font-size: 18px;
     }
     .form-ask {
         width: 100%;
