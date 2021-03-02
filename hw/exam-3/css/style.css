@@ -602,7 +602,17 @@ button.ask:hover, button.ask:focus,
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 280px) {
     * {
-        font-size: 19px;
+        font-size: 17px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 32px;
+    }
+    
+    .navbar-brand img {
+        width: 83px;
+    }
+    .logo2 {
+        width: 109px;
     }
     img.portrait {
         width: 100%
@@ -723,6 +733,7 @@ button.ask:hover, button.ask:focus,
         justify-content: center;
         z-index: 1;
     }
+ 
   
 }
 
