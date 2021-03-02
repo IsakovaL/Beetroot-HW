@@ -95,7 +95,7 @@ function validateFormEmailRegister(e) {
 
   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
   var address = document.forms["myFormRegister"].elements["form-register-email"].value;
-debugger;
+
   if(reg.test(address) == false) {
      alert('Введите правильный e-mail!');
      e.preventDefault();
@@ -139,7 +139,7 @@ function validateFormEmailAsk(e) {
 
   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
   var address = document.forms["myFormAsk"].elements["form-ask-email"].value;
-debugger;
+
   if(reg.test(address) == false) {
      alert('Введите правильный e-mail');
      e.preventDefault();
