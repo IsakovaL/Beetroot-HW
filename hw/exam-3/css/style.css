@@ -37,7 +37,6 @@ html, body {
 .ru-flag {
     padding-right: 15px;
     cursor: pointer;  
-    padding-left: 30px;
 }
 .ua-flag, .ru-flag {
     padding-top: 7px;
@@ -102,12 +101,16 @@ html, body {
     flex-basis: auto;
     flex-direction: row-reverse;
   }
+  .ru-flag {
+    padding-left: 0;
+  }
 }
 
 /* --------LANG---------- */
 .ua-flag, .ru-flag {
     padding-right: 15px;
     cursor: pointer;
+    
 }
 
 
@@ -602,6 +605,9 @@ button.ask:hover, button.ask:focus,
     img.portrait {
         width: 100%
     }
+    .ru-flag {
+        padding-left: 0;
+    }
     .about__container {
         display: flex;
         flex-direction: column;
@@ -717,9 +723,9 @@ button.ask:hover, button.ask:focus,
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)and (max-width : 768px) {
-    /* .gallery__container{
-        display: none !important;
-    }  */
+    .ru-flag {
+        padding-left: 0;
+    }
     .about__container {
         width: 100%
     }
@@ -841,14 +847,9 @@ button.ask:hover, button.ask:focus,
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-    /* .gallery__container {
-        width: 100%;
-        /* max-width: 1900px; 
-        padding: 20px; 
-    }  */
-    /* .gallery__container{
-        display: none !important;
-    }  */
+    .ru-flag {
+        padding-left: 0;
+    }
     .form-ask-question-container {
         width: 80%;
         left: 10%;
@@ -977,7 +978,11 @@ button.ask:hover, button.ask:focus,
         align-items: center;
         justify-content: center;
         z-index: 1;
-    }
+      }
+    .ru-flag {
+        padding-left: 30px;
+      }
+    
     .form-register-container {
         background-color: #808080;
         width: 50%;
