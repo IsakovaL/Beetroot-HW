@@ -473,6 +473,7 @@ button.ask:hover, button.ask:focus,
     width: 50%;
     padding: 15px;
     margin: 10px auto;
+    border-radius: 50px;
 }
 .form-ask-submit:hover, .form-ask-submit:focus {
     background-color: transparent;
