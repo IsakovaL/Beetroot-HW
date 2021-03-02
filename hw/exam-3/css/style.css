@@ -358,7 +358,7 @@ button.ask:hover, button.ask:focus,
     border: none;
     text-align: left;
     outline: none;
-    font-size: 24px;
+    font-size: 19px;
     transition: 0.4s;
   }
   
@@ -705,7 +705,7 @@ button.ask:hover, button.ask:focus,
         padding: 10px;
     }
     .form-register label {
-        font-size: 18px;
+        font-size: 15px;
     }
     .form-ask {
         width: 100%;
