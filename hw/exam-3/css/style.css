@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-size: 21px;
+   font-size: 20px;
    /* font-family: 'Vollkorn', serif; */
    /* font-family: 'IBM Plex Sans', sans-serif; */
    font-family: 'Lora', serif;
@@ -599,12 +599,11 @@ button.ask:hover, button.ask:focus,
 
 /* ----------media---------- */
 
-
-
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 280px) {
+    * {
+        font-size: 19px;
+    }
     img.portrait {
         width: 100%
     }
@@ -729,6 +728,7 @@ button.ask:hover, button.ask:focus,
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)and (max-width : 768px) {
+    
     .ru-flag {
         padding-left: 0;
     }
