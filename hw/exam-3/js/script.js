@@ -39,8 +39,6 @@ $('[data-fancybox="gallery"]').fancybox({
 
 // -----------Slider-----------
 
-
-
 $(document).ready(function(){
  
   $('.reviews__slick-slider').slick({
@@ -48,25 +46,10 @@ $(document).ready(function(){
      	dots: true,
        arrows: false,
      	slidesToShow: 1,
-    	slidesToScroll: 1,
-     	// responsive: [
-    	//     {
-     	//       breakpoint: 768,
-     	//       settings: {
-    	//         slidesToShow: 2,
-     	//       }
-     	//     },
-      //   {
-    	//       breakpoint: 480,
-     	//       settings: {
-    	//         slidesToShow: 1,
-     	//       }
-     	//     }
-      //    ]
+    	slidesToScroll: 1
      });
   
 });
-// 
 //  -----------form register validation-----------
 function validateFormNameRegister(e) {
   var x = document.forms["myFormRegister"]["form-register-name"].value;
@@ -209,7 +192,6 @@ $(document).ready(function(){
   setText("ua");
     })
 });
-//---------localization----------------
 
  function setText(language) {
   let arr = localization[language];

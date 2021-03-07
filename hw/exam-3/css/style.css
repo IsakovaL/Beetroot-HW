@@ -1005,7 +1005,9 @@ button.ask:hover, button.ask:focus,
         width: 50%;
         border: 5px solid white;
         position: fixed;
-        top: 100px;
+        top: 1
+        
+        00px;
         left: 25%;
         align-items: center;
         justify-content: center;
